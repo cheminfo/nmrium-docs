@@ -1,4 +1,8 @@
-# Website
+# NMRium documentation
+
+https://docs.nmrium.org
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5fc2045f-a3c6-404a-b7df-963e80571d07/deploy-status)](https://app.netlify.com/sites/docs-nmrium-org/deploys)
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
@@ -23,11 +27,3 @@ npm build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true npm deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
