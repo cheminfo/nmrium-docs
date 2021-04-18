@@ -22,17 +22,11 @@ A new document is now available at `http://localhost:3000/docs/hello`.
 
 ## Add your document to the sidebar
 
-Add `hello` to the `sidebars.js` file:
+The document will be automatically added to the sidebar based
+on the file hierarchy.
 
-```diff title="sidebars.js"
-module.exports = {
-  docs: [
-    {
-      type: 'category',
-      label: 'Docusaurus Tutorial',
--     items: ['getting-started', 'create-a-doc', ...],
-+     items: ['getting-started', 'create-a-doc', 'hello', ...],
-    },
-  ],
-};
-```
+## Setup screen for snapshot (still or animated picture)
+
+For 1D spectra except if otherwise specified we will always use the spectrum of ethylbenzene.
+
+https://www.nmrium.org/nmrium#?jcamp=https://cheminfo.github.io/nmr-dataset2/100-86-7/1h.dx
