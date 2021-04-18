@@ -43,23 +43,20 @@ module.exports = {
             },
           ],
         },
-        /*{
-          title: 'Community',
+        {
+          title: 'NMRium',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Website',
+              href: 'https://www.nmrium.org',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'YouTube',
+              href:
+                'https://www.youtube.com/playlist?list=PL8levPKi7DDofiW5UVbIzhKkbHnpa5prX',
             },
           ],
-        },*/
+        },
         {
           title: 'More',
           items: [
