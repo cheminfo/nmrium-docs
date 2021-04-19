@@ -3,7 +3,13 @@ title: Getting Started
 slug: /
 ---
 
-## Step 1: Generate a new Docusaurus site
+![test](./test.gif)
+
+The documentation is present on GitHub and the simplest 
+
+## Step 1: Install all the requires softwares
+
+
 
 If you haven't already, generate a new Docusaurus site using the classic template:
 
