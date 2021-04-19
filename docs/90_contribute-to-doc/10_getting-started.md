@@ -3,9 +3,7 @@ title: Getting Started
 slug: /
 ---
 
-![test](./test.gif)
-
-The documentation is present on GitHub and the simplest 
+The documentation is present on GitHub and the simplest way to correct or improve the text is to directly edit the file on 'GitHub'.
 
 ## Step 1: Install all the requires softwares
 
