@@ -36,5 +36,8 @@
   "volta": {
     "node": "15.14.0",
     "npm": "7.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0"
   }
 }
