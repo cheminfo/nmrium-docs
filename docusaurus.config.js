@@ -1,7 +1,8 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'NMRium documentation',
-  tagline: 'The tagline of my site',
+  tagline:
+    'Learn how to use NMRium, the react component to view and process NMR spectra',
   url: 'https://docs.nmrium.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',

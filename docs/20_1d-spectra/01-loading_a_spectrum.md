@@ -17,5 +17,3 @@ The following formats are currently supported:
 | Bruker files | .zip      | The full folder need to be compressed |
 | Jeol files   | .jdf      |
 | NMReData     |           |
-
-![Docusaurus logo](/img/docusaurus.png)
