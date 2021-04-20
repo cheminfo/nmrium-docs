@@ -13,3 +13,8 @@ even with confidential information (a URL containing an access token for example
 Here is an example of a working URL that loads a jcamp directly in NMRium.
 
 [https://www.nmrium.org/nmrium#?jcamp=https://cheminfo.github.io/nmr-dataset-demo/ethylbenzene/1h.jdx](https://www.nmrium.org/nmrium#?jcamp=https://cheminfo.github.io/nmr-dataset-demo/ethylbenzene/1h.jdx)
+
+It you would like to have a menu on the left containing may examples you may use the following link
+[https://www.nmrium.org/nmrium#?toc=https%3A%2F%2Fcheminfo.github.io%2Fnmr-dataset3%2Fmultiplet%2Findex.json](https://www.nmrium.org/nmrium#?toc=https%3A%2F%2Fcheminfo.github.io%2Fnmr-dataset3%2Fmultiplet%2Findex.json)
+
+More information will come on the description of this JSON file.
