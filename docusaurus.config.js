@@ -19,7 +19,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: '/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -45,6 +45,7 @@ module.exports = {
           //   sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: 'https://github.com/cheminfo/nmrium-docs/edit/master/',
+          routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,
