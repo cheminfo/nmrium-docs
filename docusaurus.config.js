@@ -34,44 +34,6 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Getting Started',
-              to: 'docs/',
-            },
-          ],
-        },
-        {
-          title: 'NMRium',
-          items: [
-            {
-              label: 'Website',
-              href: 'https://www.nmrium.org',
-            },
-            {
-              label: 'YouTube',
-              href:
-                'https://www.youtube.com/playlist?list=PL8levPKi7DDofiW5UVbIzhKkbHnpa5prX',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/cheminfo/nmrium-docs',
-            },
-          ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} NMRium contributors. Built with Docusaurus.`,
     },
   },
