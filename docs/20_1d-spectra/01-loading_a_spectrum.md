@@ -1,5 +1,6 @@
 ---
 title: Loading a spectrum
+slug: /help/loading-a-spectrum
 ---
 
 Spectra can be loaded either by drag and drop a file on NMRium or by opening a file from the
