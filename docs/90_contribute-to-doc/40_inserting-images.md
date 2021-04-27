@@ -2,6 +2,8 @@
 title: Inserting an image
 ---
 
+Screen snapshot should be saved either as `.png` or `.gif` files. On OsX you can take a screen snapshot of the part of a screen using <kbd>SHIFT</kbd><kbd>CMD</kbd><kbd>4</kbd> and then draw the selection of the screen you would like to save.
+
 ## On OsX
 
 Buy and install Gifox. It allows to make nice animated gif

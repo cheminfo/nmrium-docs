@@ -2,28 +2,24 @@
 title: Getting Started
 ---
 
-The documentation is present on GitHub and the simplest way to correct or improve the text is to directly edit the file on 'GitHub'.
+The documentation of NMRium is present on GitHub and the simplest way to correct or improve the text is to directly edit the file on 'GitHub'.
+
+If you want to get involved more deeply in the update of the documentation it is better to have a local copy of the repository on your computer.
 
 ## Step 1: Install all the requires softwares
 
-If you haven't already, generate a new Docusaurus site using the classic template:
+## Step 2: Clone the project
+
+## Step 3: Start your Docusaurus site
+
+From vscode open a terminal <kbd>CTRL</kbd><kbd>SHIFT</kbd><kbd>P</kbd> to search for all the possible command and enter `terminal` as search string.
+
+![Open terminal](./img/open-terminal.gif)
+
+Run the development server by typing:
 
 ```shell
-npx @docusaurus/init@latest init my-website classic
+npm run start
 ```
 
-## Step 2: Start your Docusaurus site
-
-Run the development server in the newly created `my-website` folder:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Open `docs/getting-started.md` and edit some lines. The site reloads automatically and display your changes.
-
-## That's it!
-
-Congratulations! You've successfully run and modified your Docusaurus project.
+You can now previsualize your website from the browser at the following URL: `http://localhost:3000`.
