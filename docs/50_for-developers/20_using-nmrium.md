@@ -1,5 +1,6 @@
----
+i---
 title: Loading jcamp from URL
+
 ---
 
 If your NMR spectra are available from a URL it can be loaded directly by using the following syntax
