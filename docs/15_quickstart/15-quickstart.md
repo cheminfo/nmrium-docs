@@ -22,13 +22,13 @@ Drag the file you want to open into the gray box **Drag and drop here** in the m
 
 ## 3. Select a spectrum
 
-On the right side of the workspace, various areas are available in an expandable menu. Click on the head of the **Spectra** field. The measured nuclei (e.g. 1H, 13C, etc) are displayed in the opened field. Click on a nucleus to find the experiments associated with it. To select an experiment, click the corresponding line. The experiment appears in the workspace.
+On the right side of the workspace, various areas are available in an expandable menu. Click on the head of the **Spectra** field. The measured nuclei (e.g. ¹H, ¹³C, etc) are displayed in the opened field. Click on a nucleus to find the experiments associated with it. To select an experiment, click the corresponding line. The experiment appears in the workspace.
 
 ![](./img/02.png)
 
-### Note on wobble-curves:
-
-If your imported Bruker folder contains so-called **wobble curves**, it is useful to delete them from the list for further processing. You can identify them by the name **wobble**. Click the corresponding spectrum with the right mouse button. In the appearing menu, click **delete** to delete the wobble curve.
+> ### Note on wobble-curves:
+>
+> If your imported Bruker folder contains so-called **wobble curves**, it is useful to delete them from the list for further processing. You can identify them by the name **wobble**. Click the corresponding spectrum with the right mouse button. In the appearing menu, click **delete** to delete the wobble curve.
 
 ### Note on changing the color of a spectrum:
 
@@ -54,7 +54,7 @@ b)  Integrated structure editor: Click on the **Structures** menu on the right s
 
 ## 7. Processing of raw data (currently only 1D)
 
-NMRium offers the possibility to perform a Fourier transformation (FT) on the raw data of one-dimensional NMR spectra. To process an FID, open the FID by dragging it into the **Drag and drop here** box (Chapter 2).
+NMRium offers the possibility to perform a Fourier transformation (FT) on the raw data of one-dimensional NMR spectra. To process an FID, open the FID by dragging it into the **Drag and drop here** box ([section 2](#2-open-spectra)).
 
 ![](./img/04.png)
 
@@ -62,12 +62,12 @@ NMRium offers the possibility to perform a Fourier transformation (FT) on the ra
     ### Note on values:
     If you are not sure which values to set, you can use the following recommendations as a reference:
     **Size**: Choose twice as many points as in the original FID.
-    **Line Broadening (LB)**: Specify 0.3 Hz for 1H spectra and 1-3 Hz for 13C.
+    **Line Broadening (LB)**: Specify 0.3 Hz for ¹H spectra and 1-3 Hz for ¹³C.
 
 2.  Phase correction: Click the **Phase correction** icon to the left of the spectrum. You can choose between manual and automatic phase correction.
     ### Automatic phase correction
     Click the **Apply** button, the phase will be corrected automatically.
-    ### Manual phase correction**
+    ### Manual phase correction
     You can perform zero-order and first-order phase correction.
     
     For zero-order phase correction, click and hold the green **PH0** button above the spectrum. By moving the mouse to the left or right, you can perform phase correction until the signal is correctly phased and release the button. By double-clicking, you can move the pivot point (red line) for the first-order phase correction.
@@ -137,7 +137,7 @@ If you want to delete all ranges, click on the trash icon located above the sign
 
 ## 16. Assignment of signals
 
-To assign signals, you have to define assignment ranges (Chapter 14) and insert a molecular structure (Chapter 6). Open the **Ranges** and **Structures** fields on the right side. Specify the correct number of relative H atoms by clicking the sum icon above the **Ranges** list. In the window that opens, you can either enter the number of H atoms manually and then click on **Set** or accept the number of H atoms specified by the sum formula by clicking on **Set** in the lower area.
+To assign signals, you have to define assignment ranges ([section 14](#14-picking-ranges-and-determination-of-coupling-constants)]) and insert a molecular structure ([section 6](#6-insert-a-molecular-structure)). Open the **Ranges** and **Structures** fields on the right side. Specify the correct number of relative H atoms by clicking the sum icon above the **Ranges** list. In the window that opens, you can either enter the number of H atoms manually and then click on **Set** or accept the number of H atoms specified by the sum formula by clicking on **Set** in the lower area.
 
 In the list, click the box under the link icon in the line of the signal you want to assign, . A red zero appears there. Then assign the signal by clicking on the corresponding atoms in the structural formula. Proceed in the same way with all other ranges. You can also assign several, different H atoms to a range by clicking successively on all H atoms in the structural formula that belong to the respective signal. If you want to assign diastereotopic H atoms, hold the Shift key while clicking the corresponding H atom in the structure. This makes both diastereotopic H atoms visible.
 
