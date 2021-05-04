@@ -1,4 +1,8 @@
-﻿# NMRium Quick Start Guide
+﻿---
+title: Quick Start Guide
+description: A brief explanation of nmrium's most important functions
+slug: /
+---
 
 ## 1. Open the program
 
@@ -25,13 +29,13 @@ On the right side of the workspace, various areas are available in an expandable
 
 ![](./img/02.png)
 
-:::tip Note on wobble-curves:
+:::info Wobble curves
 
 If your imported Bruker folder contains so-called **wobble curves**, it is useful to delete them from the list for further processing. You can identify them by the name **wobble**. Click the corresponding spectrum with the right mouse button. In the appearing menu, click **delete** to delete the wobble curve.
 
 :::
 
-:::tip Note on changing the color of a spectrum:
+:::tip Changing the color of a spectrum
 
 You can change the color of the spectrum by clicking the colored square in the line for the spectrum. In the appearing window, you can select a different color. For 2D experiments, the colors for the negative and positive cross-peaks are additionally selectable.
 
@@ -62,7 +66,7 @@ NMRium offers the possibility to perform a Fourier transformation (FT) on the ra
 ![](./img/04.png)
 
 1.  Fourier transformation: To prepare the FID for the Fourier transformation, click the **Zero Filling** icon to the left of the spectrum. Set the desired values for **Size** (zero filling) and **Line Broadening** (exponential window function) and click **Apply**. Then start the Fourier transformation by clicking on the **FFT Filter** button to the left of the spectrum.      
-    :::tip Note on values:
+    :::tip **Size** and **LB** values
 
     If you are not sure which values to set, you can use the following recommendations as a reference:
     **Size**: Choose twice as many points as in the original FID.
@@ -143,7 +147,7 @@ If you want to delete all ranges, click on the trash icon located above the sign
 
 ## 16. Assignment of signals
 
-To assign signals, you have to define assignment ranges ([section 14](#14-picking-ranges-and-determination-of-coupling-constants)]) and insert a molecular structure ([section 6](#6-insert-a-molecular-structure)). Open the **Ranges** and **Structures** fields on the right side. Specify the correct number of relative H atoms by clicking the sum icon above the **Ranges** list. In the window that opens, you can either enter the number of H atoms manually and then click on **Set** or accept the number of H atoms specified by the sum formula by clicking on **Set** in the lower area.
+To assign signals, you have to define assignment ranges ([section 14](#14-picking-ranges-and-determination-of-coupling-constants)) and insert a molecular structure ([section 6](#6-insert-a-molecular-structure)). Open the **Ranges** and **Structures** fields on the right side. Specify the correct number of relative H atoms by clicking the sum icon above the **Ranges** list. In the window that opens, you can either enter the number of H atoms manually and then click on **Set** or accept the number of H atoms specified by the sum formula by clicking on **Set** in the lower area.
 
 In the list, click the box under the link icon in the line of the signal you want to assign, . A red zero appears there. Then assign the signal by clicking on the corresponding atoms in the structural formula. Proceed in the same way with all other ranges. You can also assign several, different H atoms to a range by clicking successively on all H atoms in the structural formula that belong to the respective signal. If you want to assign diastereotopic H atoms, hold the Shift key while clicking the corresponding H atom in the structure. This makes both diastereotopic H atoms visible.
 
@@ -160,7 +164,7 @@ To export the assigned spectra, click on the **Export** button to the left side 
 
 Click on **Save data** to save the assigned spectrum with all stored information and to be able to edit it later. An nmrium file is created and offered for download.
 
-:::tip Note:
+:::info
 
 An nmrium file is a compressed text file containing all information of the (partially) assigned stored spectra. Depending on the number of spectra contained, saving can take longer, as can opening an nmrium file again.
 
