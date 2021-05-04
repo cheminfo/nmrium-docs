@@ -1,10 +1,12 @@
 ﻿# NMRium Quick Start Guide
 
 ## 1. Open the program
+
 Open NMRium with the following link:
 [https://cdn.nmrium.org/](https://cdn.nmrium.org/)
 
 ## 2. Open spectra
+
 To open spectra, your data must be in one of the following file types:
 
 -   Jcamp DX (.dx, .jdx, .jcamp)
@@ -17,6 +19,7 @@ Drag the file you want to open into the gray box **Drag and drop here** in the m
 ![](./img/01.png)
 
 ## 3. Select a spectrum
+
 On the right side of the workspace, various areas are available in an expandable menu. Click on the head of the **Spectra** field. The measured nuclei (e.g. 1H, 13C, etc) are displayed in the opened field. Click on a nucleus to find the experiments associated with it. To select an experiment, click the corresponding line. The experiment appears in the workspace.
 
 ![](./img/02.png)
@@ -31,16 +34,13 @@ You can change the color of the spectrum by clicking the colored square in the l
 
 ## 4. Delete a spectrum
     
-
 To delete a single spectrum, right-click the spectrum in the menu **spectra** on the right side. Click **delete** in the appearing menu to delete the spectrum. To delete all spectra, click on the trash icon on the left above the listed spectra.
 
 ## 5. Zoom a section
     
-
 To zoom a section of a spectrum, drag over it with the left mouse button. You can repeat this process as often as you like. Double-click anywhere in the spectrum to undo the last magnification step. This step can also be repeated. The intensity level of the signals can be changed using the mouse wheel. To return to the full spectrum, click on the **Zoom-Out** button in the menu bar on the left side of the spectrum.
 
 ## 6. Insert a molecular structure
-    
 
 There are two possibilities to insert a molecular structure into the program:
 
@@ -56,17 +56,11 @@ NMRium offers the possibility to perform a Fourier transformation (FT) on the ra
 
 ![](./img/04.png)
 
-1.  Fourier transformation: To prepare the FID for the Fourier transformation, click the **Zero Filling** icon to the left of the spectrum. Set the desired values for **Size** (zero filling) and **Line Broadening** (exponential window function) and click **Apply**. Then start the Fourier transformation by clicking on the **FFT Filter** button to the left of the spectrum.  
-      
-### Note on values:
-    
-
-If you are not sure which values to set, you can use the following recommendations as a reference:
-
-**Size**: Choose twice as many points as in the original FID.
-
-**Line Broadening (LB)**: Specify 0.3 Hz for 1H spectra and 1-3 Hz for 13C.  
-  
+1.  Fourier transformation: To prepare the FID for the Fourier transformation, click the **Zero Filling** icon to the left of the spectrum. Set the desired values for **Size** (zero filling) and **Line Broadening** (exponential window function) and click **Apply**. Then start the Fourier transformation by clicking on the **FFT Filter** button to the left of the spectrum.      
+    ### Note on values:
+    If you are not sure which values to set, you can use the following recommendations as a reference:
+    **Size**: Choose twice as many points as in the original FID.
+    **Line Broadening (LB)**: Specify 0.3 Hz for 1H spectra and 1-3 Hz for 13C.
 
 2.  Phase correction: Click the **Phase correction** icon to the left of the spectrum. You can choose between manual and automatic phase correction.
     
