@@ -64,7 +64,7 @@ NMRium offers the possibility to perform a Fourier transformation (FT) on the ra
 
 ![](./img/04.png)
 
-**1.  Fourier transformation**: To prepare the FID for the Fourier transformation, click the **Zero Filling** icon to the left of the spectrum. Set the desired values for **Size** (zero filling) and **Line Broadening** (exponential window function) and click **Apply**. Then start the Fourier transformation by clicking on the **FFT Filter** button to the left of the spectrum.      
+1.  **Fourier transformation**: To prepare the FID for the Fourier transformation, click the **Zero Filling** icon to the left of the spectrum. Set the desired values for **Size** (zero filling) and **Line Broadening** (exponential window function) and click **Apply**. Then start the Fourier transformation by clicking on the **FFT Filter** button to the left of the spectrum.      
     :::tip **Size** and **LB** values
 
     If you are not sure which values to set, you can use the following recommendations as a reference:
@@ -75,7 +75,7 @@ NMRium offers the possibility to perform a Fourier transformation (FT) on the ra
 
     :::
 
-**2.  Phase correction**: Click the **Phase correction** icon to the left of the spectrum. You can choose between manual and automatic phase correction.
+2.  **Phase correction**: Click the **Phase correction** icon to the left of the spectrum. You can choose between manual and automatic phase correction.
     :::note Automatic phase correction
 
     Click the **Apply** button, the phase will be corrected automatically.
