@@ -65,31 +65,38 @@ NMRium offers the possibility to perform a Fourier transformation (FT) on the ra
 
 ![](./img/04.png)
 
-1.  **Fourier transformation**: To prepare the FID for the Fourier transformation, click the **Zero Filling** icon to the left of the spectrum. Set the desired values for **Size** (zero filling) and **Line Broadening** (exponential window function) and click **Apply**. Then start the Fourier transformation by clicking on the **FFT Filter** button to the left of the spectrum.      
-    :::tip **Size** and **LB** values
+### Fourier transformation
 
-    If you are not sure which values to set, you can use the following recommendations as a reference:
+To prepare the FID for the Fourier transformation, click the **Zero Filling** icon to the left of the spectrum. Set the desired values for **Size** (zero filling) and **Line Broadening** (exponential window function) and click **Apply**. Then start the Fourier transformation by clicking on the **FFT Filter** button to the left of the spectrum.
 
-    **Size**: Choose twice as many points as in the original FID.
+:::tip **Size** and **LB** values
 
-    **Line Broadening (LB)**: Specify 0.3 Hz for ¹H spectra and 1-3 Hz for ¹³C.
+If you are not sure which values to set, you can use the following recommendations as a reference:
 
-    :::
+**Size**: Choose twice as many points as in the original FID.
 
-2.  **Phase correction**: Click the **Phase correction** icon to the left of the spectrum. You can choose between manual and automatic phase correction.
-    :::note Automatic phase correction
+**Line Broadening (LB)**: Specify 0.3 Hz for ¹H spectra and 1-3 Hz for ¹³C.
 
-    Click the **Apply** button, the phase will be corrected automatically.
+:::
+
+### Phase correction
+
+Click the **Phase correction** icon to the left of the spectrum. You can choose between manual and automatic phase correction.
+
+:::note Automatic phase correction
+
+Click the **Apply** button, the phase will be corrected automatically.
+:::
+
+:::note Manual phase correction
+
+You can perform zero-order and first-order phase correction.
     
-    :::
+For zero-order phase correction, click and hold the green **PH0** button above the spectrum. By moving the mouse to the left or right, you can perform phase correction until the signal is correctly phased and release the button. By double-clicking, you can move the pivot point (red line) for the first-order phase correction.
 
-    :::note Manual phase correction
-    You can perform zero-order and first-order phase correction.
-    
-    For zero-order phase correction, click and hold the green **PH0** button above the spectrum. By moving the mouse to the left or right, you can perform phase correction until the signal is correctly phased and release the button. By double-clicking, you can move the pivot point (red line) for the first-order phase correction.
-    The first order phase correction is performed analogously by pressing **PH1**. The focus should be on the signals that are as far away as possible from the signal under the pivot point. Clicking the **Apply** button completes the phase correction.
+The first order phase correction is performed analogously by pressing **PH1**. The focus should be on the signals that are as far away as possible from the signal under the pivot point. Clicking the **Apply** button completes the phase correction.
 
-    :::
+:::
 
 ## 8. Referencing
 
@@ -101,10 +108,18 @@ Click the **Peaks Picking** button to the left of the spectrum. Find your solven
     
 Click on the **Peaks Picking** button. You can choose between automatic peak picking and manual peak picking.
 
-1.  **Automatic peak picking**: A list appears above the spectrum in which you can specify the maximum number of peaks, the noise factor and the minimum-maximum ratio (Min Max Ratio). Then press **Apply**. The chemical shift of the peaks is displayed both in the spectrum and in a list on the right side of the spectrum in the **Peaks** field.
-    
-2.  **Manual peak picking**: Locate a signal. When you see it in the crosshairs, press the shift key and simultaneously the left mouse button. The value of the signal will be shown in a list both in the spectrum and on the right side of the spectrum in the **Peaks** field.
-    
+:::note Automatic peak picking
+
+A list appears above the spectrum in which you can specify the maximum number of peaks, the noise factor and the minimum-maximum ratio (Min Max Ratio). Then press **Apply**. The chemical shift of the peaks is displayed both in the spectrum and in a list on the right side of the spectrum in the **Peaks** field.
+
+:::
+
+:::note Manual peak picking
+
+Locate a signal. When you see it in the crosshairs, press the shift key and simultaneously the left mouse button. The value of the signal will be shown in a list both in the spectrum and on the right side of the spectrum in the **Peaks** field.
+
+:::
+
 ## 10. Delete peaks
 
 If you want to delete a single peak, find the corresponding signal on the right side of the spectrum in the list in the **Peaks** field. Click the trash icon on the far right of the line, the peak will be deleted.
@@ -142,10 +157,18 @@ If you want to delete all integrals, click on the trash icon located above the s
 
 Click on the **Ranges Picking** button on the left side of the spectrum to specify signal assignment ranges, for example to determine coupling constants. You have the option of either manually or automatically defining the assignment ranges:
 
-1.  Automatic ranges picking: A list appears above the spectrum. Click on the button **Auto ranges picking**, the assignment ranges will be determined automatically and displayed both in the spectrum and in a list on the right side of the spectrum in the **Ranges** field. The corresponding coupling constants are determined automatically.
-    
-2.  Manual ranges picking: Press the Shift key and move the mouse over the range you want to set. The marked assignment range is displayed both in the spectrum and in a list on the right side of the spectrum in the **Ranges** field. The corresponding coupling constants are determined automatically.
-    
+:::note Automatic ranges picking
+
+A list appears above the spectrum. Click on the button **Auto ranges picking**, the assignment ranges will be determined automatically and displayed both in the spectrum and in a list on the right side of the spectrum in the **Ranges** field. The corresponding coupling constants are determined automatically.
+
+:::
+
+:::note Manual ranges picking
+
+Press the Shift key and move the mouse over the range you want to set. The marked assignment range is displayed both in the spectrum and in a list on the right side of the spectrum in the **Ranges** field. The corresponding coupling constants are determined automatically.
+
+:::
+
 ![](./img/07.png)
 
 ## 15. Delete ranges
