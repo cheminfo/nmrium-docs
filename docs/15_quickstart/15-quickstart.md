@@ -53,9 +53,17 @@ To zoom a section of a spectrum, drag over it with the left mouse button. You ca
 
 There are two possibilities to insert a molecular structure into the program:
 
-a)  Molfile: Drag the molfile into the workspace. The **Structures** field appears, showing the inserted molecular structure as well as the molecular weight and the molecular formula.
+:::note  Molfile
 
-b)  Integrated structure editor: Click on the **Structures** menu on the right side of the screen and then on the **+** sign. A window opens where you can draw your molecular structure. Then click on the **Save** button. In the **Structures** field, the drawn molecular structure appears as well as the molecular weight and the molecular formula.
+Drag the molfile into the workspace. The **Structures** field appears, showing the inserted molecular structure as well as the molecular weight and the molecular formula.
+
+:::
+
+:::note Integrated structure editor
+
+Click on the **Structures** menu on the right side of the screen and then on the **+** sign. A window opens where you can draw your molecular structure. Then click on the **Save** button. In the **Structures** field, the drawn molecular structure appears as well as the molecular weight and the molecular formula.
+
+:::
 
 ![](./img/03.png)
 
