@@ -1,7 +1,6 @@
 ﻿---
 title: Quick Start Guide
 description: A brief explanation of nmrium's most important functions
-slug: /
 ---
 
 ## 1. Open the program
