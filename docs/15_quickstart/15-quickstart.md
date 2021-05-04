@@ -26,13 +26,17 @@ On the right side of the workspace, various areas are available in an expandable
 
 ![](./img/02.png)
 
-> ### Note on wobble-curves:
->
-> If your imported Bruker folder contains so-called **wobble curves**, it is useful to delete them from the list for further processing. You can identify them by the name **wobble**. Click the corresponding spectrum with the right mouse button. In the appearing menu, click **delete** to delete the wobble curve.
+:::tip Note on wobble-curves:
 
-### Note on changing the color of a spectrum:
+If your imported Bruker folder contains so-called **wobble curves**, it is useful to delete them from the list for further processing. You can identify them by the name **wobble**. Click the corresponding spectrum with the right mouse button. In the appearing menu, click **delete** to delete the wobble curve.
+
+:::
+
+:::tip Note on changing the color of a spectrum:
 
 You can change the color of the spectrum by clicking the colored square in the line for the spectrum. In the appearing window, you can select a different color. For 2D experiments, the colors for the negative and positive cross-peaks are additionally selectable.
+
+:::
 
 ## 4. Delete a spectrum
     
@@ -59,10 +63,13 @@ NMRium offers the possibility to perform a Fourier transformation (FT) on the ra
 ![](./img/04.png)
 
 1.  Fourier transformation: To prepare the FID for the Fourier transformation, click the **Zero Filling** icon to the left of the spectrum. Set the desired values for **Size** (zero filling) and **Line Broadening** (exponential window function) and click **Apply**. Then start the Fourier transformation by clicking on the **FFT Filter** button to the left of the spectrum.      
-    ### Note on values:
+    :::tip Note on values:
+
     If you are not sure which values to set, you can use the following recommendations as a reference:
     **Size**: Choose twice as many points as in the original FID.
     **Line Broadening (LB)**: Specify 0.3 Hz for ¹H spectra and 1-3 Hz for ¹³C.
+
+    :::
 
 2.  Phase correction: Click the **Phase correction** icon to the left of the spectrum. You can choose between manual and automatic phase correction.
     ### Automatic phase correction
@@ -154,6 +161,8 @@ To export the assigned spectra, click on the **Export** button to the left side 
 
 Click on **Save data** to save the assigned spectrum with all stored information and to be able to edit it later. An nmrium file is created and offered for download.
 
-### Note:
+:::tip Note:
 
 An nmrium file is a compressed text file containing all information of the (partially) assigned stored spectra. Depending on the number of spectra contained, saving can take longer, as can opening an nmrium file again.
+
+:::
