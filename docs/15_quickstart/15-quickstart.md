@@ -1,7 +1,6 @@
 ﻿# NMRium Quick Start Guide
 
-
-## 1\. Open the program
+## 1. Open the program
 
 Open NMRium with the following link:
 
