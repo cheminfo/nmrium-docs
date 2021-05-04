@@ -64,23 +64,31 @@ NMRium offers the possibility to perform a Fourier transformation (FT) on the ra
 
 ![](./img/04.png)
 
-1.  Fourier transformation: To prepare the FID for the Fourier transformation, click the **Zero Filling** icon to the left of the spectrum. Set the desired values for **Size** (zero filling) and **Line Broadening** (exponential window function) and click **Apply**. Then start the Fourier transformation by clicking on the **FFT Filter** button to the left of the spectrum.      
+**1.  Fourier transformation**: To prepare the FID for the Fourier transformation, click the **Zero Filling** icon to the left of the spectrum. Set the desired values for **Size** (zero filling) and **Line Broadening** (exponential window function) and click **Apply**. Then start the Fourier transformation by clicking on the **FFT Filter** button to the left of the spectrum.      
     :::tip **Size** and **LB** values
 
     If you are not sure which values to set, you can use the following recommendations as a reference:
+
     **Size**: Choose twice as many points as in the original FID.
+
     **Line Broadening (LB)**: Specify 0.3 Hz for ¹H spectra and 1-3 Hz for ¹³C.
 
     :::
 
-2.  Phase correction: Click the **Phase correction** icon to the left of the spectrum. You can choose between manual and automatic phase correction.
-    ### Automatic phase correction
+**2.  Phase correction**: Click the **Phase correction** icon to the left of the spectrum. You can choose between manual and automatic phase correction.
+    :::note Automatic phase correction
+
     Click the **Apply** button, the phase will be corrected automatically.
-    ### Manual phase correction
+    
+    :::
+
+    :::note Manual phase correction
     You can perform zero-order and first-order phase correction.
     
     For zero-order phase correction, click and hold the green **PH0** button above the spectrum. By moving the mouse to the left or right, you can perform phase correction until the signal is correctly phased and release the button. By double-clicking, you can move the pivot point (red line) for the first-order phase correction.
     The first order phase correction is performed analogously by pressing **PH1**. The focus should be on the signals that are as far away as possible from the signal under the pivot point. Clicking the **Apply** button completes the phase correction.
+
+    :::
 
 ## 8. Referencing
 
