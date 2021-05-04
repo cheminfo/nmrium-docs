@@ -4,6 +4,7 @@
 ## 1. Open the program
 
 Open NMRium with the following link:
+
 [https://cdn.nmrium.org/](https://cdn.nmrium.org/)
 
 ## 2. Open spectra
@@ -64,8 +65,11 @@ NMRium offers the possibility to perform a Fourier transformation (FT) on the ra
     **Line Broadening (LB)**: Specify 0.3 Hz for 1H spectra and 1-3 Hz for 13C.
 
 2.  Phase correction: Click the **Phase correction** icon to the left of the spectrum. You can choose between manual and automatic phase correction.
-    **Automatic phase correction**: Click the **Apply** button, the phase will be corrected automatically.
-    **Manual phase correction**: You can perform zero-order and first-order phase correction.
+    ### Automatic phase correction
+    Click the **Apply** button, the phase will be corrected automatically.
+    ### Manual phase correction**
+    You can perform zero-order and first-order phase correction.
+    
     For zero-order phase correction, click and hold the green **PH0** button above the spectrum. By moving the mouse to the left or right, you can perform phase correction until the signal is correctly phased and release the button. By double-clicking, you can move the pivot point (red line) for the first-order phase correction.
     The first order phase correction is performed analogously by pressing **PH1**. The focus should be on the signals that are as far away as possible from the signal under the pivot point. Clicking the **Apply** button completes the phase correction.
 
