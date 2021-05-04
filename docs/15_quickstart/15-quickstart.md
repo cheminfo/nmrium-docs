@@ -1,6 +1,6 @@
 ﻿---
 title: Quick Start Guide
-description: A brief explanation of nmrium's most important functions
+description: A brief explanation of NMRium's most important functions
 slug: /help/quickstart
 ---
 
@@ -193,10 +193,10 @@ To export the assigned spectra, click on the **Export** button to the left side 
 -   Save data
 -   Copy image to Clipboard
 
-Click on **Save data** to save the assigned spectrum with all stored information and to be able to edit it later. An nmrium file is created and offered for download.
+Click on **Save data** to save the assigned spectrum with all stored information and to be able to edit it later. An .nmrium file is created and offered for download.
 
 :::info
 
-An nmrium file is a compressed text file containing all information of the (partially) assigned stored spectra. Depending on the number of spectra contained, saving can take longer, as can opening an nmrium file again.
+An .nmrium file is a compressed text file containing all information of the (partially) assigned stored spectra. Depending on the number of spectra contained, saving can take longer, as can opening an .nmrium file again.
 
 :::
