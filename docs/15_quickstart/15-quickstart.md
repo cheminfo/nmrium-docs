@@ -1,7 +1,7 @@
 ﻿---
 title: Quick Start Guide
 description: A brief explanation of NMRium's most important functions
-slug: /help/quickstart
+slug: /
 ---
 
 ## 1. Open the program
@@ -14,10 +14,10 @@ Open NMRium with the following link:
 
 To open spectra, your data must be in one of the following file types:
 
--   Jcamp DX (.dx, .jdx, .jcamp)
--   zipped folder in Bruker format (raw data od processed)
--   Jeol (.jdf)
--   NMRium file (.nmrium)
+- Jcamp DX (.dx, .jdx, .jcamp)
+- zipped folder in Bruker format (raw data od processed)
+- Jeol (.jdf)
+- NMRium file (.nmrium)
 
 Drag the file you want to open into the gray box **Drag and drop here** in the middle of the screen. You can open a set of spectra of a molecule by either dragging the spectra individually into the workspace or by dragging a zip folder containing all spectra. Also, you can open several spectra at once in the Bruker folder structure as a zip file.
 
@@ -42,18 +42,18 @@ You can change the color of the spectrum by clicking the colored square in the l
 :::
 
 ## 4. Delete a spectrum
-    
+
 To delete a single spectrum, right-click the spectrum in the menu **spectra** on the right side. Click **delete** in the appearing menu to delete the spectrum. To delete all spectra, click on the trash icon on the left above the listed spectra.
 
 ## 5. Zoom a section
-    
+
 To zoom a section of a spectrum, drag over it with the left mouse button. You can repeat this process as often as you like. Double-click anywhere in the spectrum to undo the last magnification step. This step can also be repeated. The intensity level of the signals can be changed using the mouse wheel. To return to the full spectrum, click on the **Zoom-Out** button in the menu bar on the left side of the spectrum.
 
 ## 6. Insert a molecular structure
 
 There are two possibilities to insert a molecular structure into the program:
 
-:::note  Molfile
+:::note Molfile
 
 Drag the molfile into the workspace. The **Structures** field appears, showing the inserted molecular structure as well as the molecular weight and the molecular formula.
 
@@ -99,7 +99,7 @@ Click the **Apply** button, the phase will be corrected automatically.
 :::note Manual phase correction
 
 You can perform zero-order and first-order phase correction.
-    
+
 For zero-order phase correction, click and hold the green **PH0** button above the spectrum. By moving the mouse to the left or right, you can perform phase correction until the signal is correctly phased and release the button. By double-clicking, you can move the pivot point (red line) for the first-order phase correction.
 
 The first order phase correction is performed analogously by pressing **PH1**. The focus should be on the signals that are as far away as possible from the signal under the pivot point. Clicking the **Apply** button completes the phase correction.
@@ -113,7 +113,7 @@ Click the **Peaks Picking** button to the left of the spectrum. Find your solven
 ![](./img/img105.png)
 
 ## 9. Peak Picking
-    
+
 Click on the **Peaks Picking** button. You can choose between automatic peak picking and manual peak picking.
 
 :::note Automatic peak picking
@@ -138,12 +138,12 @@ If you want to delete all peaks, click on the trash icon located above the signa
 
 You can display various information in the **Peaks** list. Open the **Peaks** list on the right side of the spectrum. Click on the gear wheel at the top right. All measured nuclei will be displayed. You can choose to display the following values for each nucleus:
 
--   Peak Number
--   Peak Index
--   Chemical shift (ppm)
--   Chemical shift (Hz)
--   Width
--   Intensity
+- Peak Number
+- Peak Index
+- Chemical shift (ppm)
+- Chemical shift (Hz)
+- Width
+- Intensity
 
 Place a checkmark next to the values that you want to have displayed for the respective nucleus. Then click on the green check mark at the top right.
 
@@ -151,7 +151,7 @@ Place a checkmark next to the values that you want to have displayed for the res
 
 Click the **Integral tool** button on the left side of the spectrum. To integrate a signal, hold down the Shift key and move the mouse over the signal while holding down the left mouse button. Then release both the Shift and the left mouse button. Proceed in this way with each signal that you want to integrate. The integrals are displayed in a list on the right side of the spectrum in the **Integrals** button.
 
-It is predefined that the relative number of all integrated H atoms is 100. To change the number, click on the sum symbol above the list. In the window that opens, you can either enter the number of H atoms manually and then click on **Set** or accept the number of H atoms specified by the sum formula by clicking on **Set** in the lower area.  
+It is predefined that the relative number of all integrated H atoms is 100. To change the number, click on the sum symbol above the list. In the window that opens, you can either enter the number of H atoms manually and then click on **Set** or accept the number of H atoms specified by the sum formula by clicking on **Set** in the lower area.
 
 ![](./img/img106.png)
 
@@ -198,10 +198,10 @@ In the list, click the box under the link icon in the line of the signal you wan
 
 To export the assigned spectra, click on the **Export** button to the left side of the spectrum. A field will open where you can select in which format you want to export your spectrum. You have the following options:
 
--   Export as SVG
--   Export as PNG
--   Save data
--   Copy image to Clipboard
+- Export as SVG
+- Export as PNG
+- Save data
+- Copy image to Clipboard
 
 Click on **Save data** to save the assigned spectrum with all stored information and to be able to edit it later. An .nmrium file is created and offered for download.
 
