@@ -47,7 +47,7 @@ The system is based on various JSON files that are build automatically thanks to
 
 ## Test your exercises
 
-https://www.nmrium.org/teaching#?toc=<kbd>https://cheminfo.github.io/nmr-dataset-sample/toc.json</kdb>
+https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset-sample/toc.json
 
 In order to find the URL of your repository you should open the settings of your project and click on the left on `Pages`. You will then see the URL on which the data are published.
 
