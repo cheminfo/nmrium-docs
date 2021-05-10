@@ -26,16 +26,16 @@ function MyComponent() {
 
 | Name                   | Type           | Default                  |  Description                                                              |
 | -----------------------| ---------------|--------------------------|---------------------------------------------------------------------------|
-| general                | Object         |                          | Customize gneral tools and feature,see table below.                       |
-| panels                 | Object         |                          | Customize which panels to display,see table below.                        |
-| toolBarButtons         | Object         |                          | Customize which tools to can be used,see table below.                     |
+| general                | Object         |                          | Customize gneral tools and features, see table below                      |
+| panels                 | Object         |                          | Customize which panels to display, see table below                        |
+| toolBarButtons         | Object         |                          | Customize which tools can be used, see table below                        |
 
 #### general
 
 | Name                         | Type           | Default                  |  Description                                                              |
 | -----------------------------| ---------------|--------------------------|---------------------------------------------------------------------------|
-| disableMultipletAnalysis     | Boolean        | false                    | Whether to allow use myltiple analysis feature                            |
-| hideSetSumFromMolecule       | Boolean        | false                    | Whether to allow to set the sum from molecule                             |
+| disableMultipletAnalysis     | Boolean        | false                    | Whether can use myltiple analysis feature                                 |
+| hideSetSumFromMolecule       | Boolean        | false                    | Whether can set the sum from molecule                                     |
 
 #### panels
 
