@@ -16,11 +16,11 @@ function MyComponent() {
 
 ## Component props
 
-| Name                   | Type           | Default                  |  Description                                                              |
-| -----------------------| ---------------|--------------------------|---------------------------------------------------------------------------|
-| docsBaseUrl            | String         | https://docs.nmrium.org  | Documentation base url                                                    |
-| onDataChange           | Function():Object|                        | This callback function will be called when change data in nmrium conponent|
-| preferences            | Object         | PreferncesObject         | Customize what tools and panels which can be used,see table below         |
+| Name                   | Type           | Default                  |  Description                                                                  |
+| -----------------------| ---------------|--------------------------|-------------------------------------------------------------------------------|
+| docsBaseUrl            | String         | https://docs.nmrium.org  | Documentation base url                                                        |
+| onDataChange           | Function():Object|                        | This callback function will be called when change data in nmrium component    |
+| preferences            | Object         | PreferncesObject         | Customize what tools and panels that can be used or displayed,see table below |
 
 ### preferences
 
