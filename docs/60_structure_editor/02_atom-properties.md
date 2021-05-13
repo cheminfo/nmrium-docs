@@ -1,5 +1,5 @@
 ---
-title: OCL molecule editor atom propertie
+title: Atom propertie
 ---
 
 ## Edition of atom properties (radical, isotopes, etc)

@@ -1,5 +1,5 @@
 ---
-title: OCL molecule editor stereochemistry
+title: Stereochemistry
 ---
 
 ## Stereochemistry and openchemlib editor

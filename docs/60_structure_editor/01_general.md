@@ -1,5 +1,5 @@
 ---
-title: OCL molecule editor
+title: Usage and shortcuts
 slug: /help/ocl
 ---
 
