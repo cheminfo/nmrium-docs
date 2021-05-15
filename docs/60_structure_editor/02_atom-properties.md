@@ -1,5 +1,6 @@
 ---
-title: Atom propertie
+sidebar_label: Atom properties
+title: OCL editor atom properties
 ---
 
 ## Edition of atom properties (radical, isotopes, etc)

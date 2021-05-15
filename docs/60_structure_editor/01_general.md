@@ -1,15 +1,14 @@
 ---
-title: Usage and shortcuts
+sidebar_label: Usage and shortcuts
+title: OCL editor usage and shortcuts
 slug: /help/ocl
 ---
 
-# OCL editor
-
-### OpenChemLib Chemical Editor Concepts
+## OpenChemLib Chemical Editor Concepts
 
 The structure editor is used to draw chemical molecules, substructure fragments, reactions and simple drawing objects like text, boxes, etc. Its functionality changes depending on the kind of object\(s\) being edited. Thus, the atom mapping tool is only available, when a reaction is edited. Query feature dialogs only open, when a substructure is edited, etc.
 
-#### Atom and Bond Hot-Keys
+### Atom and Bond Hot-Keys
 
 Hot-keys allow to quickly change atom and bond types. When the mouse is moved over an atom or bond then the atom or bond is automatically highlighted, indicating that mouse clicks or pressing a hot-key affect the highlighted object.
 
@@ -28,7 +27,7 @@ Hot-keys allow to quickly change atom and bond types. When the mouse is moved ov
 | **'4','5','6','7'**  | Bond                | Annelate Ring        | Annellates a new saturated ring with the respective ring size to the highlighted bond.                                                                                                   |
 | **'b'**              | Bond                | Annelate Benzo       | Annellates a new benzene ring to the highlighted bond.                                                                                                                                   |
 
-#### Buttons and Tools
+### Buttons and Tools
 
 Chemical structures are drawn by selecting an appropriate tool and applying it while moving, clicking and dragging the mouse pointer over the drawing area. While the selection of a tool has no immediate effect on the drawn structure, pressing a button does. Currently available buttons allow to clean up atom coordinates or to revert the most recent structure change.
 
