@@ -1,6 +1,7 @@
 ---
 title: General Features
 slug:  /help/general
+unlisted: true
 ---
 
 

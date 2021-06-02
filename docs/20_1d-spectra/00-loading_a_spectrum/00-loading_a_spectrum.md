@@ -1,12 +1,13 @@
 ---
 title: Loading a spectrum
-slug: /help/loading-a-spectrum
 ---
+
+# Loading a Spectrum
 
 Spectra can be loaded either by drag and drop a file on NMRium or by opening a file from the
 file system <kbd>CTRL</kbd><kbd>o</kbd>
 
-![Import file](./img/import_from_file_system.png)
+![Import file](./import_from_file_system.png)
 
 ## Supported file formats
 

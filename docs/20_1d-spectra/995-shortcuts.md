@@ -1,5 +1,6 @@
 ---
 title: Shortcuts
+unlisted: true
 ---
 
 | Description                             | Shortcuts                |

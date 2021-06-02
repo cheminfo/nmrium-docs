@@ -1,6 +1,7 @@
 ---
 title: Integrations
 slug:  /help/integrations
+unlisted: true
 ---
 
 
