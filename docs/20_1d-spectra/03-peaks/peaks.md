@@ -1,6 +1,5 @@
 ---
 title: Peaks
-slug:  /help/peaks
 ---
 
 ## Select a single signal
