@@ -1,7 +1,5 @@
 ---
 title: Local Installation
-description: 
-slug: /general/
 ---
 
 # Local Installation

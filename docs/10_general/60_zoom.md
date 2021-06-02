@@ -1,7 +1,5 @@
 ---
 title: Zoom Mode
-description: 
-slug: /general/
 ---
 
 # Zoom Mode

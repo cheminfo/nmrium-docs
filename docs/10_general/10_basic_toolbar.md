@@ -1,7 +1,5 @@
 ---
 title: Basic Toolbar
-description: 
-slug: /general/
 ---
 
 # Basic Toolbar

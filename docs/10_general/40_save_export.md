@@ -1,7 +1,5 @@
 ---
 title: Save and Export
-description: 
-slug: /general/
 ---
 
 # Save and Export
