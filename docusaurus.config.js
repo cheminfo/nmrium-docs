@@ -43,8 +43,14 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          //   sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
+          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarItemsGenerator: async function ({
+            defaultSidebarItemsGenerator,
+            ...args
+          }) {
+            const sidebarItems = await defaultSidebarItemsGenerator(args);
+            return raisingSingleNodes(sidebarItems);
+          }, // Please change this to your repo.
           editUrl: 'https://github.com/cheminfo/nmrium-docs/edit/master/',
           routeBasePath: '/',
         },
@@ -61,3 +67,21 @@ module.exports = {
     ],
   ],
 };
+
+function raisingSingleNodes(items) {
+  // we need to traverse the full hierarhy and if there is only one child items we raise it one level
+  for (let parentItem of items) {
+    if (parentItem && parentItem.items && parentItem.items.length) {
+      for (let i = 0; i < parentItem.items.length; i++) {
+        if (
+          parentItem.items[i].items &&
+          parentItem.items[i].items.length === 1
+        ) {
+          parentItem.items[i] = parentItem.items[i].items[0];
+        }
+      }
+      raisingSingleNodes(parentItem.items);
+    }
+  }
+  return items;
+}
