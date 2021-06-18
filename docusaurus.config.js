@@ -49,7 +49,6 @@ module.exports = {
             ...args
           }) {
             const sidebarItems = await defaultSidebarItemsGenerator(args);
-            console.log(sidebarItems);
             return raisingSingleNodes(sidebarItems);
           }, // Please change this to your repo.
           editUrl: 'https://github.com/cheminfo/nmrium-docs/edit/master/',
