@@ -41,6 +41,11 @@ For each exercise you want to create you can add the following files:
 
 Only folders that contain an answer (file `structure.mol` as a molfile) will be processed.
 
+By default we expect that those jcamps contains only the processed data. If you would like to provide FID or FID + FT data please use the following convention:
+
+- 1h.fid.jdx
+- 1h.full.jdx
+
 ## Build the toc and publish on gh-pages
 
 The system is based on various JSON files that are build automatically thanks to a github action. This will be done automatically but you should check that
