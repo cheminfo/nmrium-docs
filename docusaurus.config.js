@@ -10,6 +10,16 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'cheminfo',
   projectName: 'nmrium-docs',
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+      },
+    ],
+  ],
   themeConfig: {
     navbar: {
       title: '',
