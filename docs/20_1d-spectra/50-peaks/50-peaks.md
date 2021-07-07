@@ -10,7 +10,7 @@ title: Baseline Correction
 
 To select a single signal, click the "peaks picking" button. Move the mouse to the selected signal and click on it with the left mouse button. The peak shift appears over the signal. The exact value of the signal can be found in a table on the right side of the interface under the "peaks" tab.
 
-!(./Peaks_picking1.png)
+![](./Peaks_picking1.png)
 
 ### Automatic single peak picking
 
@@ -23,19 +23,19 @@ You mark a signal by simultaneously holding down the shift key and the left mous
 
 All signals are shown in the Peaks panel. The signals highlighted in yellow can be observed in the section of the spectrum shown. The signals highlighted in white are not visible in the screen section. If you switch off the zoom by double-clicking, the signals of the whole shown spectrum are highlighted in yellow. 
 
-!(./Panel_Peaks_yellow.png)
+![](./Panel_Peaks_yellow.png)
 
 If you click on the funnel button, only the signals shown on the screen are listed. To see all the signals in the list again, press the Funnel button a second time.
 
-!(./Panel_Peaks_funnel.png)
+![](./Panel_Peaks_funnel.png)
 
 On the right side of the panel, the total number of listed signals is shown in a square bracket. 
 
-!(./Panel_Peaks_number_of_peaks.png)
+![](./Panel_Peaks_number_of_peaks.png)
 
 You can display various information in the peaks panel. Click on the gear wheel at the top right.
 
-!(./Panel_Peaks_wheel1.png)
+![](./Panel_Peaks_wheel1.png)
 
 All measured nuclei will be displayed. You can choose to display the following values for each nucleus:
 
@@ -48,7 +48,7 @@ All measured nuclei will be displayed. You can choose to display the following v
 
 Place a check mark next to the values that you want to have displayed for the respective nucleus. Then click on the green check mark at the top right.
 
-!(./Panel_Peaks_wheel2.png)
+![](./Panel_Peaks_wheel2.png)
 
 ## Set a Reference
 
@@ -60,7 +60,7 @@ Click the Peaks Picking button to the left of the spectrum. Find your solvent si
 
 To delete all signals move the mouse to the list "Peaks" and press the trash button on the left side above the list. A red box apears. Click "yes". All signals are deleted.
 
-!(./Peaks_picking3.png)
+![](./Peaks_picking3.png)
 
 ### Delete a single peak
 
