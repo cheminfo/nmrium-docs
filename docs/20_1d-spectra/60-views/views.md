@@ -4,6 +4,8 @@ title: Views
 
 # Views
 
+## Real / Imaginary Spectrum
+
 You can view the imaginary part of the spectrum by clicking on the Display imaginary button. To return to the real part, click the button again.
 
 ![views](./View_imaginary_past.png)
