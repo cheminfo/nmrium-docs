@@ -106,6 +106,14 @@ The first order phase correction is performed analogously by pressing **PH1**. T
 
 :::
 
+### Baseline correction
+
+Click the Baseline correction icon to the left of the spectrum. You can choose between two possible algorithms: **polynomial** and **AIR PLS**.
+
+- To use the algorithm **polynomial**, you may define a degree and then click **apply**.
+- To apply the **AIR PLS** algorithm, you may define both maximum iteration and a tolerance range and then click **apply**.
+
+
 ## 8. Referencing
 
 Click the **Peaks Picking** button to the left of the spectrum. Find your solvent signal (or the reference signal). When you point at it with the crosshairs, press the shift key and the left mouse button at the same time. The value of the signal will be shown both in the spectrum and in a list on the right side of the spectrum in the **Peaks** field. Select one of the two displayed values (in the spectrum single click with the left mouse button, in the list double click with the left mouse button) and enter the correct reference value.
