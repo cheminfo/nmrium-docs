@@ -8,16 +8,16 @@ On the right side of the workspace, various areas are available in an expandable
 
 To hide all spectra press the icon "hide all spectra". 
 
-![](./img/hide_all_spectra.png)
+![](./hide_all_spectra.png)
 
 To show all spectra, press the icon "show all spectra". 
 
-![](./img/show_all_spectra.png)
+![](./show_all_spectra.png)
 
 To show one or to spectra in the workspace, press the icon for each spectrum. 
 
-![](./img/select_spectra.png)
+![](./select_spectra.png)
 
 In each spectrum line you find general information about the solvent.
 
-![](./img/solvent.png)
+![](./solvent.png)
