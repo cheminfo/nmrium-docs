@@ -66,6 +66,3 @@ To delete all signals move the mouse to the list "Peaks" and press the trash but
 
 To delete one signal move the mouse to the list and select a signal. Press the trash button on the rigth side of the line of the signal. The peak is deleted.
 
-An alternative way is to move the mouse over a signal in the spectrum. A red ring appears. Click this red ring, the peak is deleted.
-
-![Peaks](./delete_single_peak.gif)
