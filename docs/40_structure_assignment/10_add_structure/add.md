@@ -6,6 +6,8 @@ title: Add a Structure
 
 You can insert a molecular structure by either drawing the structure or importing a mol file. In both cases, you first open the Structures panel. It is possible to add several structures to one set of spectra at the same time. Each individual structure can either be drawn or imported. To switch between structures, click on the arrow on the right side of the structures panel. On the right side of the panel, the number of stored spectra is given.
 
+https://github.com/cheminfo/nmrium-docs/blob/master/docs/40_structure_assignment/10_add_structure/Add_structure.png
+
 ## Draw a chemical structure
 
 To draw the molecular structure, click on the **+** button. 
