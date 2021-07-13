@@ -26,7 +26,7 @@ function MyComponent() {
 
 | Name                   | Type           | Default                  |  Description                                                              |
 | -----------------------| ---------------|--------------------------|---------------------------------------------------------------------------|
-| general                | Object         |                          | Customize gneral tools and features, see table below                      |
+| general                | Object         |                          | Customize general tools and features, see table below                      |
 | panels                 | Object         |                          | Customize which panels to display, see table below                        |
 | toolBarButtons         | Object         |                          | Customize which tools can be used, see table below                        |
 
