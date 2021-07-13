@@ -28,5 +28,8 @@ If you want to change a molecular structure, double-click on it. A window opens.
 
 ## Delete a chemical structure
 
-To delete a molecular structure, click on the trash button.
+To delete a molecular structure, click on the trash button. The structure will be delete.
+
+![delete](Delete_structure.png)
+          
 
