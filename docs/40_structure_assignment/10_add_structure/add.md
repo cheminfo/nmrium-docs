@@ -32,4 +32,11 @@ To delete a molecular structure, click on the trash button. The structure will b
 
 ![delete](Delete_structure.png)
           
+## Predict spectra
 
+![predict1](Predict_spectra1.png)         
+
+![predict2](Predict_spectra2.png)
+          
+![predict3](Predict_spectra3.png)
+          
