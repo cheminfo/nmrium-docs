@@ -6,17 +6,11 @@ title: Add a Structure
 
 You can insert a molecular structure by either drawing the structure or importing a mol file. In both cases, you first open the Structures panel. It is possible to add several structures to one set of spectra at the same time. Each individual structure can either be drawn or imported. To switch between structures, click on the arrow on the right side of the structures panel. On the right side of the panel, the number of stored spectra is given.
 
-<img width="957" alt="Change_between_structures" src="https://user-images.githubusercontent.com/60426010/125436875-ee11a87a-b204-4cca-8583-fde20694a51b.png">
-
 ## Draw a chemical structure
 
 To draw the molecular structure, click on the **+** button. 
 
-<img width="959" alt="Add_structure" src="https://user-images.githubusercontent.com/60426010/125436365-9b50dbfc-0062-4bf7-b334-79efc5a5f075.png">
-
 A new window opens. Draw the molecular structure there. Then click on **save**. The structure is shown in the panel structures. The molecular formula and the molecular mass are also displayed.  
-
-<img width="957" alt="Draw_structure" src="https://user-images.githubusercontent.com/60426010/125436218-bd957edc-97ff-47e7-8a73-9db2937c7c5e.png">
 
 ## Import a chemical structure
 
