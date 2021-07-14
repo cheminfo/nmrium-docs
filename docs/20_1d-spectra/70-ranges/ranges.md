@@ -13,7 +13,7 @@ Click the Ranges picking button. If your spectrum contains negative signals, set
 
 ![ranges1](Ranges1.png)
           
-## Peaking by hand
+## Correction by hand
 
 ## Edit multiplets manually
 
