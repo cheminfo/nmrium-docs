@@ -8,6 +8,11 @@ NMRium differentiates between peaks and ranges. A range can contain overlapped s
 
 ## Auto ranges picking
 
+NMRium try to find out what are the zones that should be integrated and the multiplicity of each of the zones. For negative signals, the detect negative option needs to be checked. 
+Click the Ranges picking button. If your spectrum contains negative signals, set a check mark in the box Detect negative. Then press the Auto ranges picking button. The ranges found by NMRium are listed in the Ranges panel on the right side of the workspace.
+
+
+
 ## Peaking by hand
 
 ## Edit multiplets manually
