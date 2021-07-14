@@ -34,11 +34,25 @@ To delete a molecular structure, click on the trash button. The structure will b
           
 ## Predict spectra
 
-![predict1](Predict_spectra1.png)         
+It is possible to predict NMR spectra for a given molecular structure. To do this, draw a molecular structure or insert a molfile. Then click on the Predict spectra button in the Structures panel. 
+
+![predict1](Predict_spectra1.png)   
+
+A window opens in which you can select the following settings: 
+
+* the frequency of the spectrometer
+* the measuring range for both 1H and 13C in ppm
+* the type of spectra to be predicted (1H, 13C, COSY, HSQC or HMBC)
+
+You must agree that you are aware that the predicted spectra are not confidential by setting a check mark in the corresponding box. Then click on the Predict spectrum button. 
 
 ![predict2](Predict_spectra2.png)
-          
+
+The predicted spectrum is displayed on the workspace. You can hide it by opening the Spectra panel and clicking on the corresponding button. To show it again, click on the corresponding button once more. 
+
 ![predict3](Predict_spectra3.png)
           
+You can analyse the predicted spectrum in the same way as a measured spectrum. You will find a proposed assignment in the Ranges panel.     
+
 ![predict4](Predict_spectra4.png)
           
