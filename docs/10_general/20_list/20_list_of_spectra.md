@@ -4,7 +4,7 @@ title: List of Spectra
 
 # List of Spectra
 
-On the right side of the workspace, various areas are available in an expandable menu. Click on the Spectra field. The measured nuclei (e.g. ¹H, ¹³C, etc) are displayed in the opened field. Click on a nucleus to find the experiments associated with it. 
+On the right side of the workspace, various areas are available in an expandable menu. Click on the Spectra field. The measured nuclei (e.g. ¹H, ¹³C, etc) are displayed in the opened field. The spectra are grouped in nucleus. Click on a nucleus to find the 1D and 2D experiments associated with it. 
 
 To hide all spectra press the icon "hide all spectra". 
 
