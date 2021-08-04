@@ -53,7 +53,15 @@ You can display various information in the zones panel. Click on the gear wheel 
     Width
     Intensity
 
-Place a check mark next to the values that you want to have displayed for the respective nucleus. Then click on the green check mark at the top right.
+Place a check mark next to the values that you want to have displayed for the respective nucleus. You can also change the number of digets. Then click on the green check mark at the top right. 
+
+### Delete all zones
+
+To delete one zone move the mouse to the panel and select a zone. Press the trash button on the rigth side of the line of the zone. The zone is deleted.
+
+### Delete a single zone
+
+To delete all zones move the mouse to the panel zones and press the trash button on the left side above the list. A red box apears. Click "yes". All zones are deleted.
 
 ### Set a reference
 
