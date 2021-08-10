@@ -4,12 +4,9 @@ title: Basic Toolbar
 
 # Basic Toolbar
 
-## Zoom in and out
-
-## Using the scroll wheel
-
 ## Shortcuts
 
+There are various key combinations or shortcuts to activate different applications of the program. The following list contains shortcuts: 
 
 | Description                             | Shortcuts                |
 | --------------------------------------- | ------------------------ |
@@ -30,5 +27,3 @@ title: Basic Toolbar
 | Open          | <kbd>cmd</kbd><kbd>o</kbd> | <kbd>ctrl</kbd><kbd>o</kbd> |
 | Copy as image | <kbd>cmd</kbd><kbd>c</kbd> | <kbd>ctrl</kbd><kbd>c</kbd> |
 
-
-## Esc to go back to Zoom
