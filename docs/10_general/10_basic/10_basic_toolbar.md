@@ -6,7 +6,7 @@ title: Basic Toolbar
 
 ## Shortcuts
 
-There are various key combinations or shortcuts to activate different applications of the program. The following list contains shortcuts: 
+There are various key combinations or shortcuts to activate different applications of the program. The following lists contain the shortcuts: 
 
 | Description                             | Shortcuts                |
 | --------------------------------------- | ------------------------ |
