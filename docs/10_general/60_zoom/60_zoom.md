@@ -26,6 +26,14 @@ Vertical scaling of the spectrum is possible when you scroll the mouse wheel.
 
 If you click the icon "zoom out" once, the horizontal scaling is zoomed out. If you click the icon "zoom out" twice, the horizontal and vertical scaling will be zoomed out.
 
+### Esc to go back to zoom
+
+If you press esc on the keyboard the program go back to zoom. 
+
+### Scroll wheel
+
+If you use the scroll wheel of your mouse in zoom mode, you change the amount of your signals.
+
 ## Display Chemical Shift and Intensity of a Peak
 
 If you are in zoom mode and moving the mouse over the spectrum, you will see a crosshair. If you move it over a signal, the chemical shift is displayed in ppm. At the bottom of the spectrum you can see the chemical shift in ppm and Hz and the intensity of the signal.  
