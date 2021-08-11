@@ -18,6 +18,16 @@ The first order phase correction is performed analogously by pressing PH1. The f
 
 ![](./Phase_correction2.png)
 
+:::tip **Size** and **LB** values
+
+If you are not sure which values to set, you can use the following recommendations as a reference:
+
+**Size**: Choose twice as many points as in the original FID.
+
+**Line Broadening (LB)**: Specify 0.3 Hz for ¹H spectra and 1-3 Hz for ¹³C.
+
+:::
+
 ## Automatic
 
 Select the Automatic Phase Correction and click the Apply button, the phase will be corrected automatically.
