@@ -14,7 +14,7 @@ To show all spectra, press the icon "show all spectra".
 
 ![](./show_all_spectra.png)
 
-To show one or to spectra in the workspace, press the icon for each spectrum. 
+To show one, two or more spectra in the workspace, press the icon for each spectrum. 
 
 ![](./select_spectra.png)
 
