@@ -14,7 +14,7 @@ To draw the molecular structure, click on the **+** button.
 
 ![structure](Add_structure.png)
           
-A new window opens. Draw the molecular structure there. Then click on **save**. The structure is shown in the panel structures. The molecular formula and the molecular mass are also displayed.  
+A new window opens. Draw the molecular structure there. You can find a detailed explanation of the structure editor functions in the OCL structure Editor chapter. Then click on **save**. The structure is shown in the panel structures. The molecular formula and the molecular mass are also displayed.  
 
 ![draw](Draw_structure.png)
 
