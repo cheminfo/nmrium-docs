@@ -8,7 +8,7 @@ To see all processing steps that were applied, e. g. base line correction or pha
 
 To hide a filter, the corresponding filter must be deactivated. Remove the check mark in the corresponding line. To reactivate the filter, set the check mark again. 
 
-![](./filters_hide.png)
+![](./select_filters.gif)
 
 To delete a filter, click the trash button. 
 
