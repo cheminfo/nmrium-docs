@@ -8,9 +8,11 @@ On the right side of the workspace, various areas are available in an expandable
 
 To hide all spectra press the icon "hide all spectra". 
 
+![](./hide_all_spectra.png)        
+
 To show all spectra, press the icon "show all spectra". 
 
-![](github.com/cheminfo/nmrium-docs/blob/master/docs/10_general/20_list/Hide.gif)
+![](./https://github.com/cheminfo/nmrium-docs/blob/master/docs/10_general/20_list/Hide.gif)
 
 To show one, two or more spectra in the workspace, press the icon for each spectrum. 
 
