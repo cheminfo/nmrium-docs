@@ -10,7 +10,7 @@ To hide all spectra press the icon "hide all spectra".
 
 To show all spectra, press the icon "show all spectra". 
 
-![](https://github.com/cheminfo/nmrium-docs/blob/master/docs/10_general/20_list/Hide.gif)
+![](github.com/cheminfo/nmrium-docs/blob/master/docs/10_general/20_list/Hide.gif)
 
 To show one, two or more spectra in the workspace, press the icon for each spectrum. 
 
@@ -19,3 +19,8 @@ To show one, two or more spectra in the workspace, press the icon for each spect
 In each spectrum line you find general information about the solvent.
 
 ![](./solvent.png)
+
+
+
+
+
