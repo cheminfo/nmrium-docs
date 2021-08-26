@@ -34,7 +34,7 @@ If you use the scroll wheel of your mouse in zoom mode, you change the amount of
 
 If you are in zoom mode and moving the mouse over the spectrum, you will see a crosshair. If you move it over a signal, the chemical shift is displayed in ppm. At the bottom of the spectrum you can see the chemical shift in ppm and Hz and the intensity of the signal.  
 
-![](./zoom_in_and_out.gif)
+![](./display_chemical_shift.gif)
 
 ## Determination of the Distance between two Peaks
 
