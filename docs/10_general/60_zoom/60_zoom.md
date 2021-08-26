@@ -12,23 +12,19 @@ When you click on a panel, it opens. You can open several panels at the same tim
 
 ## General Zoom
 
-### Zoom in
+### Zoom in and out
 
-To zoom in on the spectrum, click on the section with the left mouse button, drag the mouse to highlight the section and release the mouse button.
+To zoom in on the spectrum, activate **zoom** by clicking the zoom button in the left toolbar. Click on the section with the left mouse button, drag the mouse to highlight the section and release the mouse button. To zoom in on the spectrum again, click on the section with the left mouse button, drag the mouse to highlight the section and release the mouse button.
 
-To zoom in on the spectrum again, click on the section with the left mouse button, drag the mouse to highlight the section and release the mouse button.
+By double-clicking, you will return to the previous zoom.  If you double-click again, you will return to the full spectrum. NMRium remembers all zoom levels.
 
-### Zoom out
 
-By double-clicking, you will return to the previous zoom.  If you double-click again, you will return to the full spectrum. NMRium remembers all zoom levels
-
-Vertical scaling of the spectrum is possible when you scroll the mouse wheel.
 
 If you click the icon "zoom out" once, the horizontal scaling is zoomed out. If you click the icon "zoom out" twice, the horizontal and vertical scaling will be zoomed out.
 
 ### Esc to go back to zoom
 
-If you press esc on the keyboard the program go back to zoom. 
+If you press **esc** on the keyboard the program go back to zoom. 
 
 ### Scroll wheel
 
