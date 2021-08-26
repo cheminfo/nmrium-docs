@@ -18,9 +18,9 @@ Select the desired settings and click save.
 
 ## Save an Image
 
-The analyzed spectra can be saved as an image file (png). Click the export button and then select the export as png button in the opening window. The image will be saved to the clipboard. You can also click copy image to clipboard. An image file will also be saved to the clipboard. Afterwards, you can paste the image into a Word document, for example.
+The analyzed spectra can be saved as an image file (png). Click the export button and then select the export as png button in the opening window. A new box will appear. Click **ok**, if you want to continue the process. The spectrum is opened as a png file which you which you can afterwards save on your computer. You can also click copy image to clipboard. An image file will also be saved to the clipboard. Afterwards, you can paste the image into a Word document, for example.
 
-![](./Save_data.png)
+![](./export_as_png.gif)
 
 ## Export
 
