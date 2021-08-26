@@ -10,6 +10,6 @@ To hide a filter, the corresponding filter must be deactivated. Remove the check
 
 ![](./select_filters.gif)
 
-To delete a filter, click the corresponding trash button. 
+To delete a filter, click the corresponding trash button. A window will open. Click on "yes" if you want to delete the filter only for the opened spectrum, or click on "yes, for all spectra" to delete the filter for all spectra.
 
 ![](./filters_delete.png)
