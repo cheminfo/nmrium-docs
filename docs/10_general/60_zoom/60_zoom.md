@@ -39,3 +39,5 @@ If you are in zoom mode and moving the mouse over the spectrum, you will see a c
 ## Determination of the Distance between two Peaks
 
 Coupling constants can be determined by moving the mouse to a signal in zoom mode. Press the left mouse button and the shift key on the keyboard at the same time, keep both pressed and move the mouse to a second signal. At the bottom of the spectrum, in addition to the mean chemical shift of both signals and the intensity, the coupling constants are displayed in ppm and Hz. 
+
+![](./Coupling_constants.gif)
