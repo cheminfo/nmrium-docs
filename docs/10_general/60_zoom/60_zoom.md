@@ -18,7 +18,7 @@ To zoom in on the spectrum, activate **zoom** by clicking the zoom button in the
 
 By double-clicking, you will return to the previous zoom.  If you double-click again, you will return to the full spectrum. NMRium remembers all zoom levels.
 
-
+![](./zoom_in_and_out.gif)
 
 If you click the icon "zoom out" once, the horizontal scaling is zoomed out. If you click the icon "zoom out" twice, the horizontal and vertical scaling will be zoomed out.
 
