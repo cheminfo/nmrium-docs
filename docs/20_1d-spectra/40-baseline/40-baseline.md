@@ -18,4 +18,4 @@ To use the algorithm **polynomial**, you may define a degree and then click **ap
 
 To apply the **airPLS** algorithm, you may define both maximum iteration and a tolerance range and then click **apply**.
 
-![baseline](Baseline_correction2.png)
+![baseline](baselin_correction2.gif)
