@@ -16,7 +16,7 @@ For zero-order phase correction, move the pivot point (red line) by one click an
 
 The first order phase correction is performed analogously by pressing PH1. The focus should be on the signals that are as far away as possible from the signal under the pivot point. Clicking the Apply button completes the phase correction.
 
-![](./Phase_correction2.png)
+![](./phase_correction.gif)
 
 :::tip **Size** and **LB** values
 

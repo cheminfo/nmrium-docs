@@ -1,7 +1,7 @@
 {
   "name": "nmrium-docs",
   "version": "0.0.0",
-  "private": false,
+  "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -13,12 +13,12 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.0",
-    "@docusaurus/preset-classic": "2.0.0-beta.0",
-    "@easyops-cn/docusaurus-search-local": "^0.18.1",
+    "@docusaurus/core": "2.0.0-beta.5",
+    "@docusaurus/preset-classic": "2.0.0-beta.5",
+    "@easyops-cn/docusaurus-search-local": "^0.19.1",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
-    "prettier": "^2.3.1",
+    "prettier": "^2.3.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -35,10 +35,9 @@
     ]
   },
   "volta": {
-    "node": "15.14.0",
-    "npm": "7.10.0"
+    "node": "16.8.0"
   },
   "devDependencies": {
-    "eslint": "^7.28.0"
+    "eslint": "^7.32.0"
   }
 }
