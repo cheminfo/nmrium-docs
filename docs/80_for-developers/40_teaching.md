@@ -4,17 +4,19 @@ title: Using NMRium for teaching
 
 ## NMRium teaching
 
-NMRium is likely the best platform to teach structure elucidation to students. You may already have a look at a series of exercises using the following link
+NMRium is likely the best platform to teach structure elucidation to students. You may already have a look at series of exercises using the following links
 
-https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset2/toc.json
-
-https://deploy-preview-106--nmrium-org.netlify.app/teaching#?toc=https://cheminfo.github.io/nmr-dataset-sample/toc.json
-
-https://deploy-preview-106--nmrium-org.netlify.app/teaching#?toc=https://cheminfo.github.io/nmr-dataset-sample/toc.json
+- https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset2/toc.json
+- https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset-nils/toc.json
+- https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset-jgumainz/toc.json
 
 ## Creating your own series
 
-You should first use this project as template by clicking on the corresponding button.A
+Creating your own series of exercises is relatively easy but you should be a little bit familiar with GitHub.
+
+The first step is to use the following project https://github.com/cheminfo/nmr-dataset-template as template.
+
+This is achieved by visiting the webpage and clicking on the corresponding button.
 
 ![use as template](images/use_this_template.png)
 
@@ -52,7 +54,7 @@ The system is based on various JSON files that are build automatically thanks to
 
 ## Test your exercises
 
-https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset-sample/toc.json
+https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset-template/toc.json
 
 In order to find the URL of your repository you should open the settings of your project and click on the left on `Pages`. You will then see the URL on which the data are published.
 
@@ -68,6 +70,6 @@ Technically there is a GitHub action (present in `.github/deploy/workflow.yml`) 
 
 While the action will generate a Table Of Contents (toc) for all the exercises, on toc is also generated per folder.
 
-https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset-sample/toc_10_First.json
+https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset-template/toc_10_First.json
 
 The name of the toc for each folder is `toc_ABCD.json` in which ABCD is the name of the folder. Only the folder present at the first level are considered.
