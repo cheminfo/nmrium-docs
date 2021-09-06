@@ -18,7 +18,7 @@ Then, click the **Fork** button in the upper right corner of the window:
 
 ## 2. Edit and commit
 
-Once you have created your fork of the repository, you can start editing the pages on your fork. All pages are written in **Markdown**, a very simple format allowing you to include formatting, links, images, and more to your text. A good overview of formatting options is on [this page](docs/90_contribute-to-doc/50_markdown_features/50_markdown-features.mdx).
+Once you have created your fork of the repository, you can start editing the pages on your fork. All pages are written in **Markdown**, a very simple format allowing you to include formatting, links, images, and more to your text. A good overview of formatting options is on [this page](/docs/90_contribute-to-doc/50_markdown_features/50_markdown-features.mdx).
 
 To **edit** a page, you can simply navigate to the page and click the **pencil button**:
 
