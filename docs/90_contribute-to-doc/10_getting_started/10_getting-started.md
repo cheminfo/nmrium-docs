@@ -10,7 +10,7 @@ Then follow these steps:
 
 In order to contribute, you do not need any access rights to the repository. You can simply create your own working copy by **forking** the repository. To do so, please visit our GitHub repository:
 
-(https://github.com/cheminfo/nmrium-docs)
+https://github.com/cheminfo/nmrium-docs
 
 Then, click the **Fork** button in the upper right corner of the window:
 
@@ -23,5 +23,9 @@ Once you have created your fork of the repository, you can start editing the pag
 To **edit** a page, you can simply navigate to the page and click the **pencil button**:
 
 ![Edit page](./edit.png)
+
+To save the changes to the forked repository, you have to issue a **commit** (which is the equivalent of saving changes in GitHub). In the web interface, you can use the commit section at the bottom. In order to commit changes, you have to leave a short commit message:
+
+![Commit](./commit.png)
 
 ## 3. Create a pull request
