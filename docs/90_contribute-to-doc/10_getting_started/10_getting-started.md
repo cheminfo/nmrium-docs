@@ -36,6 +36,14 @@ To do that, you need to create a **pull request**. To do so, go to the **Pull re
 
 ![New pull request](./pull_request.png)
 
-A comparison of the differences between your fork and the origin repository will appear. You can finalize that by clicking **Create pull request**. We will then review your request and accept it or get in touch with you if we have any questions.
+A comparison of the differences between your fork and the origin repository will appear. You can continue by clicking **Create pull request**.
+
+In a last step, you will have to enter a short message (like when committing) with your pull request, before you can finalize by clicking **Create pull request**:
+
+![Create pull request](./pull_request2.png)
+
+## That's it!
+
+We will then review your request and accept it or get in touch with you if we have any questions.
 
 Thanks in advance for your collaboration and enjoy!
