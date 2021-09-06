@@ -14,7 +14,7 @@ In order to contribute, you do not need any access rights to the repository. You
 
 Then, click the **Fork** button in the upper right corner of the window:
 
-!(./fork.png)
+![Fork repository](./fork.png)
 
 ## 2. Edit and commit
 
@@ -22,6 +22,6 @@ Once you have created your fork of the repository, you can start editing the pag
 
 To **edit** a page, you can simply navigate to the page and click the **pencil button**:
 
-!(./edit.png)
+![Edit page](./edit.png)
 
 ## 3. Create a pull request
