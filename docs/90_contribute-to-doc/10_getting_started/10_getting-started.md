@@ -29,3 +29,13 @@ To save the changes to the forked repository, you have to issue a **commit** (wh
 ![Commit](./commit.png)
 
 ## 3. Create a pull request
+
+Your fork allows you to edit as much as you like or even play with things without breaking the live instance of our documentation. However, at some point to may want to contribute your changes to go online on our website.
+
+To do that, you need to create a **pull request**. To do so, go to the **Pull requests** tab of the repo. Then click the **New pull request** button:
+
+![New pull request](./pull_request.png)
+
+A comparison of the differences between your fork and the origin repository will appear. You can finalize that by clicking **Create pull request**. We will then review your request and accept it or get in touch with you if we have any questions.
+
+Thanks in advance for your collaboration and enjoy!
