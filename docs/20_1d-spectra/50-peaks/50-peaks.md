@@ -1,5 +1,5 @@
 ---
-title: Baseline Correction
+title: Peaks and Reference
 ---
 
 # Peaks and Reference
