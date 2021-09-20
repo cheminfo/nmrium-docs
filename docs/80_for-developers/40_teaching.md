@@ -14,6 +14,12 @@ NMRium is likely the best platform to teach structure elucidation to students. Y
 
 Creating your own series of exercises is relatively easy but you should be a little bit familiar with GitHub.
 
+:::info
+
+If you don't have a Github account yet, you can easily sign up there. Follow the link below: https://github.com/ and sign up. 
+
+:::
+
 The first step is to use the following project https://github.com/cheminfo/nmr-dataset-template as template.
 
 This is achieved by visiting the webpage and clicking on the corresponding button.
