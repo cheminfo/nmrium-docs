@@ -16,6 +16,8 @@ Creating your own series of exercises is relatively easy but you should be a lit
 
 :::info
 
+Useful information.
+
 If you don't have a Github account yet, you can easily sign up there. Follow the link below: https://github.com/ and sign up. 
 
 :::
