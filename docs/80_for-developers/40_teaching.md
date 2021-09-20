@@ -32,7 +32,7 @@ You may then change all the files and folders (except the .github folder require
 
 :::info
 
-To make changes to the template, it is best to work with the software *Visual Studio Code*. If you do not have this program installed on your computer, you can also work with the browser version. Open the template on github. Then press the "." (dot) key on the keyboard. You will be automatically redirected to the browser version of *Visual Studio Code*. It may take a few minutes until all functions are usable. 
+To make changes to the template, it is best to work with the software **Visual Studio Code**. If you do not have this program installed on your computer, you can also work with the browser version. Open the template on github. Then press the dot key on the keyboard. You will be automatically directed to the browser version of **Visual Studio Code**. It may take a few minutes until all functions are usable. 
 
 :::
 
