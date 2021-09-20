@@ -14,9 +14,11 @@ NMRium is likely the best platform to teach structure elucidation to students. Y
 
 Creating your own series of exercises is relatively easy but you should be a little bit familiar with GitHub.
 
-:::info Wobble curves
+:::info 
 
-If your imported Bruker folder contains so-called **wobble curves**, it is useful to delete them from the list for further processing. You can identify them by the name **wobble**. Click the corresponding spectrum with the right mouse button. In the appearing menu, click **delete** to delete the wobble curve.
+If you don't have a Github account yet, you can easily sign up there. Follow the link below: 
+https://github.com/ 
+and sign up. 
 
 :::
 
