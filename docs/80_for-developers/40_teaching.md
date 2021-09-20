@@ -30,6 +30,12 @@ This is achieved by visiting the webpage and clicking on the corresponding butto
 
 You may then change all the files and folders (except the .github folder required to build the series). You have the possibility to group exercises in folders or have them directly at the first level.
 
+:::info
+
+To make changes to the template, it is best to work with the software *Visual Studio Code*. If you do not have this program installed on your computer, you can also work with the browser version. Open the template on github. Then press the "." (dot) key on the keyboard. You will be automatically redirected to the browser version of *Visual Studio Code*. It may take a few minutes until all functions are usable. 
+
+:::
+
 ## NMR spectra format
 
 You should save the NMR spectra as a JCAMP-DX file (on topspin use the `tojdx` command). The spectrum should be FT and phase corrected. To spare bandwidth you may only save the real part of the spectrum.
