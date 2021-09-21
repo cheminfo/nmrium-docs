@@ -28,6 +28,12 @@ This is achieved by visiting the webpage and clicking on the corresponding butto
 
 ![use as template](images/use_this_template.png)
 
+:::info 
+
+Select the **Public** setting.  Until the exercise is published, only you and the NMRium developers can see the exercise you created. If you choose the **Private** setting, you must change your setting to **Public** before publishing. 
+
+:::
+
 You may then change all the files and folders (except the .github folder required to build the series). You have the possibility to group exercises in folders or have them directly at the first level.
 
 :::info
