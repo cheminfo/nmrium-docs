@@ -58,7 +58,7 @@ You should save the NMR spectra as a JCAMP-DX file (on topspin use the `tojdx` c
 
 :::info
 
-There are three folder levels on Github or Visual Studio Code when building your own exercise series. The first level contains the Gihub folder and individual chapters, e.g. Chapter 1 **Exercises for Beginners** and Chapter 2 **Exercises for Experts**. Each chapter contains the second level. Here you can set the different exercises (molecules). Each exercise contains on the third level one or more spectra and the corresponding molfile belonging to the molecule. You can add as many spectra to a molecule as you want. 
+There are three folder levels on **Github** or **Visual Studio Code** when building your own exercise series. The first level contains the Gihub folder and individual chapters, e.g. Chapter 1 **Exercises for Beginners** and Chapter 2 **Exercises for Experts**. Each chapter contains the second level. Here you can set the different exercises (molecules). Each exercise contains on the third level one or more spectra and the corresponding molfile belonging to the molecule. You can add as many spectra to a molecule as you want. 
 
 :::
 
@@ -85,6 +85,12 @@ By default we expect that those jcamps contains only the processed data. If you 
 ## Build the toc and publish on gh-pages
 
 The system is based on various JSON files that are build automatically thanks to a github action. This will be done automatically but you should check that
+
+:::info
+
+To publish your exercises on gh-pages, you need to go back to the template on **Github**. Click the **master** button. In the opening box, change the **Branches** setting from master to gh-pages and then click **Enter**. In the **Readme.md** box, you can find the link to your exercises. Click it and you are directed to your exercises. 
+
+:::
 
 ## Test your exercises
 
