@@ -56,7 +56,13 @@ You should save the NMR spectra as a JCAMP-DX file (on topspin use the `tojdx` c
 
 ## One folder = One exercise
 
-For each exercise you want to create you can add the following files:
+:::info
+
+There are three folder levels on Github or Visual Studio Code when building your own exercise series. The first level contains the Gihub folder and individual chapters, e.g. Chapter 1 1D Experiments and Chapter 2 2D Experiments. The chapters each contain the second level. Here you can set the different exercises (molecules). Each exercise can contain on the third level one or more spectra and the corresponding molfile belonging to the spectrum. You can add as many spectra to a molecule as you want. 
+
+:::
+
+For each exercise (second level) you want to create you can add the following files:
 
 - structure.mol : mandatory, the chemical structure of the answer
 - 1h.jdx
