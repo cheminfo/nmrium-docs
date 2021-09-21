@@ -58,7 +58,7 @@ You should save the NMR spectra as a JCAMP-DX file (on topspin use the `tojdx` c
 
 :::info
 
-There are three folder levels on **Github** or **Visual Studio Code** when building your own exercise series. The first level contains the Gihub folder and individual chapters, e.g. Chapter 1 **Exercises for Beginners** and Chapter 2 **Exercises for Experts**. Each chapter contains the second level. Here you can set the different exercises (molecules). Each exercise contains on the third level one or more spectra and the corresponding molfile belonging to the molecule. You can add as many spectra to a molecule as you want. 
+There are three folder levels on **Github** or **Visual Studio Code** when building your own exercise series. The first level contains the Gihub folder and individual chapters for series of exercises (so call Table of Contsnts or tocs, e.g. Chapter 1 **Exercises for Beginners** and Chapter 2 **Exercises for Experts**. Each chapter contains the second level. Here you can set the different exercises (molecules). Each exercise contains on the third level one or more spectra and the corresponding molfile belonging to the molecule. You can add as many spectra to a molecule as you want. 
 
 :::
 
@@ -82,7 +82,17 @@ By default we expect that those jcamps contains only the processed data. If you 
 - 1h.fid.jdx
 - 1h.full.jdx
 
-## Build the toc and publish on gh-pages
+
+## Many series of exercises
+
+While the action will generate a Table Of Contents (toc) for all the exercises, on toc is also generated per folder.
+
+https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset-template/toc_10_First.json
+
+The name of the toc for each folder is `toc_ABCD.json` in which ABCD is the name of the folder. Only the folder present at the first level are considered.
+
+
+## Build the Table Of Contents (toc) and publish on gh-pages
 
 The system is based on various JSON files that are build automatically thanks to a github action. This will be done automatically but you should check that
 
@@ -106,10 +116,3 @@ Technically there is a GitHub action (present in `.github/deploy/workflow.yml`) 
 
 :::
 
-## Many series of exercises
-
-While the action will generate a Table Of Contents (toc) for all the exercises, on toc is also generated per folder.
-
-https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset-template/toc_10_First.json
-
-The name of the toc for each folder is `toc_ABCD.json` in which ABCD is the name of the folder. Only the folder present at the first level are considered.
