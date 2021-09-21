@@ -44,7 +44,7 @@ To make changes to the template, it is best to work with the software **Visual S
 
 :::info
 
-If you want to create or rename folders, click the **Explorer** button on the menu bar on the left side of the **Visual Studio Code** program. To create a new folder, click the **New Folder** icon. Then label the folder and click the **Enter key**. To rename an existing folder, right-click on it. Click **Rename** in the opened box. Specify the new name and click the **Enter button**.
+If you want to create or rename folders, click the **Explorer** button on the menu bar on the left side of the **Visual Studio Code** program. To create a new folder, click the **New Folder** icon. Then label the folder and click the **Enter key**. To rename an existing folder, right-click on it. Click **Rename** in the opened box. Specify the new name and click the **Enter button**. To delete an existing folder, right-click on it. Click **Delete permanently** in the opened box. Than click **Delete** in the opening box.
 
 To save the changes click the **Source control** button on the menu bar on the left. All the changes you have made are shown there. Write a short commit in the **message** box. Then click the **check mark** above the box. The process may take a few minutes. Your changes will directly committed to the master branch on Github
 
