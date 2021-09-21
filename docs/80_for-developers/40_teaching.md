@@ -42,6 +42,16 @@ To make changes to the template, it is best to work with the software **Visual S
 
 :::
 
+:::info
+
+To create a new folder, click the **New Folder** icon. Then label the folder and click the **Enter key**.
+
+To rename an existing folder, right-click on it. Click **Rename** in the opened box. Specify the new name and click the **Enter button**.
+
+:::
+
+
+
 ## NMR spectra format
 
 You should save the NMR spectra as a JCAMP-DX file (on topspin use the `tojdx` command). The spectrum should be FT and phase corrected. To spare bandwidth you may only save the real part of the spectrum.
