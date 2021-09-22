@@ -16,9 +16,7 @@ Creating your own series of exercises is relatively easy but you should be a lit
 
 :::info 
 
-If you don't have a Github account yet, you can easily sign up there. Follow the link below: 
-https://github.com/ 
-and sign up. 
+If you do not have a GitHub account yet, you can easily sign up there. You can register for free [here](https://github.com/signup).
 
 :::
 
@@ -30,7 +28,7 @@ This is achieved by visiting the webpage and clicking on the corresponding butto
 
 :::info 
 
-Select the **Public** setting.  Until the exercise is published, only you and the NMRium developers can see the exercise you created. If you choose the **Private** setting, you must change your setting to **Public** before publishing. 
+Select the **Public** setting. Until the exercise is published, only you and the NMRium developers can see the exercise you created. If you choose the **Private** setting, you must change your setting to **Public** before publishing. 
 
 :::
 
@@ -38,15 +36,15 @@ You may then change all the files and folders (except the .github folder require
 
 :::info
 
-To make changes to the template, it is best to work with the software **Visual Studio Code**. If you do not have this program installed on your computer, you can also work with the browser version. Open the template on github. Then press the dot key on the keyboard. You will be automatically directed to the browser version of **Visual Studio Code**. It may take a few minutes until all functions are usable. 
+To make changes to the repository created from the template, we recommend to work with the software **Visual Studio Code** which is available for free [here](https://code.visualstudio.com/). If you do not have this program installed on your computer, you can also work with the browser version. Open your repository on GitHub and press the `.` key on the keyboard. You will be automatically directed to the browser version of **Visual Studio Code**. It may take a few moments until all functions are usable. 
 
 :::
 
 :::info
 
-If you want to create or rename folders, click the **Explorer** button on the menu bar on the left side of the **Visual Studio Code** program. To create a new folder, click the **New Folder** icon. Then label the folder and click the **Enter key**. To rename an existing folder, right-click on it. Click **Rename** in the opened box. Specify the new name and click the **Enter button**. To delete an existing folder, right-click on it. Click **Delete permanently** in the opened box. Than click **Delete** in the opening box.
+If you want to create or rename folders, click the **Explorer** button on the menu bar on the left side of **Visual Studio Code**. To create a new folder, click the **New Folder** icon. Then label the folder and click the **Enter key**. To rename an existing folder, right-click on it. Click **Rename** in the opened box. Specify the new name and click the **Enter button**. To delete an existing folder, right-click on it. Click **Delete permanently** in the opened box. Than click **Delete** in the opening box.
 
-To save the changes click the **Source control** button on the menu bar on the left. All the changes you have made are shown there. Write a short commit in the **message** box. Then click the **check mark** above the box. The process may take a few minutes. Your changes will directly committed to the master branch on Github
+To save the changes click the **Source control** button on the menu bar on the left. All the changes you have made are shown there. Write a short commit message in the **message** box. Then click the **check mark** above the box. The process may take a few minutes. Your changes will directly committed to the master branch on GitHub
 
 :::
 
@@ -58,7 +56,7 @@ You should save the NMR spectra as a JCAMP-DX file (on topspin use the `tojdx` c
 
 :::info
 
-There are three folder levels on **Github** or **Visual Studio Code** when building your own exercise series. The first level contains the Gihub folder and individual chapters for series of exercises (so call Table of Contents or tocs), e.g. Chapter 1 **Exercises for Beginners** and Chapter 2 **Exercises for Experts**. Each chapter contains the second level. Here you can set the different exercises (molecules). Each exercise contains on the third level one or more spectra and the corresponding molfile belonging to the molecule. You can add as many spectra to a molecule as you want. 
+There are three folder levels on **GitHub** or **Visual Studio Code** when building your own exercise series. The first level contains the `.github` folder and individual chapters for series of exercises (so call Table of Contents or tocs), e.g. Chapter 1 **Exercises for Beginners** and Chapter 2 **Exercises for Experts**. Each chapter contains second level folders. Here you can set up the different exercises (molecules). Each exercise contains on the third level one or more spectra and the corresponding molfile belonging to the molecule. You can add as many spectra to a molecule as you want. 
 
 :::
 
@@ -98,7 +96,7 @@ The system is based on various JSON files that are build automatically thanks to
 
 :::info
 
-To publish your exercises on gh-pages, you need to go back to the template on **Github**. Click the **master** button. In the opening box, change the **Branches** setting from master to gh-pages and then click **Enter**. In the **Readme.md** box, you can find the link to your exercises. Click it and you are directed to your exercises. 
+To publish your exercises on gh-pages, you need to go back to your repository on **GitHub**. Click the **master** button. In the opening box, change the **Branches** setting from master to gh-pages and then click **Enter**. In the **Readme.md** box, you can find the link to your exercises. Click it and you are directed to your exercises. 
 
 :::
 
