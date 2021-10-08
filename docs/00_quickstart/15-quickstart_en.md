@@ -1,7 +1,6 @@
 ﻿---
-title: Quick Start Guide
+title: Quick Start Guide (English)
 description: A brief explanation of NMRium's most important functions
-slug: /
 ---
 
 ## 1. Open the program
