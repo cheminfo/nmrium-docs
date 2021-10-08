@@ -1,6 +1,7 @@
 ﻿---
 title: Quick Start Guide (English)
 description: A brief explanation of NMRium's most important functions
+slug: /
 ---
 
 ## 1. Open the program
@@ -20,13 +21,13 @@ To open spectra, your data must be in one of the following file types:
 
 Drag the file you want to open into the gray box **Drag and drop here** in the middle of the screen. You can open a set of spectra of a molecule by either dragging the spectra individually into the workspace or by dragging a zip folder containing all spectra. Also, you can open several spectra at once in the Bruker folder structure as a zip file.
 
-![](./img/img101.png)
+![](./img101.png)
 
 ## 3. Select a spectrum
 
 On the right side of the workspace, various areas are available in an expandable menu. Click on the head of the **Spectra** field. The measured nuclei (e.g. ¹H, ¹³C, etc) are displayed in the opened field. Click on a nucleus to find the experiments associated with it. To select an experiment, click the corresponding line. The experiment appears in the workspace.
 
-![](./img/img102.png)
+![](./img102.png)
 
 :::info Wobble curves
 
@@ -64,13 +65,13 @@ Click on the **Structures** menu on the right side of the screen and then on the
 
 :::
 
-![](./img/img103.png)
+![](./img103.png)
 
 ## 7. Processing of raw data (currently only 1D)
 
 NMRium offers the possibility to perform a Fourier transformation (FT) on the raw data of one-dimensional NMR spectra. To process an FID, open the FID by dragging it into the **Drag and drop here** box ([section 2](#2-open-spectra)).
 
-![](./img/img104.png)
+![](./img104.png)
 
 ### Fourier transformation
 
@@ -117,7 +118,7 @@ Click the Baseline correction icon to the left of the spectrum. You can choose b
 
 Click the **Peaks Picking** button to the left of the spectrum. Find your solvent signal (or the reference signal). When you point at it with the crosshairs, press the shift key and the left mouse button at the same time. The value of the signal will be shown both in the spectrum and in a list on the right side of the spectrum in the **Peaks** field. Select one of the two displayed values (in the spectrum single click with the left mouse button, in the list double click with the left mouse button) and enter the correct reference value.
 
-![](./img/img105.png)
+![](./img105.png)
 
 ## 9. Peak Picking
 
@@ -160,9 +161,9 @@ Click the **Integral tool** button on the left side of the spectrum. To integrat
 
 It is predefined that the relative number of all integrated H atoms is 100. To change the number, click on the sum symbol above the list. In the window that opens, you can either enter the number of H atoms manually and then click on **Set** or accept the number of H atoms specified by the sum formula by clicking on **Set** in the lower area.
 
-![](./img/img106.png)
+![](./img106.png)
 
-![](./img/img106a.png)
+![](./img106a.png)
 
 ## 13. Delete integrals
 
@@ -186,7 +187,7 @@ Press the Shift key and move the mouse over the range you want to set. The marke
 
 :::
 
-![](./img/img107.png)
+![](./img107.png)
 
 ## 15. Delete ranges
 
@@ -199,7 +200,7 @@ To assign signals, you have to define assignment ranges ([section 14](#14-pickin
 
 In the list, click the box under the link icon in the line of the signal you want to assign, . A red zero appears there. Then assign the signal by clicking on the corresponding atoms in the structural formula. Proceed in the same way with all other ranges. You can also assign several, different H atoms to a range by clicking successively on all H atoms in the structural formula that belong to the respective signal. If you want to assign diastereotopic H atoms, hold the Shift key while clicking the corresponding H atom in the structure. This makes both diastereotopic H atoms visible.
 
-![](./img/img108.png)
+![](./img108.png)
 
 ## 17. Export of assigned spectra
 
