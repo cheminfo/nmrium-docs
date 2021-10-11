@@ -15,8 +15,10 @@ description: Eine kurze Beschreibung der wichtigsten Funktionen in NMRium
 Um Spektren öffnen zu können, müssen sie in einem der folgenden Dateiformate vorliegen:
 
 - Jcamp DX (.dx, .jdx, .jcamp)
-- zipped folder in Bruker format (raw data od processed)
+- Gezippter Ordner im Bruker-Format (Rohdaten oder prozessierte Daten)
 - Jeol (.jdf)
-- NMRium file (.nmrium)
+- NMRium-Datei (.nmrium)
 
 Ziehen Sie die Datei, die Sie öffnen woollen, mit der Maus in die graue Box **Drag and drop here** in der Mitte des Bildschirms. Sie können ein Spektrenset öffnen, indem Sie entweder die Spektren einzeln in die Arbeitsfläche ziehen oder indem Sie einen gezippten Ordner, der alle Spektren enthält, in die graue Box ziehen. Außerdem können gezippte Bruker-Ordner, die mehrere Spektren enthalten, öffnen.
+
+![](https://github.com/cheminfo/nmrium-docs/blob/master/docs/00_quickstart/20_quickstart_de/01.png)
