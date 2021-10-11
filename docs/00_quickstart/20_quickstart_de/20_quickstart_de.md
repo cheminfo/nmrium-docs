@@ -179,3 +179,38 @@ Klicken Sie auf den Button **Auto ranges picking**. Die ausgewählten Bereiche w
 
 :::
 
+:::note Manuelle Bestimmung von Zuordnungsbereichen
+
+Drücken Sie die Shift-Taste und markieren Sie gleichzeitig mit der Maus den Bereich, den Sie als Bereich festlegen möchten. Der markierte Zuordnungsbereich wird sowohl im Spektrum als auch in einer Liste auf der rechten Seite des Spektrums im Panel **Ranges** angezeigt. Die entsprechenden Kopplungskonstanten werden automatisch ermittelt.
+:::
+
+![](./img107.png)
+
+## 15. Löschen von Zuordnungsbereichen
+
+Wenn Sie einen einzelnen Zuordnungsbereich löschen möchten, suchen Sie den entsprechenden Bereich auf der rechten Seite des Spektrums in der Liste des Panels **Ranges**. Klicken Sie auf das Papierkorbsymbol ganz rechts in der Zeile, und der Bereich wird gelöscht.
+Wenn Sie alle Zuordnungsbereiche löschen möchten, klicken Sie auf das Papierkorbsymbol oberhalb der Werteliste des Panels **Ranges**. Bestätigen Sie, dass Sie alle Bereiche löschen möchten, indem Sie in dem sich öffnenden Fenster auf **Yes** klicken.
+
+## 16. Zuordnung von Signalen
+
+Um Signale zuzuordnen, müssen Sie Zuordnungsbereiche definieren ([Abschnitt 14](#14-picking-ranges-and-determination-of-coupling-constants)) und eine Molekularstruktur einfügen ([Abschnitt 6](#6-insert-a-molecular-structure)). Öffnen Sie die Panels **Ranges** und **Structures** auf der rechten Seite des Bildschirms. Geben Sie die korrekte Anzahl der relativen H-Atome an, indem Sie auf das Summensymbol oberhalb der Liste **Ranges** klicken. In dem sich öffnenden Fenster können Sie entweder die Anzahl der H-Atome manuell eingeben und dann auf **Set** klicken oder die durch die Summenformel vorgegebene Anzahl der H-Atome übernehmen, indem Sie im unteren Bereich auf **Set** klicken.
+
+Klicken Sie in der Liste in der Zeile des Signals, das Sie zuordnen möchten, auf das Kästchen unter dem Verknüpfungssymbol. Dort erscheint eine rote Null. Ordnen Sie dann das Signal zu, indem Sie die entsprechenden Atome in der Strukturformel anklicken. Verfahren Sie auf die gleiche Weise mit allen anderen Bereichen. Sie können einem Bereich auch mehrere, unterschiedliche H-Atome zuordnen, indem Sie nacheinander alle H-Atome in der Strukturformel anklicken, die zu dem jeweiligen Signal gehören. Wenn Sie diastereotopische H-Atome zuordnen wollen, halten Sie die Shift-Taste gedrückt, während Sie das entsprechende H-Atom in der Struktur anklicken. Dadurch werden beide diastereotopischen H-Atome sichtbar.
+
+![](./img108.png)
+
+## 17. Export von zugeordneten Spektren
+
+Um die zugeordneten Spektren zu exportieren, klicken Sie auf die Buton **Export** in der Menubar auf der linken Seite des Spektrums. Es öffnet sich ein Feld, in dem Sie auswählen können, in welchem Format Sie Ihr Spektrum exportieren möchten. Sie haben die folgenden Optionen:
+
+- Export as SVG
+- Export as PNG
+- Save data
+- Copy image to Clipboard
+
+Klicken Sie auf **Save data**, um das zugeordnete Spektrum mit allen ausgewerteten Informationen zu speichern und es später bearbeiten zu können. Es wird eine NMRium-Datei erstellt und zum Download angeboten.
+:::info
+
+Eine NMRium-Datei ist eine komprimierte Textdatei, die alle Informationen der (teilweise) zugeordneten gespeicherten Spektren enthält. Je nach Anzahl der enthaltenen Spektren kann das Speichern länger dauern, ebenso das erneute Öffnen einer NMRium-Datei.
+
+:::
