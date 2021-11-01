@@ -1,6 +1,6 @@
----
-title: Loading jcamp from URL
----
+# Loading files from URL
+
+## Loading a jcamp from URL
 
 If your NMR spectra are available from a URL it can be loaded directly by using the following syntax
 
@@ -14,11 +14,21 @@ Here is an example of a working URL that loads a jcamp directly in NMRium.
 
 [https://www.nmrium.org/nmrium#?jcamp=https://cheminfo.github.io/nmr-dataset-demo/ethylbenzene/1h.jdx](https://www.nmrium.org/nmrium#?jcamp=https://cheminfo.github.io/nmr-dataset-demo/ethylbenzene/1h.jdx)
 
+## Loading a NMRium file from URL
+
+NMRium files contains all the information related to the spectra to display. This includes the data (or where to find the data), the processing and the assignment.
+
+Here is an example of a working URL that loads a NMRium file format directly in NMRium.
+
+[https://www.nmrium.org/nmrium#?nmrium=https://cheminfo.github.io/nmr-dataset-demo/coffee/coffee.nmrium](https://www.nmrium.org/nmrium#?nmrium=https://cheminfo.github.io/nmr-dataset-demo/coffee/coffee.nmrium)
+
+## Loading a table of contents
+
 It you would like to have a menu on the left containing many examples you should load a correctly formatted `.json` file. In this case the URL has the following structure:
 
 <kbd>https://www.nmrium.org/nmrium</kbd><kbd>#?json=</kbd><kbd>jsonURL</kbd>
 
-### JSON table of contents format example
+Here is an example of the content of the toc json file:
 
 ```json
 
@@ -57,7 +67,7 @@ It you would like to have a menu on the left containing many examples you should
 
 ```
 
-The `file` attribute will contain the relative link to another JSON that describes the set of jcamp-dx to load. It may also contain chemical structures.
+The `file` attribute will contain the relative link to an NMRium file (encodes as a JSON) that describes the set of jcamp-dx to load. It may also contain chemical structures.
 
 ```json
 {
@@ -82,6 +92,5 @@ The `file` attribute will contain the relative link to another JSON that describ
 }
 ```
 
-Here is a working example 
+Here is a working example
 [https://www.nmrium.org/nmrium#?toc=https%3A%2F%2Fcheminfo.github.io%2Fnmr-dataset3%2Fmultiplet%2Findex.json](https://www.nmrium.org/nmrium#?toc=https%3A%2F%2Fcheminfo.github.io%2Fnmr-dataset3%2Fmultiplet%2Findex.json)
-
