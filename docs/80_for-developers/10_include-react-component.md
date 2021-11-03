@@ -16,11 +16,15 @@ function MyComponent() {
 
 ## Component props
 
-| Name                   | Type             | Default                  |  Description                                                                  |
-| -----------------------| -----------------|--------------------------|-------------------------------------------------------------------------------|
-| docsBaseUrl            | String           | https://docs.nmrium.org  | Documentation base url                                                        |
-| onDataChange           | Function():Object|                          | This callback function will be called when change data in nmrium component    |
-| preferences            | Object           |                          | Customize what tools and panels that can be used or displayed,see table below |
+| Name                   | Type                    | Default                  |  Description                                                                          |
+| -----------------------| ------------------------|--------------------------|---------------------------------------------------------------------------------------|
+| docsBaseUrl            | String                  | https://docs.nmrium.org  | Documentation base url                                                                |
+| onDataChange           | Function():Object       |                          | This callback function will be called when change data in nmrium component            |
+| preferences            | Object                  |                          | Customize what tools and panels that can be used or displayed,see table below         |
+| data                   | Object                  | { spectra: [] }          | NMRium data                                                                           |
+| emptyText              | Object                  |                          | Customize text when no data                                                           |
+| mode                   | Object                  | default                  | Customize Nmrium based on predefined modes, one of DEFAULT, PROCESS_1D, EXERCISE_1D   |
+| getSpinner             | Function():ReactElement | Default spinner          | Customize spinner component                                                           |
 
 ### preferences
 
@@ -51,6 +55,7 @@ function MyComponent() {
 | hideZonesPanel                     | Boolean        | false                    | Hide Zones panel                                                          |
 | hideSummaryPanel                   | Boolean        | false                    | Hide Summary panel                                                        |
 | hideMultipleSpectraAnalysisPanel   | Boolean        | false                    | Hide Multiple Spectra Analysis panel                                      |
+| hideDatabasePanel                  | Boolean        | false                    | Hide Database panel                                                       |
 
 #### toolBarButtons
 
