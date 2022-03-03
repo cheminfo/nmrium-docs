@@ -71,6 +71,8 @@ function MyComponent() {
 | hideRealImaginary                | Boolean        | false                    | Specify whether can switch display between imaginary and real spectrum    |
 | hidePeakTool                     | Boolean        | false                    | Specify whether can peaks picking ( manual and automatic picking )        |
 | hideIntegralTool                 | Boolean        | false                    | Specify whether can add integral manually                                 |
+| hideZonePickingTool              | Boolean        | false                    | Specify whether can zones picking ( manual and automatic picking)         |
+| hideSlicingTool                  | Boolean        | false                    | Specify whether can use slicing tool                                      |
 | hideAutoRangesTool               | Boolean        | false                    | Specify whether can ranges picking ( manual and automatic picking )       |
 | hideZeroFillingTool              | Boolean        | false                    | Specify whether can apply Zero Filling filter                             |
 | hidePhaseCorrectionTool          | Boolean        | false                    | Specify whether can apply Phase Correction filter                         |
