@@ -16,21 +16,24 @@ function MyComponent() {
 
 ## Component props
 
-| Name                   | Type                    | Default                  |  Description                                                                               |
-| -----------------------| ------------------------|--------------------------|--------------------------------------------------------------------------------------------|
-| docsBaseUrl            | String                  | https://docs.nmrium.org  | Documentation base url                                                                     |
-| onDataChange           | Function():Object       |                          | This callback function will be called when change data in nmrium component                 |
-| preferences            | Object                  |                          | Customize what tools and panels that can be used or displayed,see table below              |
-| data                   | Object                  | { spectra: [] }          | NMRium data                                                                                |
-| emptyText              | Object                  |                          | Customize text when no data                                                                |
-| workspace              | String                  | default                  | Customize Nmrium based on predefined workspaces, one of DEFAULT, PROCESS_1D, EXERCISE_1D   |
-| getSpinner             | Function():ReactElement | Default spinner          | Customize spinner component                                                                |
+| Name                   | Type                    | Default                  |  Description                                                                                           |
+| -----------------------| ------------------------|--------------------------|--------------------------------------------------------------------------------------------------------|
+| docsBaseUrl            | String                  | https://docs.nmrium.org  | Documentation base url                                                                                 |
+| onDataChange           | Function():Object       |                          | This callback function will be called when change data in nmrium component                             |
+| preferences            | Object                  |                          | Customize what tools and panels that can be used or displayed,see table below                          |
+| data                   | Object                  | { spectra: [] }          | NMRium data                                                                                            |
+| emptyText              | Object                  |                          | Customize text when no data                                                                            |
+| workspace              | String                  | DEFAULT                  | Customize Nmrium based on predefined workspaces, one of DEFAULT, PROCESS_1D, EXERCISE ,PREDICTION      |
+| getSpinner             | Function():ReactElement | Default spinner          | Customize spinner component                                                                            |
+
+
+
 
 ### preferences
 
 | Name                   | Type           | Default                  |  Description                                                              |
 | -----------------------| ---------------|--------------------------|---------------------------------------------------------------------------|
-| general                | Object         |                          | Customize general tools and features, see table below                      |
+| general                | Object         |                          | Customize general tools and features, see table below                     |
 | panels                 | Object         |                          | Customize which panels to display, see table below                        |
 | toolBarButtons         | Object         |                          | Customize which tools can be used, see table below                        |
 
@@ -44,20 +47,20 @@ function MyComponent() {
 
 #### panels
 
-| Name                               | Type           | Default                  |  Description                                                              |
-| -----------------------------------| ---------------|--------------------------|---------------------------------------------------------------------------|
-| hideSpectraPanel                   | Boolean        | false                    | Hide Spectra panel                                                        |
-| hideInformationPanel               | Boolean        | false                    | Hide Information panel                                                    |
-| hidePeaksPanel                     | Boolean        | false                    | Hide Peaks panel                                                          |
-| hideIntegralsPanel                 | Boolean        | false                    | Hide Integrals panel                                                      |
-| hideRangesPanel                    | Boolean        | false                    | Hide Ranges panel                                                         |
-| hideStructuresPanel                | Boolean        | false                    | Hide Structures panel                                                     |
-| hideFiltersPanel                   | Boolean        | false                    | Hide Filters panel                                                        |
-| hideZonesPanel                     | Boolean        | false                    | Hide Zones panel                                                          |
-| hideSummaryPanel                   | Boolean        | false                    | Hide Summary panel                                                        |
-| hideMultipleSpectraAnalysisPanel   | Boolean        | false                    | Hide Multiple Spectra Analysis panel                                      |
-| hideDatabasePanel                  | Boolean        | false                    | Hide Database panel                                                       |
-
+| Name                           | Type           | Default                                       |  Description                                       |
+| -------------------------------| ---------------|-----------------------------------------------|----------------------------------------------------|
+| spectraPanel                   | Object         |  {display: true,open: true ,hidden: false}    | Show/Hide Spectra panel                            |
+| informationPanel               | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Information panel                        |
+| peaksPanel                     | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Peaks panel                              |
+| integralsPanel                 | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Integrals panel                          |
+| rangesPanel                    | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Ranges panel                             |
+| structuresPanel                | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Structures panel                         |
+| filtersPanel                   | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Filters panel                            |
+| zonesPanel                     | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Zones panel                              |
+| summaryPanel                   | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Summary panel                            |
+| multipleSpectraAnalysisPanel   | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Multiple Spectra Analysis panel          |
+| databasePanel                  | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Database panel                           |
+| predictionPanel                | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Prediction panel                         |
 #### toolBarButtons
 
 | Name                             | Type           | Default                  |  Description                                                              |
