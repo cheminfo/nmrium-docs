@@ -23,7 +23,7 @@ function MyComponent() {
 | preferences            | Object                  |                          | Customize what tools and panels that can be used or displayed,see table below                          |
 | data                   | Object                  | { spectra: [] }          | NMRium data                                                                                            |
 | emptyText              | Object                  |                          | Customize text when no data                                                                            |
-| workspace              | String                  | DEFAULT                  | Customize Nmrium based on predefined workspaces, one of DEFAULT, PROCESS_1D, EXERCISE, PREDICTION      |
+| workspace              | String                  | default                  | Customize Nmrium based on predefined workspaces, one of default, process1D, exercise, prediction      |
 | getSpinner             | Function():ReactElement | Default spinner          | Customize spinner component                                                                            |
 
 
