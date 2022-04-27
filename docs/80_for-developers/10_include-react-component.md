@@ -44,6 +44,7 @@ function MyComponent() {
 | disableMultipletAnalysis     | Boolean        | false                    | Whether can use myltiple analysis feature                                 |
 | hideSetSumFromMolecule       | Boolean        | false                    | Whether can set the sum from molecule                                     |
 | hideGeneralSettings          | Boolean        | false                    | Whether can open general settings or not                                  |
+| hidePanelOnLoad              | Boolean        | boolean                  | Whether the side panel is closed or not on load                           |
 
 #### panels
 
