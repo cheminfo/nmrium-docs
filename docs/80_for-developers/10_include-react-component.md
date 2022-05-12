@@ -62,6 +62,8 @@ function MyComponent() {
 | multipleSpectraAnalysisPanel   | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Multiple Spectra Analysis panel          |
 | databasePanel                  | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Database panel                           |
 | predictionPanel                | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Prediction panel                         |
+| automaticAssignmentPanel       | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Automatic assignment panel               |
+
 #### toolBarButtons
 
 | Name                             | Type           | Default                  |  Description                                                              |
