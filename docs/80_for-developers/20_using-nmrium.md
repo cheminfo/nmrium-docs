@@ -31,7 +31,7 @@ It you would like to have a menu on the left containing many examples you should
 Here is an example of the content of the toc json file:
 
 ```json
-
+[
   {
     "file": "./artemisin/1h.json",
     "title": "artemisin",
