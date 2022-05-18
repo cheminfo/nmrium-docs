@@ -31,7 +31,7 @@ You can manually correct or add the multiplicity to a signal. To do this, zoom i
 
 ![Ranges_manuel](Ranges_manuel.png)
 
-A box will open. First click on the Multiplicity field and select the correct multiplicity of your signal. Then click with the left mouse button in the field where the coupling constant should be displayed. In the workspace, select the signals corresponding to the multiplicity by moving the mouse over the corresponding range while holding down the Shift key and the left mouse button. The coupling constant is determined. 
+A box will open. First click on the Multiplicity field and select the correct multiplicity of your signal. Then click with the left mouse button in the field where the coupling constant should be displayed. In the workspace, select the signals corresponding to the multiplicity by moving the mouse over the corresponding range while holding down the Shift key and the left mouse button. The coupling constant is determined. Finally, click on the green check mark in the upper right corner of the box. Your determined coupling constants will be used by NMRium.
 
 ![Ranges_manuel3](Ranges_manuel3.png)
 
