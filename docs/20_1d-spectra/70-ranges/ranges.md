@@ -16,6 +16,8 @@ Click the Ranges picking button. If your spectrum contains negative signals, set
 You can get further information about the selected ranges by opening the panel ranges. Then press shift and alt on the keyboard simultaneously and drag a zone in the spectrum. NMRium shows you the deby information of the coupling constants. 
 
 You can also automatically determine the ranges in the panel Spectra . To use this feature, open the panel Spectra on the right side of the workspace and select a core. Click the button "Automatic Ranges/Zones picking for all spectra". The ranges will be determined automatically for all stored spectra of the core. You can find the ranges determined by NMRium in the Ranges panel on the right side of the workspace.
+
+![ranges](Ranges.png)
  
 ## Correction by hand
 
