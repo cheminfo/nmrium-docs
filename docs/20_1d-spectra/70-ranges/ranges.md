@@ -31,7 +31,11 @@ You can manually correct or add the multiplicity to a signal. To do this, zoom i
 
 ![Ranges_manuel](Ranges_manuel.png)
 
-A box will open. First click on the Multiplicity field and select the correct multiplicity of your signal. Then click with the left mouse button in the field where the coupling constant should be displayed. In the workspace, select the signals corresponding to the multiplicity by moving the mouse over the corresponding range while holding down the Shift key and the left mouse button. The coupling constant is determined. If you want to define another coupling constant for the same signal, click on the plus sign in the box below the first coupling constant. Then proceed analogously to the first coupling constant.
+A box will open. First click on the Multiplicity field and select the correct multiplicity of your signal. Then click with the left mouse button in the field where the coupling constant should be displayed. In the workspace, select the signals corresponding to the multiplicity by moving the mouse over the corresponding range while holding down the Shift key and the left mouse button. The coupling constant is determined. 
+
+![Ranges_manuel3](Ranges_manuel3.png)
+
+If you want to define another coupling constant for the same signal, click on the plus sign in the box below the first coupling constant. Then proceed analogously to the first coupling constant.
 
 ## Set a reference
 
