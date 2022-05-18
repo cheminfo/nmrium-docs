@@ -27,6 +27,12 @@ To correct the selected ranges, open the ranges panel. Then press shift on the k
 
 ## Edit multiplets manually
 
+You can manually correct or add the multiplicity to a signal. To do this, zoom in on the corresponding signal in the workspace and open the Ranges panel. Click the blue edit icon on the far right of the line of the signal you want to edit. 
+
+
+
+A box will open. First click on the Multiplicity field and select the correct multiplicity of your signal. Then click with the left mouse button in the field where the coupling constant should be displayed. In the workspace, select the signals corresponding to the multiplicity by moving the mouse over the corresponding range while holding down the Shift key and the left mouse button. The coupling constant is determined. If you want to define another coupling constant for the same signal, click on the plus sign in the box below the first coupling constant. Then proceed analogously to the first coupling constant.
+
 ## Set a reference
 
 Click the Panel button to the left of the spectrum. Find your solvent signal (or the reference signal). When you point at it with the crosshairs, press the shift key and the left mouse button at the same time. The value of the signal will be shown both in the spectrum and in a list on the right side of the spectrum in the Peaks field. Select one of the two displayed values (in the spectrum single click with the left mouse button, in the list double click with the left mouse button) and enter the correct reference value.
