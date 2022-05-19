@@ -71,4 +71,6 @@ You can view the integrals of the signals. To use this function, click the "Show
 
 ### Fix integral values
 
+You can fix an integral value by clicking the button "fix integral values". You can undo the action by clicking the button once again.
+
 ![Fix_Integrals_Value](Fix_Integrals_Value.png)
