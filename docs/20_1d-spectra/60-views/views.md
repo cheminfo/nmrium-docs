@@ -26,6 +26,7 @@ If you have activated the zoom by clicking on the zoom button, you can see both 
 
 ![views](./Cursor_in_the_zoom_chemical_shift.png)
 
+
 With this function you can determine coupling constants. Press and hold the shift key. Then click on a peak of your multiplet and move the cursor to the second peak. At the bottom of the screen you can read the coupling constant in Hz and ppm.
 
 ![views](./Cursor_in_the_zoom_constants.png)
