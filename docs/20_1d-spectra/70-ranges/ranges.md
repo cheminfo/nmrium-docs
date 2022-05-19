@@ -49,3 +49,16 @@ The default sum of all integrated protons is 100. To change this sum, click on t
 
 Open the panel ranges. Click rel H for the interessted proton. Then add the new value and press enter. The values of all the other protons also change. 
 
+## More functions
+
+### Multiplicity Tree
+
+You can view the multiplicity trees of the signals. To use this function, click the "Show Multiplicity Tree in Spectrum" button. If you do not want the multiplicity tree to be displayed, click the button again.
+
+![Tree](Tree.png)
+
+### J Graph
+
+### Show Integral
+
+### Fix integral values
