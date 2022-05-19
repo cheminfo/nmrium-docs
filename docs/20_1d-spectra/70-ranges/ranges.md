@@ -67,5 +67,7 @@ You can view the J graphs of the signals. To use this function, click the "Show 
 
 You can view the integrals of the signals. To use this function, click the "Show Integrals" button. If you do not want the integrals to be displayed, click the button again.
 
+![Show_Integrals](Show_Integrals.png)
+
 ### Fix integral values
 
