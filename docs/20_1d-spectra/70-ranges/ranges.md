@@ -59,6 +59,13 @@ You can view the multiplicity trees of the signals. To use this function, click 
 
 ### J Graph
 
+You can view the J graphs of the signals. To use this function, click the "Show J Graph" button. If you do not want the J graph to be displayed, click the button again.
+
+![J_Graph](J_Graph.png)
+
 ### Show Integral
 
+You can view the integrals of the signals. To use this function, click the "Show Integrals" button. If you do not want the integrals to be displayed, click the button again.
+
 ### Fix integral values
+
