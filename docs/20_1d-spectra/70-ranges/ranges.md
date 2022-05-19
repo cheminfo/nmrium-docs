@@ -71,3 +71,4 @@ You can view the integrals of the signals. To use this function, click the "Show
 
 ### Fix integral values
 
+![Fix_Integrals_Value](Fix_Integrals_Value.png)
