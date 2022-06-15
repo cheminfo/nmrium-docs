@@ -68,22 +68,22 @@ function MyComponent() {
 
 | Name                             | Type           | Default                  |  Description                                                              |
 | ---------------------------------| ---------------|--------------------------|---------------------------------------------------------------------------|
-| hideZoomTool                     | Boolean        | false                    | Specify whether can zoom in                                               |
-| hideZoomOutTool                  | Boolean        | false                    | Specify whether can full zoom out                                         |
-| hideImport                       | Boolean        | false                    | Specify whether can import from system files and remote url               |
-| hideExportAs                     | Boolean        | false                    | Specify whether can export data to various extentions                     |
-| hideSpectraStackAlignments       | Boolean        | false                    | Specify whether can align the spectra in a stack                          |
-| hideSpectraCenterAlignments      | Boolean        | false                    | Specify whether can align the spectra in the center                       |
-| hideRealImaginary                | Boolean        | false                    | Specify whether can switch display between imaginary and real spectrum    |
-| hidePeakTool                     | Boolean        | false                    | Specify whether can peaks picking ( manual and automatic picking )        |
-| hideIntegralTool                 | Boolean        | false                    | Specify whether can add integral manually                                 |
-| hideZonePickingTool              | Boolean        | false                    | Specify whether can zones picking ( manual and automatic picking)         |
-| hideSlicingTool                  | Boolean        | false                    | Specify whether can use slicing tool                                      |
-| hideAutoRangesTool               | Boolean        | false                    | Specify whether can ranges picking ( manual and automatic picking )       |
-| hideZeroFillingTool              | Boolean        | false                    | Specify whether can apply Zero Filling filter                             |
-| hidePhaseCorrectionTool          | Boolean        | false                    | Specify whether can apply Phase Correction filter                         |
-| hideBaseLineCorrectionTool       | Boolean        | false                    | Specify whether can apply Base Line Correction filter                     |
-| hideFFTTool                      | Boolean        | false                    | Specify whether can apply Fourier Transform filter                        |
-| hideMultipleSpectraAnalysisTool  | Boolean        | false                    | Specify whether can use multiple spectr anaysis tool                      |
-| hideExclusionZonesTool           | Boolean        | false                    | Specify whether can define exclusive zones                                |
+| zoomTool                         | Boolean        | false                    | Specify whether can zoom in                                               |
+| zoomOutTool                      | Boolean        | false                    | Specify whether can full zoom out                                         |
+| import                           | Boolean        | false                    | Specify whether can import from system files and remote url               |
+| exportAs                         | Boolean        | false                    | Specify whether can export data to various extentions                     |
+| spectraStackAlignments           | Boolean        | false                    | Specify whether can align the spectra in a stack                          |
+| spectraCenterAlignments          | Boolean        | false                    | Specify whether can align the spectra in the center                       |
+| realImaginary                    | Boolean        | false                    | Specify whether can switch display between imaginary and real spectrum    |
+| peakTool                         | Boolean        | false                    | Specify whether can peaks picking ( manual and automatic picking )        |
+| integralTool                     | Boolean        | false                    | Specify whether can add integral manually                                 |
+| zonePickingTool                  | Boolean        | false                    | Specify whether can zones picking ( manual and automatic picking)         |
+| slicingTool                      | Boolean        | false                    | Specify whether can use slicing tool                                      |
+| rangePickingTool                 | Boolean        | false                    | Specify whether can ranges picking ( manual and automatic picking )       |
+| zeroFillingTool                  | Boolean        | false                    | Specify whether can apply Zero Filling filter                             |
+| phaseCorrectionTool              | Boolean        | false                    | Specify whether can apply Phase Correction filter                         |
+| baseLineCorrectionTool           | Boolean        | false                    | Specify whether can apply Base Line Correction filter                     |
+| FFTTool                          | Boolean        | false                    | Specify whether can apply Fourier Transform filter                        |
+| multipleSpectraAnalysisTool      | Boolean        | false                    | Specify whether can use multiple spectr anaysis tool                      |
+| exclusionZonesTool               | Boolean        | false                    | Specify whether can define exclusive zones                                |
 
