@@ -43,7 +43,9 @@ Click the Panel button to the left of the spectrum. Find your solvent signal (or
 
 ## Specify the sum of integrated protons
 
-The default sum of all integrated protons is 100. To change this sum, click on the sum symbol on the ranges panel. A grey box appears. Enter the total number of integrated protons and click "Set". In the list on the right side, the relative number of protons for the respective integral is indicated.
+The default sum of all integrated protons is 100. To change this sum, click on the sum symbol on the ranges panel. A box will open. You have the option of either entering the number of protons manually, or you can assume the number of protons of the sum formula. If you want to enter the number of protons manually, click on the Manuel button. Enter the desired number of protons in the corresponding field. Then click on Set, the number of protons will be saved. If you want to take over the number of protons from the sum formula, click on the Auto button first. The number of protons will be displayed. Click on Set, the number is assumed. 
+
+Translated with www.DeepL.com/Translator (free version)
 
 ## Change the value of integration for individual signals
 
