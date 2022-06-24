@@ -46,7 +46,7 @@ A window opens in which you can select the following settings:
 
 You also need to specify the line width in Hz and the number of points. Before you are predicted the spectrum, you must agree that you are aware that the predicted spectra are not confidential by setting a check mark in the corresponding box. Then click on the Predict spectrum button. 
 
-![predict2](Predict_spectra2.png)
+![predict](Predict.png)
 
 The predicted spectrum is displayed on the workspace. You can hide it by opening the Spectra panel and clicking on the corresponding button. To show it again, click on the corresponding button once more. 
 
