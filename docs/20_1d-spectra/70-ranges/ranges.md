@@ -49,12 +49,12 @@ The default sum of all integrated protons is 100. To change this sum, click on t
 
 A box will open. You have the option of either entering the number of protons manually, or you can assume the number of protons of the sum formula. If you want to enter the number of protons manually, click on the Manuel button. 
 
-![sum1](sum1.png)
+![sum2](sum2.png)
 
 Enter the desired number of protons in the corresponding field. Then click on Set, the number of protons will be saved. If you want to take over the number of protons from the sum formula, click on the Auto button first. The number of protons will be displayed. Click on Set, the number is assumed. 
 
 
-![sum2](sum2.png)
+![sum1](sum1.png)
 
 ## Change the value of integration for individual signals
 
