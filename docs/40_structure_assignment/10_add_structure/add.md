@@ -44,7 +44,7 @@ A window opens in which you can select the following settings:
 * the measuring range for both 1H and 13C in ppm
 * the type of spectra to be predicted (1H, 13C, COSY, HSQC or HMBC)
 
-You must agree that you are aware that the predicted spectra are not confidential by setting a check mark in the corresponding box. Then click on the Predict spectrum button. 
+You also need to specify the line width in Hz and the number of points. Before you are predicted the spectrum, you must agree that you are aware that the predicted spectra are not confidential by setting a check mark in the corresponding box. Then click on the Predict spectrum button. 
 
 ![predict2](Predict_spectra2.png)
 
