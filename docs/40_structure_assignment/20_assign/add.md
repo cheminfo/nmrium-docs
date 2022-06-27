@@ -15,4 +15,11 @@ Now click in the Structure panel on the atoms that correspond to the signal. Whe
 
 Click on the proton belonging to the signal. You can assign several atoms at the same time. All atoms assigned to the signal are marked with a yellow ring. If you now click with the mouse us either over the signal in the workspace or over the row in the Ranges panel or over the assigned atoms in the structure, the assignment will be highlighted in orange in the workspace and in both panels. This allows you to assign all signals to the corresponding atoms in the structure. 
 
+To determine the number of relative H-atoms, first click in the Ranges panel in the corresponding line in the box of the sum sign. 
+
+![](./asign3.png)
+
+Then click on the corresponding protons in the molecular structure in the Structures panel. In the panel Ranges the number of H-atoms determined automatically by NMRium is indicated in the corresponding line. 
+
+![](./asign4.png)
 
