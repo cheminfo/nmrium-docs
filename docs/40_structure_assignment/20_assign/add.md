@@ -21,5 +21,5 @@ To determine the number of relative H-atoms, first click in the Ranges panel in 
 
 Then click on the corresponding protons in the molecular structure in the Structures panel. In the panel Ranges the number of H-atoms determined automatically by NMRium is indicated in the corresponding line. 
 
-![](./asign4.png)
+![](./asing4.png)
 
