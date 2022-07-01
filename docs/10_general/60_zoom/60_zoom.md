@@ -28,7 +28,7 @@ If you press **esc** on the keyboard the program go back to zoom.
 
 ### Scroll wheel
 
-If you use the scroll wheel of your mouse in zoom mode, you change the amount of your signals.
+If you use the scroll wheel of your mouse in zoom mode, you change the amount of your signals (vertical zoom).
 
 ## Display Chemical Shift and Intensity of a Peak
 
