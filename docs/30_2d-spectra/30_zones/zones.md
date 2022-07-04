@@ -28,15 +28,15 @@ You can display various information in the zones panel. Click on the gear wheel 
 
 ![zones1](zones1.png)
 
-All measured nuclei will be displayed. You can choose to display the following values for each nucleus. You can set the value in which the zones are displayed. To use this, enter a value for both "From" and "To" and set a check mark in the corresponding box. You can also specify whether you want the absolute or the relative zones to be displayed by setting the corresponding check mark. Then click on the green check mark at the top right. 
+All measured nuclei will be displayed. You can choose to display the following values for each nucleus. You can set the value in which the zones are displayed. To use this, enter a value for both "From" and "To" and set a check mark in the corresponding box. You can also specify whether you want the absolute or the relative zones to be displayed by setting the corresponding check mark. Then click on the green check mark at the top right. If you do not want to change anything, click the red cross at the top right. 
 
 ![zones2](zones2.png)
 
-### Delete all zones
+### Delete a single zone
 
 To delete one zone move the mouse to the panel and select a zone. Press the trash button on the rigth side of the line of the zone. The zone is deleted.
 
-### Delete a single zone
+### Delete all zones
 
 To delete all zones move the mouse to the panel zones and press the trash button on the left side above the list. A red box apears. Click "yes". All zones are deleted.
 
