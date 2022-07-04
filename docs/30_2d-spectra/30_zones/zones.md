@@ -22,7 +22,7 @@ If you do in a 1D proton spektrum peak picking or automatic range picking, autom
 
 ### Panel Zones
 
-All zones are shown in the Zones panel. The zones highlighted in yellow can be observed in the section of the spectrum shown. The zones highlighted in white are not visible in the screen section. If you switch off the zoom by double-clicking, the signals of the whole shown spectrum are highlighted in yellow. If you click on the funnel button, only the signals shown on the screen are listed. To see all the signals in the list again, press the Funnel button a second time. 
+All zones are shown in the Zones panel. The zones highlighted in yellow can be observed in the section of the spectrum shown in the workspace. The zones highlighted in white are not visible in the screen section. If you switch off the zoom by double-clicking, the signals of the whole shown spectrum are highlighted in yellow. If you click on the funnel button, only the signals shown on the screen are listed. To see all the signals in the list again, press the Funnel button a second time. 
 
 You can display various information in the zones panel. Click on the gear wheel at the top right. All measured nuclei will be displayed. You can choose to display the following values for each nucleus:
 
