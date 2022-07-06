@@ -8,4 +8,4 @@ With the slicing tool you can display the shift on the x-axis and the y-axis for
 
 To exit the slicing tool, click the Zoom button at the top left of the toolbar.
 
-![](./slic1.png)
+![slic1](./slic1.png)
