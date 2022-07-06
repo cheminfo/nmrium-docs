@@ -13,7 +13,7 @@ To select a single signal, click the "peaks picking" button. Move the mouse over
 
 ### Automatic peaks picking
 
-You can automatically detect all peaks. To use this, click the Peaks Picking button on the left side of the workspace. Above the workspace you can set the maximal number of peaks, the noise factor and the min max ration. Also set a checkmark in the box if you want negative signals to detecet. Then click the Apply button above the workspace. 
+You can automatically detect all peaks. To use this, click the Peaks Picking button on the left side of the workspace. Above the workspace you can set the maximal number of peaks, the noise factor and the min max ration. Also set a checkmark in the box if you want negative signals to detecet. Then click the Apply button above the workspace. All detected peaks are listed in the Peaks panel.
 
 ![Peaks](./automatic_peaks_picking.gif)
 
