@@ -8,7 +8,7 @@ title: Peaks and Reference
 
 ### Select a single signal
 
-To select a single signal, click the "peaks picking" button. Move the mouse over the signal you want to specify while holding down the left mouse button and pressing the Shift key. The peak shift appears over the signal. The exact value of the signal can be found in a table on the right side on the panel peaks.
+To select a single signal, click the "peaks picking" button. Move the mouse over the signal you want to specify while holding down the left mouse button and pressing the Shift key. The peak shift appears over the signal. After releasing both keys, the shift of the signal appears. On the right side of the screen, under the panel peaks, a list of all selected signals is listed. If you move the mouse over the shift of the signal in the spectrum, the corresponding entry is displayed in the list. If you move the mouse over a certain line in the list, the corresponding shift in the spectrum is marked.
 
 
 ### Automatic peaks picking
