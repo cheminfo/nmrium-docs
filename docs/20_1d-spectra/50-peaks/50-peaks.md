@@ -13,7 +13,7 @@ To select a single signal, click the "peaks picking" button. Move the mouse over
 
 ### Automatic peaks picking
 
-You mark a signal by simultaneously holding down the shift key and the left mouse button and moving the mouse over the range of the signal. After releasing both keys, the shift of the signal appears. On the right side of the screen, under the "Peaks" tab, a list of all selected signals is listed. If you move the mouse over the shift of the signal in the spectrum, the corresponding entry is displayed in the list. A signal is listed for the range that has been marked with the mouse: The range is stored as a multiplet, which has to be analyzed more precisely with "range peaking". If you move the mouse over a certain line in the list, the corresponding shift in the spectrum is marked.
+You can automatically detect all peaks. To use this, click the Peaks Picking button on the left side of the workspace. Above the workspace you can set the maximal number of peaks, the noise factor and the min max ration. Also set a checkmark in the box if you want negative signals to detecet. Then click the Apply button above the workspace. 
 
 ![Peaks](./automatic_peaks_picking.gif)
 
