@@ -20,7 +20,7 @@ To work in full screen mode, click the Full Screen button at the top right. To e
 
 ![views](./Full_screen_mode.png)
 
-## Cursor in the zoom
+## Cursor in the zoom and determination of coupling constants
 
 If you have activated the zoom by clicking on the zoom button, you can see both the chemical shift and the intensity of a peak at the bottom of the screen. Move the cursor to a signal and read the two values.
 
