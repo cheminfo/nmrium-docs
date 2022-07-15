@@ -82,7 +82,7 @@ function MyComponent() {
 | rangePickingTool                 | Boolean        | false                    | Specify whether can ranges picking ( manual and automatic picking )       |
 | zeroFillingTool                  | Boolean        | false                    | Specify whether can apply Zero Filling filter                             |
 | phaseCorrectionTool              | Boolean        | false                    | Specify whether can apply Phase Correction filter                         |
-| baseLineCorrectionTool           | Boolean        | false                    | Specify whether can apply Base Line Correction filter                     |
+| baselineCorrectionTool           | Boolean        | false                    | Specify whether can apply Base Line Correction filter                     |
 | FFTTool                          | Boolean        | false                    | Specify whether can apply Fourier Transform filter                        |
 | multipleSpectraAnalysisTool      | Boolean        | false                    | Specify whether can use multiple spectr anaysis tool                      |
 | exclusionZonesTool               | Boolean        | false                    | Specify whether can define exclusive zones                                |
