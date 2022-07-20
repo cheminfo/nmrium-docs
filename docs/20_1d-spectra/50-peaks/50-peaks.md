@@ -10,6 +10,8 @@ title: Peaks and Reference
 
 To select a single signal, click the "peaks picking" button. Move the mouse over the signal you want to specify while holding down the left mouse button and pressing the Shift key. The peak shift appears over the signal. After releasing both keys, the shift of the signal appears. On the right side of the screen, under the panel peaks, a list of all selected signals is listed. If you move the mouse over the shift of the signal in the spectrum, the corresponding entry is displayed in the list. If you move the mouse over a certain line in the list, the corresponding shift in the spectrum is marked.
 
+The chemical shift is shown on the workspace at the corresponding signal in ppm to one decimal place. If you would like to have more decimal place, click on the ppm value on the workspace. The chemical shift is shown to 12 decimal places.
+
 
 ### Automatic peaks picking
 
