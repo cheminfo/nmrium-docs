@@ -63,7 +63,7 @@ To delete all signals move the mouse to the list "Peaks" and press the trash but
 
 ![](./Peaks_picking3.png)
 
-### Delete a single peak
+### Delete the chemical chift of a single peak
 
-To delete one signal move the mouse to the list and select a signal. Press the trash button on the rigth side of the line of the signal. The peak is deleted.
+To delete the chemical shift of one signal move the mouse to the list and select a signal. Press the trash button on the rigth side of the line of the signal. The chemical shift of this peak is deleted.
 
