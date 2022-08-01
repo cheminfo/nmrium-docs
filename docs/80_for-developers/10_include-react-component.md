@@ -79,6 +79,7 @@ function MyComponent() {
 | zonePickingTool                  | Boolean        | false                    | Specify whether can zones picking ( manual and automatic picking)         |
 | slicingTool                      | Boolean        | false                    | Specify whether can use slicing tool                                      |
 | rangePickingTool                 | Boolean        | false                    | Specify whether can ranges picking ( manual and automatic picking )       |
+| apodizationTool                  | Boolean        | false                    | Specify whether can apply apodization filter                              |
 | zeroFillingTool                  | Boolean        | false                    | Specify whether can apply Zero Filling filter                             |
 | phaseCorrectionTool              | Boolean        | false                    | Specify whether can apply Phase Correction filter                         |
 | baselineCorrectionTool           | Boolean        | false                    | Specify whether can apply Base Line Correction filter                     |
