@@ -41,7 +41,6 @@ function MyComponent() {
 
 | Name                         | Type           | Default                  |  Description                                                              |
 | -----------------------------| ---------------|--------------------------|---------------------------------------------------------------------------|
-| disableMultipletAnalysis     | Boolean        | false                    | Whether can use myltiple analysis feature                                 |
 | hideSetSumFromMolecule       | Boolean        | false                    | Whether can set the sum from molecule                                     |
 | hideGeneralSettings          | Boolean        | false                    | Whether can open general settings or not                                  |
 | hidePanelOnLoad              | Boolean        | false                    | Whether the side panel is closed or not on load                           |
