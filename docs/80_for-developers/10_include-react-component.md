@@ -48,26 +48,26 @@ function MyComponent() {
 
 #### panels
 
-| Name                           | Type           | Default                                       |  Description                                       |
-| -------------------------------| ---------------|-----------------------------------------------|----------------------------------------------------|
-| spectraPanel                   | Object         |  {display: true,open: true ,hidden: false}    | Show/Hide Spectra panel                            |
-| informationPanel               | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Information panel                        |
-| peaksPanel                     | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Peaks panel                              |
-| integralsPanel                 | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Integrals panel                          |
-| rangesPanel                    | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Ranges panel                             |
-| structuresPanel                | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Structures panel                         |
-| filtersPanel                   | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Filters panel                            |
-| zonesPanel                     | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Zones panel                              |
-| summaryPanel                   | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Summary panel                            |
-| multipleSpectraAnalysisPanel   | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Multiple Spectra Analysis panel          |
-| databasePanel                  | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Database panel                           |
-| predictionPanel                | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Prediction panel                         |
-| automaticAssignmentPanel       | Object         |  {display: true,open: false,hidden: false}    | Show/Hide Automatic assignment panel               |
+| Name                           | Type           | Default                          |  Description                                       |
+| -------------------------------| ---------------|----------------------------------|----------------------------------------------------|
+| spectraPanel                   | Object         |  {display: true,open: true  }    | Show/Hide Spectra panel                            |
+| informationPanel               | Object         |  {display: true,open: false }    | Show/Hide Information panel                        |
+| peaksPanel                     | Object         |  {display: true,open: false }    | Show/Hide Peaks panel                              |
+| integralsPanel                 | Object         |  {display: true,open: false }    | Show/Hide Integrals panel                          |
+| rangesPanel                    | Object         |  {display: true,open: false }    | Show/Hide Ranges panel                             |
+| structuresPanel                | Object         |  {display: true,open: false }    | Show/Hide Structures panel                         |
+| filtersPanel                   | Object         |  {display: true,open: false }    | Show/Hide Filters panel                            |
+| zonesPanel                     | Object         |  {display: true,open: false }    | Show/Hide Zones panel                              |
+| summaryPanel                   | Object         |  {display: true,open: false }    | Show/Hide Summary panel                            |
+| multipleSpectraAnalysisPanel   | Object         |  {display: true,open: false }    | Show/Hide Multiple Spectra Analysis panel          |
+| databasePanel                  | Object         |  {display: true,open: false }    | Show/Hide Database panel                           |
+| predictionPanel                | Object         |  {display: true,open: false }    | Show/Hide Prediction panel                         |
+| automaticAssignmentPanel       | Object         |  {display: true,open: false }    | Show/Hide Automatic assignment panel               |
 
 #### toolBarButtons
 
-| Name                             | Type           | Default                  |  Description                                                              |
-| ---------------------------------| ---------------|--------------------------|---------------------------------------------------------------------------|
+| Name                         | Type           | Default                  |  Description                                                              |
+| -----------------------------| ---------------|--------------------------|---------------------------------------------------------------------------|
 | zoom                         | Boolean        | false                    | Specify whether can zoom in                                               |
 | zoomOut                      | Boolean        | false                    | Specify whether can full zoom out                                         |
 | import                       | Boolean        | false                    | Specify whether can import from system files and remote url               |
