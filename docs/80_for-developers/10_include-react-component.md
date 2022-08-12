@@ -39,10 +39,12 @@ function MyComponent() {
 
 #### general
 
-| Name                         | Type           | Default                  |  Description                                                              |
-| -----------------------------| ---------------|--------------------------|---------------------------------------------------------------------------|
-| hideGeneralSettings          | Boolean        | false                    | Whether can open general settings or not                                  |
-| hidePanelOnLoad              | Boolean        | false                    | Whether the side panel is closed or not on load                           |
+| Name                         | Type           | Default                        |  Description                                                              |
+| -----------------------------| ---------------|--------------------------------|---------------------------------------------------------------------------|
+| hideGeneralSettings          | Boolean        | false                          | Whether can open general settings or not                                  |
+| hidePanelOnLoad              | Boolean        | false                          | Whether the side panel is closed or not on load                           |
+| experimentalFeatures         | Boolean        | {display: false,open: false}   | Whether the experimental tools and panels is visible or not               |
+| initialPanelWidth            | string         | 560px                          | Inital width for the side panel                                           |
 
 #### panels
 
