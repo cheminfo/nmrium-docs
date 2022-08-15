@@ -24,5 +24,5 @@ Drag the file you want to open into the gray box **Drag and drop here** in the m
 
 ![](./loading_spectra.gif)
 
-You can load a spectrum by clicking the Import button on the toolbar on the left side of the workspace. Then click Import from file system. The folder will open. Search for the file you want to open and click on it. Then click the Open button. The files will be opened. 
+You can load a spectrum by clicking the **Import** button on the toolbar on the left side of the workspace. Then click **Import from file system**. The folder will open. Search for the file you want to open and click on it. Then click the **Open** button. The files will be opened. 
 
