@@ -4,7 +4,7 @@ title: Baseline Correction
 
 # Baseline Correction
 
-Click the Baseline correction icon to the left of the spectrum. You can choose between two possible algorithms: **polynomial** and **AIR PLS**.
+Click the **Baseline correction** button to the left of the spectrum. You can choose between two possible algorithms: **polynomial** and **AIR PLS**.
 
 ![baseline](Baseline_correction.png)
 
