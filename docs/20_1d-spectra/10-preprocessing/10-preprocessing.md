@@ -1,3 +1,4 @@
+title: Preprocessing the FID
 
 
 # Preprocessing the FID
@@ -17,7 +18,5 @@ If you are not sure which values to set, you can use the following recommendatio
 
 **Line Broadening (LB)**: Specify 0.3 Hz for ¹H spectra and 1-3 Hz for ¹³C.
 
-:::---
-title: Preprocessing the FID
----
+:::
 
