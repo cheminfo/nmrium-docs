@@ -4,7 +4,7 @@ title: Phase Correction
 
 # Phase Correction
 
-Click the Phase correction icon to the left of the spectrum. You can choose between manual, absolut and automatic phase correction.
+Click the **Phase correction** icon to the left of the spectrum. You can choose between **manual**, **absolut** and **automatic** phase correction.
 
 ![](./Phase_correction1.png)
 
@@ -20,8 +20,8 @@ The first order phase correction is performed analogously by pressing PH1. The f
 
 ## Automatic
 
-Select the Automatic Phase Correction and click the Apply button, the phase will be corrected automatically.
+Select the **Automatic** Phase Correction and click the grenn **Apply** button, the phase will be corrected automatically.
 
 ## Absolute Value
 
-Select the Absolut Phase Correction and click the Apply button, the phase will be corrected automatically.
+Select the **Absolut** Phase Correction and click the green **Apply** button, the phase will be corrected automatically.
