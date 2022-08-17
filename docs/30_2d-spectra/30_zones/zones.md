@@ -10,7 +10,7 @@ A zone is a correlation between a proton and a carbon. Every zone has a center. 
 
 ### Auto zones picking
 
-NMRium try to find out what are the zones that should be integrated. Click the zones picking button. Select a specified noise factor. Then press the Auto zones picking button. The zones found by NMRium are listed in the Zones panel on the right side of the workspace.
+NMRium try to find out what are the zones that should be integrated. Click the zones picking button. Select a specified noise factor. Then press the **Auto Zones Picking** button. The zones found by NMRium are listed in the **Zones** panel on the right side of the workspace.
 
 ### Manual zones picking
 
