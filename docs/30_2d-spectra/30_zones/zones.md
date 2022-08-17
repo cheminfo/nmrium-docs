@@ -14,7 +14,7 @@ NMRium try to find out what are the zones that should be integrated. Click the z
 
 ### Manual zones picking
 
-To select a single zone, click the zones picking button. Move the mouse to the selected zone. Click on it with the left mouse button. Simultaneously press the shift key on the keyboard, drag over the whole zone and release the mouse button and the shift button. The exact value of the zone can be found in a table on the right side in the panel zones.
+To select a single zone, click the **Zones Tool** button. Move the mouse to the selected zone. Click on it with the left mouse button. Simultaneously press the shift key on the keyboard, drag over the whole zone and release the mouse button and the shift button. The exact value of the zone can be found in a table on the right side in the panel zones.
 
 ### Transference of the chemical shifts from the 1D spectra
 
@@ -22,9 +22,9 @@ If you do in a 1D proton spektrum peak picking or automatic range picking, autom
 
 ### Panel Zones
 
-All zones are shown in the Zones panel. The zones highlighted in yellow can be observed in the section of the spectrum shown in the workspace. The zones highlighted in white are not visible in the screen section. If you switch off the zoom by double-clicking, the signals of the whole shown spectrum are highlighted in yellow. If you click on the funnel button, only the signals shown on the screen are listed. To see all the signals in the list again, press the Funnel button a second time. 
+All zones are shown in the **Zones** panel. The zones highlighted in yellow can be observed in the section of the spectrum shown in the workspace. The zones highlighted in white are not visible in the screen section. If you switch off the zoom by double-clicking, the signals of the whole shown spectrum are highlighted in yellow. If you click on the funnel button, only the signals shown on the screen are listed. To see all the signals in the list again, press the Funnel button a second time. 
 
-You can display various information in the zones panel. Click on the gear wheel at the top right. 
+You can display various information in the **Zones** panel. Click on the gear wheel at the top right. 
 
 ![zones1](zones1.png)
 
@@ -34,12 +34,12 @@ All measured nuclei will be displayed. You can choose to display the following v
 
 ### Delete a single zone
 
-To delete one zone move the mouse to the panel and select a zone. Press the trash button on the rigth side of the line of the zone. The zone is deleted.
+To delete one zone move the mouse to the **Zones** panel and select a zone. Press the trash button on the rigth side of the line of the zone. The zone is deleted.
 
 ### Delete all zones
 
-To delete all zones move the mouse to the panel zones and press the trash button on the left side above the list. A red box apears. Click "yes". All zones are deleted.
+To delete all zones move the mouse to the panel zones and press the trash button on the left side above the list. A red box apears. Click **yes**. All zones are deleted.
 
 ### Set a reference
 
-Click the zones button to the left of the spectrum. Find your solvent zone (or the reference zone). When you point at it with the crosshairs, press the shift key and the left mouse button at the same time. The value of the signal will be shown in the list on the right side of the spectrum in the Zones panel. Click twice on the proton value and enter the correct reference value. Than click twice on the carbon value and also enter the correct value. All the values of the spectra will change. 
+Click the **Zones Tool** button to the left of the spectrum. Find your solvent zone (or the reference zone). When you point at it with the crosshairs, press the shift key and the left mouse button at the same time. The value of the signal will be shown in the list on the right side of the spectrum in the **Zones** panel. Click twice on the proton value and enter the correct reference value. Than click twice on the carbon value and also enter the correct value. All the values of the spectra will change. 
