@@ -5,7 +5,7 @@ title: Preprocessing the FID
 
 ## Zero filling
 
-To prepare the FID for the Fourier transformation, click the Zero filling button to the left of the spectrum. You can choose the number of points and the filter line broadening. Then press the apply button.
+To prepare the FID for the Fourier transformation, click the **Zero Filling** button to the left of the spectrum. You can choose the number of points (**Size**) and the filter **Line broadening**. Then press the **Apply** button.
 
 ![](./zero_filling.gif)
 
