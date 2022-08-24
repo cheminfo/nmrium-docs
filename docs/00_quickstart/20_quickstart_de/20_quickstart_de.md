@@ -44,7 +44,7 @@ Sie können die Farbe Ihres Spektrums ändern, indem Sie auf den farbigen kleine
 
 ## 4. Löschen eines Spektrums
 
-Um ein einzelnes Spektrum zu löschen, klicken Sie mit der rechten Maustaste auf die entsprechende Zeile im Panel **Spectra**. Klicken Sie anschließend **delete**, um das Spektrum zu löschen. Wenn Sie alle Spektren eines Kerns löschen wollen, klicken Sie auf das Papierkorbsymbol im Panel **spectra**. Klicken Sie anschließend **yes** im sich öffnenden Fenster. 
+Um ein einzelnes Spektrum zu löschen, klicken Sie mit der rechten Maustaste auf die entsprechende Zeile im Panel **Spectra**. Klicken Sie anschließend **delete**, um das Spektrum zu löschen. Wenn Sie alle Spektren eines Kerns löschen wollen, klicken Sie auf das Papierkorbsymbol im Panel **Spectra**. Klicken Sie anschließend **yes** im sich öffnenden Fenster. 
 
 ## 5. Vergrößern eines Spektrenausschnitts
 
@@ -144,7 +144,7 @@ Wenn Sie alle Chemischen Verschiebungen löschen wollen, klicken Sie das Papierk
 
 ## 11. Auswahl der Werte, die im Panel **Peaks** angezeigt werden sollen
 
-Sie können entscheiden, welche Werte Ihnen im Panel Peaks angezeigt werden. Öffnen Sie hierfür den Panel **Peaks** auf der rechten Seite des Bildschirms. Klicken Sie auf den Zahnrad-Button. Es werden Ihnen Auswahlmöglichkeiten für alle gemessenen Kerne angezeigt. Sie können zwischen folgenden Werten für jeden Kern auswählen:
+Sie können entscheiden, welche Werte Ihnen im Panel **Peaks** angezeigt werden. Öffnen Sie hierfür den Panel **Peaks** auf der rechten Seite des Bildschirms. Klicken Sie auf den Zahnrad-Button. Es werden Ihnen Auswahlmöglichkeiten für alle gemessenen Kerne angezeigt. Sie können zwischen folgenden Werten für jeden Kern auswählen:
 
 - Peak Number (Nummer des Peaks)
 - Peak Index (Index des Peaks)
