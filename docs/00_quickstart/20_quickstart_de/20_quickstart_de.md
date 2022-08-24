@@ -26,7 +26,7 @@ Ziehen Sie die Datei, die Sie öffnen wollen, mit der Maus in die graue Box **Dr
 
 ## 3. Spektren auswählen
 
-Auf der rechten Seite des Spektrums befindet sich ein aufklappbares Menu mit verschiedenen Panels. Klicken Sie das Panel **Spectra** an. Die Spektren werden den gemessenen Kernen zugeordnet, zum Beipiel 1H, 13C etc sowie die 2d-sprektren den enthaltenen Kernen, zum Beispiel 1H,1H. Wenn Sie auf den entsprechenden Kern klicken, dann finden Sie die dazugehörigen Spektren. Wählen Sie ein Experiment aus, indem Sie auf die entsprechende Zeile klicken. Das Spektrum wird in der Arbeitsfläche geöffnet.
+Auf der rechten Seite des Spektrums befindet sich ein aufklappbares Menu mit verschiedenen Panels. Klicken Sie das Panel **Spectra** an. Die Spektren werden den gemessenen Kernen zugeordnet, zum Beipiel 1H oder 13C etc sowie die 2D-Sprektren den enthaltenen Kernen, zum Beispiel 1H,1H. Wenn Sie auf den entsprechenden Kern klicken, dann finden Sie die dazugehörigen Spektren. Wählen Sie ein Experiment aus, indem Sie auf die entsprechende Zeile klicken. Das Spektrum wird in der Arbeitsfläche geöffnet.
 
 ![](./img102.png)
 
