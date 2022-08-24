@@ -26,7 +26,7 @@ Ziehen Sie die Datei, die Sie öffnen wollen, mit der Maus in die graue Box **Dr
 
 ## 3. Spektren auswählen
 
-Auf der rechten Seite des Spektrums befindet sich ein aufklappbares Menu mit verschiedenen Panels. Klicken Sie das Panel **Spectra** an. Die Spektren werden den gemessenen Kernen zugeordnet, zum Beipiel 1H, 13C etc. Wenn Sie auf den entsprechenden Kern klicken, dann finden Sie die dazugehörigen Spektren. Wählen Sie ein Experiment aus, indem Sie auf die entsprechende Zeile klicken. Das Spektrum wird in der Arbeitsfläche geöffnet.
+Auf der rechten Seite des Spektrums befindet sich ein aufklappbares Menu mit verschiedenen Panels. Klicken Sie das Panel **Spectra** an. Die Spektren werden den gemessenen Kernen zugeordnet, zum Beipiel 1H, 13C etc sowie die 2d-sprektren den enthaltenen Kernen, zum Beispiel 1H,1H. Wenn Sie auf den entsprechenden Kern klicken, dann finden Sie die dazugehörigen Spektren. Wählen Sie ein Experiment aus, indem Sie auf die entsprechende Zeile klicken. Das Spektrum wird in der Arbeitsfläche geöffnet.
 
 ![](./img102.png)
 
@@ -44,11 +44,11 @@ Sie können die Farbe Ihres Spektrums ändern, indem Sie auf den farbigen kleine
 
 ## 4. Löschen eines Spektrums
 
-Um ein einzelnes Spektrum zu löschen klicken Sie mit der rechten Maustaste auf die entsprechende Zeile im Panel **Spectra**. Klicken Sie anschließend **delete**, um das Spektrum zu löschen. Wenn Sie alle Spektren eines Kerns löschen wollen, klicken Sie auf das Papierkorbsymbol im Panel **spectra**. Klicken Sie anschließend **yes** im sich öffnenden Fenster. 
+Um ein einzelnes Spektrum zu löschen, klicken Sie mit der rechten Maustaste auf die entsprechende Zeile im Panel **Spectra**. Klicken Sie anschließend **delete**, um das Spektrum zu löschen. Wenn Sie alle Spektren eines Kerns löschen wollen, klicken Sie auf das Papierkorbsymbol im Panel **spectra**. Klicken Sie anschließend **yes** im sich öffnenden Fenster. 
 
 ## 5. Vergrößern eines Spektrenausschnitts
 
-Um einen Auschnitt  des Spektrums zu vergrößern, fahren sie mit der Maus über den zu vergrößernden Ausschnitt des Spektrums und halten Sie dabei die linke Maustaste gedrückt. Beim loslassen erscheint der ausgewählte Bereich des Spektrums. Sie können diesen  Vorgang beliebig oft wiederholen.  Mit einem Doppelklick irgendwo im Spektrum können Sie die Vergrößerung rückgängig machen. To zoom a section of a spectrum, drag over it with the left mouse button. You can repeat this process as often as you like. Um zur ursprünglichen Vergrößerung zurückzugelangen, klicken sie auf den Button **Horizontal zoom out** in der Menuebar auf der linken Seite des Spektrums. 
+Um einen Auschnitt des Spektrums zu vergrößern, fahren sie mit der Maus über den zu vergrößernden Ausschnitt des Spektrums und halten Sie dabei die linke Maustaste gedrückt. Beim Loslassen erscheint der ausgewählte Bereich des Spektrums. Sie können diesen Vorgang beliebig oft wiederholen.  Mit einem Doppelklick irgendwo im Spektrum können Sie die Vergrößerung rückgängig machen. Um zur ursprünglichen Vergrößerung zurückzugelangen, klicken sie auf den Button **Horizontal zoom out** in der Menuebar auf der linken Seite des Spektrums. 
 
 ## 6. Einfügen einer Molekülstruktur
 
@@ -62,7 +62,7 @@ Ziehen Sie eine  Molfile-Datei mit der Maus in die Arbeitsfläche. Der Panel **S
 
 :::note Integrierter Struktur-Editor
 
-Klicken Sie auf den Panel **Structures** auf der rechten Seite des Spektrums und dort anschließend auf den Button **+**. Es öffnet sich ein Fenster. Dort können Sie Ihre Molekülstruktur selbst zeichnen. Wenn Sie fertig sind, klicken Sie auf **Save**. Die Struktur wird im Panel *Structures** gespeichert, Sie finden Sie dort, zusammen mit der Summenformel und der molaren Masse. 
+Klicken Sie auf den Panel **Structures** auf der rechten Seite des Spektrums und dort anschließend auf den Button **+**. Es öffnet sich ein Fenster. Dort können Sie Ihre Molekülstruktur selbst zeichnen. Wenn Sie fertig sind, klicken Sie auf **Save**. Die Struktur wird im Panel **Structures** gespeichert, Sie finden Sie dort, zusammen mit der Summenformel und der molaren Masse. 
 
 :::
 
