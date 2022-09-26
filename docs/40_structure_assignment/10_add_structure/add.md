@@ -31,6 +31,10 @@ If you want to change a molecular structure, double-click on it. A window opens.
 To delete a molecular structure, click on the trash button. The structure will be delete.
 
 ![delete](Delete_structure.png)
+
+## Show a chemical structure on the workspace
+
+You can copy the molecular structure to the workspace. To use this, click the corresponding button on the far right of the bar above the molecule in the  panel **Structures**. The molecule appears in the workspace. You can move it by clicking on the arrow cross at the top left, holding down the left mouse button and moving the mouse to the desired position. 
           
 ## Predict spectra
 
