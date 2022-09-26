@@ -34,7 +34,7 @@ To delete a molecular structure, click on the trash button. The structure will b
 
 ## Show a chemical structure on the workspace
 
-You can copy the molecular structure to the workspace. To use this, click the corresponding button on the far right of the bar above the molecule in the  panel **Structures**. The molecule appears in the workspace. You can move it by clicking on the arrow cross at the top left, holding down the left mouse button and moving the mouse to the desired position. 
+You can copy the molecular structure to the workspace. To use this, click the corresponding button on the far right of the bar above the molecule in the  panel **Structures**. The molecule appears in the workspace. You can move it by clicking on the arrow cross at the top left, holding down the left mouse button and moving the mouse to the desired position. The molecular structure is displayed in all cores of the data set.  To remove the structure from the workspace, click the button with the arrow cross a second time. 
           
 ## Predict spectra
 
