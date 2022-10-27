@@ -14,7 +14,7 @@ Open NMRium with the following link:
 
 To open spectra, your data must be in one of the following file types:
 
-- Jcamp DX (.dx, .jdx, .jcamp)
+- JCAMP-DX (.dx, .jdx, .jcamp)
 - zipped folder in Bruker format (raw data od processed)
 - Jeol (.jdf)
 - NMRium file (.nmrium)
@@ -112,7 +112,6 @@ Click the Baseline correction icon to the left of the spectrum. You can choose b
 
 - To use the algorithm **polynomial**, you may define a degree and then click **apply**.
 - To apply the **AIR PLS** algorithm, you may define both maximum iteration and a tolerance range and then click **apply**.
-
 
 ## 8. Referencing
 
