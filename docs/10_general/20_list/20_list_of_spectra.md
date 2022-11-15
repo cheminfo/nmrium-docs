@@ -8,7 +8,7 @@ On the right side of the workspace, various areas are available in an expandable
 
 To hide all spectra press the icon "hide all spectra". To show all spectra, press the icon "show all spectra". 
 
-![](./Hide.gif)
+![Hide spectrum](./Hide.gif)
 
 To show one, two or more spectra in the workspace, press the icon for each spectrum. 
 
