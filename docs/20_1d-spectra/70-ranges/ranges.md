@@ -20,7 +20,7 @@ You can also automatically determine the ranges in the panel **Spectra**. To use
  
 ## Correction by hand
 
-To manually add ranges not specified by NMRium, click the button **Ranges Picking** on the left side of the workspace. Move the cursor over the signal you want to mark as a range while holding down the shift key on the keyboard and the left mouse button at the same time. The range will be selected by NMRium. You can find it in the list in the panel Ranges.
+To manually add ranges not specified by NMRium, click the button **Ranges Picking** on the left side of the workspace. Move the cursor over the signal you want to mark as a range while holding down the shift key on the keyboard and the left mouse button at the same time. The range will be selected by NMRium. You can find it in the list in the panel Ranges. 
 
 To correct the selected ranges, open the panel Ranges. Then press the shift key and drag a zone. The system shows the selected zone in the panel and analyses it. 
 
