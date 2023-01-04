@@ -6,20 +6,20 @@ slug: /
 
 ## 1. Open the program
 
-Open NMRium with the following link:
+Open NMRium by clicking the following link:
 
 [https://www.nmrium.org/nmrium/](https://www.nmrium.org/nmrium/)
 
 ## 2. Open spectra
 
-To open spectra, your data must be in one of the following file types:
+To open spectra, your data must be saved as one of the following file formats:
 
 - JCAMP-DX (.dx, .jdx, .jcamp)
 - zipped folder in Bruker format (raw data od processed)
 - Jeol (.jdf)
 - NMRium file (.nmrium)
 
-Drag the file you want to open into the gray box **Drag and drop here** in the middle of the screen. You can open a set of spectra of a molecule by either dragging the spectra individually into the workspace or by dragging a zip folder containing all spectra. Also, you can open several spectra at once in the Bruker folder structure as a zip file.
+Drag the file you want to open into the gray box **Drag and drop here** in the middle of the screen. You can open a set of spectra of a molecule by either dragging the spectra individually or by dragging a zip folder containing all spectra into the workspace. Also, you can open a zipped Bruker-folder file containing several spectra.
 
 ![](./img101.png)
 
