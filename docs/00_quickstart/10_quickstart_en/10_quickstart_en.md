@@ -37,25 +37,25 @@ It is possible that your Bruker folder contains so-called **wobble curves**. It 
 
 :::tip Changing the color of a spectrum
 
-You can change the color of the spectrum by clicking the colored square in the line for the spectrum. In the appearing window, you can select a different color. For 2D experiments, the colors for the negative and positive cross-peaks are additionally selectable.
+You can change the color of the spectrum by clicking the colored square in the line for the spectrum. In the appearing window, you can select a different color. For 2D experiments, the colors for the negative and positive cross-peaks are selectable as well.
 
 :::
 
 ## 4. Delete a spectrum
 
-To delete a single spectrum, right-click the spectrum in the menu **spectra** on the right side. Click **delete** in the appearing menu to delete the spectrum. To delete all spectra, click on the trash icon on the left above the listed spectra.
+To delete a single spectrum, right-click onto the spectrum in the panel **spectra** on the right side. Click **delete** in the appearing menu to delete the spectrum. To delete all spectra, click on the recycle bin icon on the left above the listed spectra.
 
-## 5. Zoom a section
+## 5. Zooming in on a section
 
-To zoom a section of a spectrum, drag over it with the left mouse button. You can repeat this process as often as you like. Double-click anywhere in the spectrum to undo the last magnification step. This step can also be repeated. The intensity level of the signals can be changed using the mouse wheel. To return to the full spectrum, click on the **Zoom-Out** button in the menu bar on the left side of the spectrum.
+To zoom in on a section of a spectrum, move over it whilst holding down the left mouse button. You can repeat this process as often as you like. Double-click anywhere in the spectrum to undo the last zoom in. This, too, can be repeated. The intensity level of the signals can be changed using the mouse wheel. To return to the original spectrum, click onto the button **Horizontal zoom out** button in the menu bar on the left side of the spectrum.
 
-## 6. Insert a molecular structure
+## 6. Inserting a molecular structure
 
-There are two possibilities to insert a molecular structure into the program:
+There are two ways to insert a molecular structure into the program:
 
 :::note Molfile
 
-Drag the molfile into the workspace. The **Structures** field appears, showing the inserted molecular structure as well as the molecular weight and the molecular formula.
+Drag the molfile into the workspace. The panel **Structures** field appears, showing the inserted molecular structure as well as the molecular weight and the molecular formula.
 
 :::
 
