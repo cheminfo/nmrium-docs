@@ -132,19 +132,19 @@ A list appears above the spectrum in which you can specify the maximum number of
 
 :::note Manual peaks picking
 
-LLocate a signal. When you capture it with the crosshairs, press the shift key and the left mouse button simultaneously. The value of the signal will be shown in a list both in the spectrum and on the right side of the spectrum in the panel **Peaks**.
+Locate a signal. When you capture it with the crosshairs, press the shift key and the left mouse button simultaneously. The value of the signal will be shown in a list both in the spectrum and on the right side of the spectrum in the panel **Peaks**.
 
 :::
 
 ## 10. Delete peaks
 
-If you want to delete a single peak, find the corresponding signal on the right side of the spectrum in the list in the **Peaks** field. Click the trash icon on the far right of the line, the peak will be deleted.
+If you want to delete a single peak, find the corresponding signal on the right side of the spectrum in the list in the panel **Peaks**. Click the recycle bin icon on the far right of the line. The peak will be deleted.
 
-If you want to delete all peaks, click on the trash icon located above the signal list under the **Peaks** field. Confirm that you want to delete all peaks by clicking **Yes** in the window that opens.
+If you want to delete all peaks, click on the recycle bin icon located above the signal list in the panel **Peaks**. CConfirm that you want to delete all peaks by clicking **Yes** in the pop-up window.
 
 ## 11. Choosing the values to display in the "Peaks" list
 
-You can display various information in the **Peaks** list. Open the **Peaks** list on the right side of the spectrum. Click on the gear wheel at the top right. All measured nuclei will be displayed. You can choose to display the following values for each nucleus:
+You can display various information in the panel **Peaks**. Open the panel **Peaks** on the right side of the spectrum. Click onto the gear wheel at the top right. All measured nuclei will be displayed. You can choose to display the following values for each nucleus:
 
 - Peak Number
 - Peak Index
@@ -153,7 +153,7 @@ You can display various information in the **Peaks** list. Open the **Peaks** li
 - Width
 - Intensity
 
-Place a checkmark next to the values that you want to have displayed for the respective nucleus. Then click on the green check mark at the top right.
+Check the box next to the values you want to have displayed for the respective nucleus. Then click onto the green check mark at the top right.
 
 ## 12. Integration
 
