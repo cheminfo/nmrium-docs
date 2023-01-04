@@ -109,30 +109,30 @@ Repeat the process for the first-order phase correction by pressing **PH1** and 
 
 ### Baseline correction
 
-Click the Baseline correction icon to the left of the spectrum. You can choose between two possible algorithms: **polynomial** and **AIR PLS**.
+Click the icon Baseline correction to the left of the spectrum. You can choose between two algorithms: **polynomial** and **AIR PLS**.
 
 - To use the algorithm **polynomial**, you may define a degree and then click **apply**.
-- To apply the **AIR PLS** algorithm, you may define both maximum iteration and a tolerance range and then click **apply**.
+- To apply the **AIR PLS** algorithm, you may define both a maximum iteration and a tolerance range and then click **apply**.
 
 ## 8. Referencing
 
-Click the **Peaks Picking** button to the left of the spectrum. Find your solvent signal (or the reference signal). When you point at it with the crosshairs, press the shift key and the left mouse button at the same time. The value of the signal will be shown both in the spectrum and in a list on the right side of the spectrum in the **Peaks** field. Select one of the two displayed values (in the spectrum single click with the left mouse button, in the list double click with the left mouse button) and enter the correct reference value.
+Click the button **Peaks Picking** to the left of the spectrum. Then identify your solvent signal (or the reference signal). Capture it with the crosshairs and press the shift key and the left mouse button at the same time. The chemical shift of the signal will be shown both in the spectrum and in a list on the right-hand side of the spectrum in the panel  **Peaks**. Select one of the two displayed values (in the spectrum single click with the left mouse button, in the list double-click with the left mouse button) and enter the correct reference value.
 
 ![](./img105.png)
 
 ## 9. Peak Picking
 
-Click on the **Peaks Picking** button. You can choose between automatic peak picking and manual peak picking.
+Click onto the button **Peaks Picking**. You can choose between automatic peaks picking and manual peaks picking.
 
-:::note Automatic peak picking
+:::note Automatic peaks picking
 
-A list appears above the spectrum in which you can specify the maximum number of peaks, the noise factor and the minimum-maximum ratio (Min Max Ratio). Then press **Apply**. The chemical shift of the peaks is displayed both in the spectrum and in a list on the right side of the spectrum in the **Peaks** field.
+A list appears above the spectrum in which you can specify the maximum number of peaks, the noise factor and the minimum-maximum ratio (Min Max Ratio). Then press **Apply**. The chemical shift of the peaks is displayed both in the spectrum and in a list on the right side of the spectrum in the panel  **Peaks**.
 
 :::
 
-:::note Manual peak picking
+:::note Manual peaks picking
 
-Locate a signal. When you see it in the crosshairs, press the shift key and simultaneously the left mouse button. The value of the signal will be shown in a list both in the spectrum and on the right side of the spectrum in the **Peaks** field.
+LLocate a signal. When you capture it with the crosshairs, press the shift key and the left mouse button simultaneously. The value of the signal will be shown in a list both in the spectrum and on the right side of the spectrum in the panel **Peaks**.
 
 :::
 
