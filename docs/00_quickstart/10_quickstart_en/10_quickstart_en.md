@@ -25,13 +25,13 @@ Drag the file you want to open into the gray box **Drag and drop here** in the m
 
 ## 3. Select a spectrum
 
-On the right side of the workspace, various areas are available in an expandable menu. Click on the head of the **Spectra** field. The measured nuclei (e.g. ¹H, ¹³C, etc) are displayed in the opened field. Click on a nucleus to find the experiments associated with it. To select an experiment, click the corresponding line. The experiment appears in the workspace.
+On the right side of the workspace, there is an expandable menu with several panels. Click onto the panel **Spectra**. The spectra are matched to the measured nuclei (e.g., ¹H, ¹³C, etc) which are displayed in the opened field. If you click onto a nucleus, you can find the matching spectra. To select an experiment, press the corresponding line. The spectrum appears in the workspace.
 
 ![](./img102.png)
 
 :::info Wobble curves
 
-If your imported Bruker folder contains so-called **wobble curves**, it is useful to delete them from the list for further processing. You can identify them by the name **wobble**. Click the corresponding spectrum with the right mouse button. In the appearing menu, click **delete** to delete the wobble curve.
+It is possible that your Bruker folder contains so-called **wobble curves**. It makes sense to delete these before editing the spectra. You can identify them by the name **wobble**. Click onto the corresponding spectrum with the right mouse button. In the appearing menu, click **delete** to delete the wobble curve.
 
 :::
 
