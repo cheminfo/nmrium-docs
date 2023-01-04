@@ -157,19 +157,19 @@ Check the box next to the values you want to have displayed for the respective n
 
 ## 12. Integration
 
-Click the **Integral tool** button on the left side of the spectrum. To integrate a signal, hold down the Shift key and move the mouse over the signal while holding down the left mouse button. Then release both the Shift and the left mouse button. Proceed in this way with each signal that you want to integrate. The integrals are displayed in a list on the right side of the spectrum in the **Integrals** button.
+Click onto the button **Integral tool** on the left side of the spectrum. To integrate a signal, hold down the shift key and move the mouse over the signal while holding down the left mouse button. Then let go of both the shift key and the left mouse button. Proceed in this way with each signal that you want to integrate. The integrals are displayed in a list on the right-hand side of the spectrum in the panel **Integrals**.
 
-It is predefined that the relative number of all integrated H atoms is 100. To change the number, click on the sum symbol above the list. In the window that opens, you can either enter the number of H atoms manually and then click on **Set** or accept the number of H atoms specified by the sum formula by clicking on **Set** in the lower area.
+The pre-set relative number of all integrated H-atoms is 100. To change this number, click on the sum symbol above the list. A window opens where you can either enter the number of H-atoms manually and then click on **Set** or accept the number of H atoms specified by the structural formula by clicking on **Set** underneath it.
 
 ![](./img106.png)
 
 ![](./img106a.png)
 
-## 13. Delete integrals
+## 13. Deleting integrals
 
-If you want to delete a single integral, find the corresponding signal on the right side of the spectrum in the list in the **Integrals** field. Click the trash icon on the far right of the line, the integral will be deleted. Alternatively, you can click on the red fieldat the bottom of the spectrum that belongs to the respective integral. The corresponding integral will be deleted.
+If you want to delete a single integral, find the corresponding signal on the right side of the spectrum in the list in the panel **Integrals**. Click the recycle bin icon on the far right of the line. The integral will be deleted. Alternatively, you can click onto the red field at the bottom of the spectrum that belongs to the respective integral. The corresponding integral will be deleted.
 
-If you want to delete all integrals, click on the trash icon located above the signal list in the **Integrals** button. Confirm that you want to delete all integrals by clicking **Yes** in the appearing window.
+IIf you want to delete all integrals, click onto the recycle bin icon located above the signal list in the panel **Integrals**.Confirm that you want to delete all integrals by clicking **Yes** in the pop-up window.
 
 ## 14. Picking ranges and determination of coupling constants
 
