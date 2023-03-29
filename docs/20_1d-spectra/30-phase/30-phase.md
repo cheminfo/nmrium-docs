@@ -6,7 +6,7 @@ title: Phase Correction
 
 Click the **Phase correction** icon to the left of the spectrum. You can choose between **manual**, **absolut** and **automatic** phase correction.
 
-![](./Phase_correction1.png)
+![](./Phase_correction1.svg)
 
 ## Manual
 
