@@ -26,11 +26,11 @@ All zones are shown in the **Zones** panel. The zones highlighted in yellow can 
 
 You can display various information in the **Zones** panel. Click on the gear wheel at the top right. 
 
-![zones1](zones1.png)
+![zones1](zones1.svg)
 
 All measured nuclei will be displayed. You can choose to display the following values for each nucleus. You can set the value in which the zones are displayed. To use this, enter a value for both "From" and "To" and set a check mark in the corresponding box. You can also specify whether you want the absolute or the relative zones to be displayed by setting the corresponding check mark. Then click on the green check mark at the top right. If you do not want to change anything, click the red cross at the top right. 
 
-![zones2](zones2.png)
+![zones2](zones2.svg)
 
 ### Delete a single zone
 
