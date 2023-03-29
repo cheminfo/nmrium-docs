@@ -20,7 +20,7 @@ You can change the colors of the positive and negative sinals. To do this, open 
 
 
 
-![2D_Colour1](2D_Colour1.png)
+![2D_Colour1](2D_Colour1.svg)
 
 
 
@@ -28,7 +28,7 @@ A box will open. There you can change the color for the positive signals as well
 
 
 
-![2D_Colour2](2D_Colour2.png)
+![2D_Colour2](2D_Colour2.svg)
 
 
 The colors of the 1H and 13C spectra used for the respective 2D spectrum are the colors of the corresponding 1D spectra. If you want to change the color of the deposited spectra, you have to do it in the respective 1D spectrum.  
