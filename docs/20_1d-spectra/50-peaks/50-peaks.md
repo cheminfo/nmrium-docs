@@ -17,7 +17,7 @@ The chemical shift is shown in the workspace at the corresponding signal in ppm 
 
 You can automatically detect all peaks. To use this, click the **Peaks Picking** button on the left side of the workspace. Above the workspace you can set the maximal number of peaks, the noise factor and the min max ration. Also, tick the box if you want to detect negative signal. Then click the button **Apply** above the workspace. All detected peaks are listed in the **Peaks** panel.
 
-![Peaks](./automatic_peak_picking_new.svg)
+![Peaks](./automatic_peak_picking.gif)
 
 
 ## Panel "Peaks"
