@@ -24,19 +24,19 @@ You can automatically detect all peaks. To use this, click the **Peaks Picking**
 
 All signals are shown in the **Peaks** panel. The signals highlighted in yellow can be observed in the section of the spectrum shown. The signals highlighted in white are not visible in the screen section. If you switch off zoom by double-clicking, the signals of the whole shown spectrum are highlighted in yellow.
 
-![](./Panel_Peaks_yellow.png)
+![](./Panel_Peaks_yellow.svg)
 
 If you click on the funnel button, only the signals shown on screen are listed. To see all signals in the list again, press the funnel button a second time.
 
-![](./Panel_Peaks_funnel.png)
+![](./Panel_Peaks_funnel.svg)
 
 On the right side of the panel, the total number of listed signals is shown in a square bracket.
 
-![](./Panel_Peaks_number_of_peaks.png)
+![](./Panel_Peaks_number_of_peaks.svg)
 
 You can display various information in the peaks panel. Click on the gear wheel at the top right.
 
-![](./Panel_Peaks_wheel1.png)
+![](./Panel_Peaks_wheel1.svg)
 
 All measured nuclei will be displayed. You can choose to display the following values for each nucleus:
 
@@ -49,7 +49,7 @@ All measured nuclei will be displayed. You can choose to display the following v
 
 Place a check mark next to the values that you want to have displayed for the respective nucleus. Then click on the green check mark at the top right.
 
-![](./Panel_Peaks_wheel2.png)
+![](./Panel_Peaks_wheel2.svg)
 
 ## Set a Reference
 
@@ -61,7 +61,7 @@ Click the **Peaks Picking** button to the left of the spectrum. Find your solven
 
 To delete all signals move the mouse to the **Peaks** panel and the recycle bin icon on the left side above the list. A red box apears. Click **yes**. All signals are deleted.
 
-![](./Peaks_picking3.png)
+![](./Peaks_picking3.svg)
 
 ### Delete the chemical chift of a single peak
 
