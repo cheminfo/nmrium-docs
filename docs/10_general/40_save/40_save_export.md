@@ -14,7 +14,7 @@ The analyzed spectra can be saved as NMRium file (text file) for further process
 
 Select the desired settings and click save.
 
-![](./Export_as_an_image.png)
+![](./Export_as_an_image.svg)
 
 ## Save an Image
 
@@ -26,4 +26,4 @@ The analysed spectra can be saved as an image file (png). Click on the export bu
 
 There are two possibilities to save data. One possibility is to save the spectrum as an SVG file as a vector file. This format allows to save the spectrum in a high resolution. Click onto the export button and then select the button export as SVG in the opening window. Another possibility is to save an analysed spectrum as NMReDATA. To do this, also click on the export button and select the button save NMRE data
 
-![](./Export.png)
+![](./Export.svg)
