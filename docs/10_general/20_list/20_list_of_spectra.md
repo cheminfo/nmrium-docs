@@ -28,7 +28,7 @@ In each line of the spectrum, you find general information about the solvent.
 
 To delete a single spectrum, click on the corresponding line. Then click on the red trash icon above the list of measured spectra. A box will open. Click yes if you want to delete the selected spectrum. The spectrum will be deleted.
 
-![](./Delete_scpectra.svg)
+![](./Delete_scpectra.png)
 
 
 
