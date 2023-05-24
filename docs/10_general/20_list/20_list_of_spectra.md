@@ -12,6 +12,9 @@ Above the spectra panel you can find a button that displays the number of displa
 
 Click on the button. A list of the loaded spectra is displayed. The list indicates the time at which the spectrum was uploaded. Spectra that have not been uploaded correctly are highlighted in red. In this case, the Error column indicates the error. All correctly uploaded spectra are highlighted in green. If you click on the Clear Logs button, all listed spectra in the list will be deleted. The spectra are not deleted in NMRium. 
 
+
+![](./korrekte_Spektren2.svg)
+
 To hide all spectra press the icon "hide all spectra". To show all spectra, press the icon "**show all spectra**". 
 
 ![Hide spectrum](./Hide.gif)
