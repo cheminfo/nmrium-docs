@@ -6,7 +6,7 @@ title: List of Spectra
 
 On the right side of the workspace, various areas are available in an expandable menu. Click onto the field Spectra. The measured nuclei (e.g. ¹H, ¹³C, etc) are displayed in the opened field. The spectra are grouped in nuclei. Click on a nucleus to find the 1D and 2D experiments associated with it. 
 
-Above the spectra panel you can find a button that displays the number of displayed spectra. In the example shown, 8 spectra have been loaded. If this button is highlighted in green, all spectra have been uploaded correctly. If the button is highlighted in red, one or more spectra have not been uploaded correctly. 
+Above the spectra panel you can find a button that displays the number of displayed spectra. In the example shown, 8eight spectra have been loaded. If this button is highlighted in green, all spectra have been uploaded correctly. If the button is highlighted in red, one or more spectra have not been uploaded correctly. 
 
 ![](./korrekte_Spektren.svg)
 
