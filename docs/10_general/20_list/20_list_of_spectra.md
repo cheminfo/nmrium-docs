@@ -16,7 +16,7 @@ Click on the button. A list of the loaded spectra is displayed. The list indicat
 
 To hide all spectra press the icon "hide all spectra". To show all spectra, press the icon "**show all spectra**". 
 
-![Hide spectrum](./Hide.gif)
+![](./korrekte_Spektren2.png)
 
 To show one, two or more spectra in the workspace, press the icon for each spectrum. 
 
