@@ -26,7 +26,9 @@ In each line of the spectrum, you find general information about the solvent.
 
 ![](./solvent.svg)
 
-To delete a spectrum, right-click onto the corresponding line in the panel Spectra. A small window opens. Then press delete with the left mouse button. The corresponding spectrum will be deleted. If you want to delete all spectra of a nucleus, open the list of the corresponding nucleus in the panel Spectra by clicking the nucleus with the left mouse button. Then click onto the recycle bin icon on the left above the list. Another window will open. Verify that you want to delete all spectra by clicking on Yes. All spectra of the nucleus will be deleted.
+To delete a single spectrum, click on the corresponding line. Then click on the red trash icon above the list of measured spectra. A box will open. Click yes if you want to delete the selected spectrum. The spectrum will be deleted.
+
+![](./solvent.svg)
 
 
 
