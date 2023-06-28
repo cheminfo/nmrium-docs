@@ -1,5 +1,5 @@
 ---
-title: List of Spectra
+title: List of Spectra and Mode selection
 ---
 
 # List of Spectra
@@ -30,7 +30,17 @@ To delete a single spectrum, click on the corresponding line. Then click on the 
 
 ![](./Delete_spectra.png)
 
+# Mode selection
 
+You can choose between different modes: **Simple NMR analysis**, **1D multiple spectra analysis** and **NMR spectra assignment**. 
+
+With the mode **Simple NMR analysis**, you can analyse chemical shifts of the signals with the help of peaks picking and integrate the signals. There is also the possibility to analyse the spectrum with the help of ranges and to do a multiple spectrum analysis. You can select the individual functions and process the spectrum by yourself.
+
+If you have several 1D spectra of a substance and you want to analyse them at the same time, you can choose the mode **1D multiple spectra analysis**. NMRium is able to analyse multiple spectra of a substance. You can make corrections by yourself.
+
+If you have one or more spectra of a compound, NMRium is able to assign these spectra for you. To use this, select the function **NMR spectra assignment**. NMRium analyses the ranges. It determines the integral or the relative H part of a range. It also does a multiplet analysis and a calculation of the coupling constants.  Finally, you can also make corrections by yourself.
+
+Click above the panels on the right side on the red marked button and select the corresponding function. You have to activate it by clicking on a spectrum or a nucleus in the Spectra panel. Afterwards, the selected mode will be available.
 
 
 
