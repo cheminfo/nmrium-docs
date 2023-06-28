@@ -32,7 +32,7 @@ To delete a single spectrum, click on the corresponding line. Then click on the 
 
 # Mode selection
 
-You can choose between different modes: **Simple NMR analysis**, **1D multiple spectra analysis** and **NMR spectra assignment**. 
+You can choose between different modes of how you want to analyze your spectra: **Simple NMR analysis**, **1D multiple spectra analysis** and **NMR spectra assignment**. 
 
 With the mode **Simple NMR analysis**, you can analyse chemical shifts of the signals with the help of peaks picking and integrate the signals. There is also the possibility to analyse the spectrum with the help of ranges and to do a multiple spectrum analysis. You can select the individual functions and process the spectrum by yourself.
 
