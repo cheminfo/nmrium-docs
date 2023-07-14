@@ -26,19 +26,17 @@ The first step is to use the following project https://github.com/cheminfo/nmr-d
 
 Then click on the button "Create repository". The basic structure of your exercise will be created. 
 
-A github page will open.  Click on the "Include all branches" box. You have to give your exercise a name, which you enter at "Repository name". You also have to select the setting "Public". Then click on the button "Create repository". The basic structure of your exercise will be created. 
-
-Next, you need to create your own exercise. The best way to use this is to switch programs and work with "Visual studio code". If you do not have this program, you can work with the browser version. To use this, press the "." key on your keyboard. You will be redirected to the browser version of VSC.
-
-Github has provided a basic structure for the exercise. 
-
-You may then change all the files and folders (except the .github folder required to build the series). You have the possibility to group exercises in folders or have them directly at the first level.
+A github page will open.  Click on the "Include all branches" box. You have to give your exercise a name, which you enter at "Repository name". You also have to select the setting "Public". Then click on the button "Create repository". The basic structure of your exercise will be created. Next, you need to create your own exercise.
 
 :::info
 
 To make changes to the repository created from the template, we recommend to work with the software **Visual Studio Code** which is available for free [here](https://code.visualstudio.com/). If you do not have this program installed on your computer, you can also work with the browser version. Open your repository on GitHub and press the `.` key on the keyboard. You will be automatically directed to the browser version of **Visual Studio Code**. It may take a few moments until all functions are usable. 
 
 :::
+
+Github has provided a basic structure for the exercise. 
+
+You may then change all the files and folders (except the .github folder required to build the series). You have the possibility to group exercises in folders or have them directly at the first level.
 
 :::info
 
