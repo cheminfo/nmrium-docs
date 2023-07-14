@@ -46,6 +46,23 @@ To save the changes click the **Source control** button on the menu bar on the l
 
 :::
 
+Now you need to switch back to the Github page. If you are using the browser version of the Visual Studio code, click the button at the top right. Click the "Switch to repository" button there. You will be redirected to Github. 
+
+Now click on the "Settings" button in the bar at the top center. Then click the "Actions" button on the left side of the desktop, then go to Generals. You need to select the following settings:
+
+- Allow all actions an resuable workflows
+- Require approval for first-time contributs
+- Read and Write permissions
+
+For all three settings you have to click the respective "Save" button.
+Now click the "Actions" button in the bar above the workspace, then click gh-pages deployment.On the right side of the workspace you will now find the button "Run workflow", which you also have to click.Github will now apply all the settings you have chosen and save them. This step may take a few minutes.You can perform all further steps, but you may not be able to view your correct exercises until a few minutes later (see last step).   
+
+Now click the Code button in the upper left corner. You will be redirected to your exercise.  
+
+Click on the Main button in the upper left corner and then on "gh-pages". Your exercise will be created.
+
+In the "Readme.md" box at the bottom of the workspace, you can click the link to your exercises on Github or copy it and forward it to your students. Depending on the size of your created exercises, it may take a few minutes for NMRium to display the correct exercises
+
 ## NMR spectra format
 
 You should save the NMR spectra as a JCAMP-DX file (on topspin use the `tojdx` command). The spectrum should be FT and phase corrected. To spare bandwidth you may only save the real part of the spectrum.
