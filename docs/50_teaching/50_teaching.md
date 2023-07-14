@@ -20,17 +20,17 @@ If you do not have a GitHub account yet, you can easily sign up there. You can r
 
 :::
 
-The first step is to use the following project https://github.com/cheminfo/nmr-dataset-template as template.
-
-This is achieved by visiting the webpage and clicking on the corresponding button.
+The first step is to use the following project https://github.com/cheminfo/nmr-dataset-template as template. You will be redirected to the github page. Click the "Use this template" button there. In the box that opens, click "Create a new repository".
 
 ![use as template](images/use_this_template.png)
 
-:::info 
+Then click on the button "Create repository". The basic structure of your exercise will be created. 
 
-Select the **Public** setting. Until the exercise is published, only you and the NMRium developers can see the exercise you created. If you choose the **Private** setting, you must change your setting to **Public** before publishing. 
+A github page will open.  Click on the "Include all branches" box. You have to give your exercise a name, which you enter at "Repository name". You also have to select the setting "Public". Then click on the button "Create repository". The basic structure of your exercise will be created. 
 
-:::
+Next, you need to create your own exercise. The best way to use this is to switch programs and work with "Visual studio code". If you do not have this program, you can work with the browser version. To use this, press the "." key on your keyboard. You will be redirected to the browser version of VSC.
+
+Github has provided a basic structure for the exercise. 
 
 You may then change all the files and folders (except the .github folder required to build the series). You have the possibility to group exercises in folders or have them directly at the first level.
 
