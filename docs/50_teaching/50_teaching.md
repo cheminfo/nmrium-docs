@@ -61,13 +61,15 @@ Now click on the "Settings" button in the bar at the top center. Then click the 
 - Read and Write permissions
 
 For all three settings you have to click the respective "Save" button.
-Now click the "Actions" button in the bar above the workspace, then click gh-pages deployment.On the right side of the workspace you will now find the button "Run workflow", which you also have to click.Github will now apply all the settings you have chosen and save them. This step may take a few minutes.You can perform all further steps, but you may not be able to view your correct exercises until a few minutes later (see last step).   
+Now click the "Actions" button in the bar above the workspace, then click gh-pages deployment. On the right side of the workspace you will now find the button "Run workflow", which you also have to click. Github will now apply all the settings you have chosen and save them. This step may take a few minutes. You can perform all further steps, but you may not be able to view your correct exercises until a few minutes later (see last step).   
 
 Now click the Code button in the upper left corner. You will be redirected to your exercise.  
 
 Click on the Main button in the upper left corner and then on "gh-pages". Your exercise will be created.
 
-In the "Readme.md" box at the bottom of the workspace, you can click the link to your exercises on Github or copy it and forward it to your students. Depending on the size of your created exercises, it may take a few minutes for NMRium to display the correct exercises
+In the "Readme.md" box at the bottom of the workspace, you can click the link to your exercises on Github or copy it and forward it to your students. Depending on the size of your created exercises, it may take a few minutes for NMRium to display the correct exercises.
+
+![](./Teaching_part_2.gif)
 
 ## NMR spectra format
 
