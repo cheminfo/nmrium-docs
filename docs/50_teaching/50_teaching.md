@@ -28,7 +28,11 @@ Then click on the button "Create repository". The basic structure of your exerci
 
 A github page will open.  Click on the "Include all branches" box. You have to give your exercise a name, which you enter at "Repository name". You also have to select the setting "Public". Then click on the button "Create repository". The basic structure of your exercise will be created. Next, you need to create your own exercise.
 
+
+
 ![](./Teaching_part_1.gif)
+
+
 
 :::info
 
