@@ -28,6 +28,8 @@ Then click on the button "Create repository". The basic structure of your exerci
 
 A github page will open.  Click on the "Include all branches" box. You have to give your exercise a name, which you enter at "Repository name". You also have to select the setting "Public". Then click on the button "Create repository". The basic structure of your exercise will be created. Next, you need to create your own exercise.
 
+![](./Teaching_part_1.gif)
+
 :::info
 
 To make changes to the repository created from the template, we recommend to work with the software **Visual Studio Code** which is available for free [here](https://code.visualstudio.com/). If you do not have this program installed on your computer, you can also work with the browser version. Open your repository on GitHub and press the `.` key on the keyboard. You will be automatically directed to the browser version of **Visual Studio Code**. It may take a few moments until all functions are usable. 
