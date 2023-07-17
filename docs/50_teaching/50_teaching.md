@@ -113,16 +113,6 @@ https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset-temp
 The name of the toc for each folder is `toc_ABCD.json` in which ABCD is the name of the folder. Only the folder present at the first level are considered.
 
 
-## Build the Table Of Contents (toc) and publish on gh-pages
-
-The system is based on various JSON files that are build automatically thanks to a github action. This will be done automatically but you should check that
-
-:::info
-
-To publish your exercises on gh-pages, you need to go back to your repository on **GitHub**. Click the **master** button. In the opening box, change the **Branches** setting from master to gh-pages and then click **Enter**. In the **Readme.md** box, you can find the link to your exercises. Click it and you are directed to your exercises. 
-
-:::
-
 ## Test your exercises
 
 https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset-template/toc.json
