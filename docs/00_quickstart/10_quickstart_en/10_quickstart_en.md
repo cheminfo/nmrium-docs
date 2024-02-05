@@ -169,7 +169,7 @@ The pre-set relative number of all integrated H-atoms is 100. To change this num
 
 If you want to delete a single integral, find the corresponding signal on the right side of the spectrum in the list in the panel **Integrals**. Click the recycle bin icon on the far right of the line. The integral will be deleted. Alternatively, you can click onto the red field at the bottom of the spectrum that belongs to the respective integral. The corresponding integral will be deleted.
 
-IIf you want to delete all integrals, click onto the recycle bin icon located above the signal list in the panel **Integrals**. Confirm that you want to delete all integrals by clicking **Yes** in the pop-up window.
+If you want to delete all integrals, click onto the recycle bin icon located above the signal list in the panel **Integrals**. Confirm that you want to delete all integrals by clicking **Yes** in the pop-up window.
 
 ## 14. Picking ranges and determination of coupling constants
 
