@@ -4,9 +4,9 @@ title: List of Spectra and Mode selection
 
 # List of Spectra
 
-On the right side of the workspace, various areas are available in an expandable menu. Click onto the field Spectra. The measured nuclei (e.g. ¹H, ¹³C, etc) are displayed in the opened field. The spectra are grouped in nuclei. Click on a nucleus to find the 1D and 2D experiments associated with it. 
+On the right side of the workspace, various areas are available in an expandable menu. Click onto the field Spectra. The measured nuclei (e.g. ¹H, ¹³C, etc) are displayed in the opened field. The spectra are grouped into nuclei. Click on a nucleus to find the 1D and 2D experiments associated with it. 
 
-Above the spectra panel you can find a button that displays the number of displayed spectra. In the example shown, eight spectra have been loaded. If this button is highlighted in green, all spectra have been uploaded correctly. If the button is highlighted in red, one or more spectra have not been uploaded correctly. 
+Above the panel spectra, you can find a button that shows the number of displayed spectra. In the example shown, eight spectra have been loaded. If this button is highlighted in green, all spectra have been uploaded correctly. If the button is highlighted in red, one or more spectra have not been uploaded correctly. 
 
 ![](./korrekte_Spektren.svg)
 
@@ -26,7 +26,7 @@ In each line of the spectrum, you find general information about the solvent.
 
 ![](./solvent.svg)
 
-To delete a single spectrum, click on the corresponding line. Then click on the red trash icon above the list of measured spectra. A box will open. Click yes if you want to delete the selected spectrum. The spectrum will be deleted.
+To delete a single spectrum, click on the corresponding line. Then click on the red trash icon above the list of measured spectra. A window will open. Click yes if you want to delete the selected spectrum. The spectrum will be deleted.
 
 ![](./Delete_spectra.png)
 
@@ -40,7 +40,7 @@ If you have several 1D spectra of a substance and you want to analyse them at th
 
 If you have one or more spectra of a compound, NMRium is able to assign these spectra for you. To use this, select the function **NMR spectra assignment**. NMRium analyses the ranges. It determines the integral or the relative H part of a range. It also does a multiplet analysis and a calculation of the coupling constants.  Finally, you can also make corrections by yourself.
 
-Click above the panels on the right side on the red marked button and select the corresponding function. You have to activate it by clicking on a spectrum or a nucleus in the Spectra panel. Afterwards, the selected mode will be available.
+Click above the panels on the right side on the red marked button and select the corresponding function. You must activate it by clicking on a spectrum or a nucleus in the panel Spectra. Afterwards, the selected mode will be available.
 
 
 
