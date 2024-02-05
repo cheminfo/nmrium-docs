@@ -37,7 +37,7 @@ It is possible that your Bruker folder contains so-called **wobble curves**. It 
 
 :::tip Changing the color of a spectrum
 
-You can change the color of the spectrum by clicking the colored square in the line for the spectrum. In the appearing window, you can select a different color. For 2D experiments, the colors for the negative and positive cross-peaks are selectable as well.
+You can change the color of the spectrum by clicking the colored square in the line of the spectrum. In the appearing window, you can select a different color. For 2D experiments, the colors for the negative and positive cross-peaks are selectable as well.
 
 :::
 
@@ -47,7 +47,7 @@ To delete a single spectrum, right-click onto the spectrum in the panel **spectr
 
 ## 5. Zooming in on a section
 
-To zoom in on a section of a spectrum, move over it whilst holding down the left mouse button. You can repeat this process as often as you like. Double-click anywhere in the spectrum to undo the last zoom in. This, too, can be repeated. The intensity level of the signals can be changed using the mouse wheel. To return to the original spectrum, click onto the button **Horizontal zoom out** button in the menu bar on the left side of the spectrum.
+To zoom in on a section of a spectrum, move over it whilst holding down the left mouse button. You can repeat this process as often as you like. Double-click anywhere in the spectrum to undo the last zoom in. This, too, can be repeated. The intensity level of the signals can be changed using the mouse wheel. To return to the original spectrum, click onto the button **Horizontal zoom out** in the menu bar on the left side of the spectrum.
 
 ## 6. Inserting a molecular structure
 
@@ -55,13 +55,13 @@ There are two ways to insert a molecular structure into the program:
 
 :::note Molfile
 
-Drag the molfile into the workspace. The panel **Structures** field appears, showing the inserted molecular structure as well as the molecular weight and the molecular formula.
+Drag the molfile into the workspace. The panel **Structures** appears, showing the inserted molecular structure as well as the molecular weight and the molecular formula.
 
 :::
 
 :::note Integrated structure editor
 
-Click on the **Structures** menu on the right side of the screen and then on the **+** sign. A window opens where you can draw your molecular structure. Then click on the **Save** button. In the **Structures** field, the drawn molecular structure appears as well as the molecular weight and the molecular formula.
+Click onto the panel **Structures** on the right side of the screen and then on the **+** sign. A window opens where you can draw your molecular structure. Then click on the **Save** button. In the panel **Structures**, the drawn molecular structure appears as well as the molecular weight and the molecular formula.
 
 :::
 
@@ -140,7 +140,7 @@ Locate a signal. When you capture it with the crosshairs, press the shift key an
 
 If you want to delete a single peak, find the corresponding signal on the right side of the spectrum in the list in the panel **Peaks**. Click the recycle bin icon on the far right of the line. The peak will be deleted.
 
-If you want to delete all peaks, click on the recycle bin icon located above the signal list in the panel **Peaks**. CConfirm that you want to delete all peaks by clicking **Yes** in the pop-up window.
+If you want to delete all peaks, click on the recycle bin icon located above the signal list in the panel **Peaks**. Confirm that you want to delete all peaks by clicking **Yes** in the pop-up window.
 
 ## 11. Choosing the values to display in the "Peaks" list
 
@@ -169,7 +169,7 @@ The pre-set relative number of all integrated H-atoms is 100. To change this num
 
 If you want to delete a single integral, find the corresponding signal on the right side of the spectrum in the list in the panel **Integrals**. Click the recycle bin icon on the far right of the line. The integral will be deleted. Alternatively, you can click onto the red field at the bottom of the spectrum that belongs to the respective integral. The corresponding integral will be deleted.
 
-IIf you want to delete all integrals, click onto the recycle bin icon located above the signal list in the panel **Integrals**.Confirm that you want to delete all integrals by clicking **Yes** in the pop-up window.
+IIf you want to delete all integrals, click onto the recycle bin icon located above the signal list in the panel **Integrals**. Confirm that you want to delete all integrals by clicking **Yes** in the pop-up window.
 
 ## 14. Picking ranges and determination of coupling constants
 
