@@ -6,7 +6,7 @@ title: Save and Export
 
 ## Save Data
 
-The analyzed spectra can be saved as NMRium file (text file) for further processing. Click the export button and then select the **save as** (NMRium) button. There are several possibilities to choose how to save the data:
+The analyzed spectra can be saved as a NMRium file (text file) for further processing. Click the export button and then select the **save as** (NMRium) button. There are several possibilities to choose how to save the data:
 
 - compressed
 - pretty format
