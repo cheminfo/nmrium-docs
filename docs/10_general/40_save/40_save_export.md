@@ -18,12 +18,12 @@ Select the desired settings and click save.
 
 ## Save an Image
 
-The analysed spectra can be saved as an image file (png). Click on the export button and then select the button export as png in the opening window. A new window will appear. Press **ok**, if you want to continue the process. The spectrum is opened as a png file which you can save on your computer afterwards. You also can press copy image to clipboard. An image file, too, will be saved to the clipboard. Afterwards, you can paste the image into a Word document, for example.
+The analysed spectra can be saved as an image file (png). Click on the export button and then select the button export as png in the opening window. A new window will appear. Press **ok**, if you want to continue the process. The spectrum is opened as a png file which you can save on your computer afterwards. You also can press copy image to clipboard. An image file, too, will be saved to the clipboard. Afterwards, you can, for example, paste the image into a Word document.
 
 ![](./export_as_png.gif)
 
 ## Export
 
-There are two possibilities to save data. One possibility is to save the spectrum as an SVG file as a vector file. This format allows to save the spectrum in a high resolution. Click onto the export button and then select the button export as SVG in the opening window. Another possibility is to save an analysed spectrum as NMReDATA. To do this, also click on the export button and select the button save NMRE data
+There are two ways to save data. One way is to save the spectrum as an SVG file as a vector file. This format allows to save the spectrum in a high resolution. Click onto the export button and then select the button export as SVG in the opening window. Another way is to save an analysed spectrum as NMReDATA. To do this, also click on the export button and select the button save NMRE data
 
 ![](./Export.svg)
