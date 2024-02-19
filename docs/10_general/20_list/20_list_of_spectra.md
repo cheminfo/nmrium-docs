@@ -40,7 +40,7 @@ If you have several 1D spectra of a substance and you want to analyse them at th
 
 If you have one or more spectra of a compound, NMRium is able to assign these spectra for you. To use this, select the function **NMR spectra assignment**. NMRium analyses the ranges. It determines the integral or the relative H part of a range. It also does a multiplet analysis and a calculation of the coupling constants.  Finally, you can also make corrections by yourself.
 
-Click above the panels on the right side on the red marked button and select the corresponding function. You must activate it by clicking on a spectrum or a nucleus in the panel Spectra. Afterwards, the selected mode will be available.
+Click above the panels on the right side on the red marked button and select the corresponding function. You must activate it by clicking on a spectrum or a nucleus in the panel **Spectra**. Afterwards, the selected mode will be available.
 
 
 
