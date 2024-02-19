@@ -47,7 +47,7 @@ To delete a single spectrum, right-click onto the spectrum in the panel **spectr
 
 ## 5. Zooming in on a section
 
-To zoom in on a section of a spectrum, move over it whilst holding down the left mouse button. You can repeat this process as often as you like. Double-click anywhere in the spectrum to undo the last zoom in. This, too, can be repeated. The intensity level of the signals can be changed using the mouse wheel. To return to the original spectrum, click onto the button **Horizontal zoom out** in the menu bar on the left side of the spectrum.
+To zoom in on a section of a spectrum, move over it whilst holding down the left mouse button. You can repeat this process as often as you like. Double-click anywhere in the spectrum to undo the last zoom in. This, too, can be repeated. The intensity level of the signals can be changed using the mouse wheel. To return to the original spectrum, click onto the **Horizontal zoom out** button in the menu bar on the left side of the spectrum.
 
 ## 6. Inserting a molecular structure
 
