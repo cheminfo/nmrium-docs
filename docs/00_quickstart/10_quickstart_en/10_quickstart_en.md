@@ -76,7 +76,7 @@ You can analyse your spectra using three different analysis methods:
 
 To select the appropriate method, click on the corresponding button above the panels. 
 
-![](./img102.png)
+![](./Methodenauswahl.png)
 
 ## 7. Processing of raw data (currently only 1D)
 
