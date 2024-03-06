@@ -67,6 +67,17 @@ Click onto the panel **Structures** on the right side of the screen and then on 
 
 ![](./img103.png)
 
+## 7. Selection of analysis method
+
+You can analyse your spectra using three different analysis methods: 
+- Simple NMR analysis
+- 1D multiple spectra analysis
+- NMR spectra assignment
+
+To select the appropriate method, click on the corresponding button above the panels. 
+
+![](./img102.png)
+
 ## 7. Processing of raw data (currently only 1D)
 
 NMRium offers the possibility to perform a Fourier transformation (FT) on the raw data of one-dimensional NMR spectra. To process an FID, open the FID by dragging it into the **Drag and drop here** box ([section 2](#2-open-spectra)).
