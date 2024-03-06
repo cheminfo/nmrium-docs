@@ -80,7 +80,8 @@ To select the appropriate method, click on the corresponding button above the pa
 
 ## 8. Processing of raw data (currently only 1D)
 
-NMRium offers the possibility to perform a Fourier transformation (FT) on the raw data of one-dimensional NMR spectra. To process an FID, open the FID by dragging it into the **Drag and drop here** box ([section 2](#2-open-spectra)).
+NMRium offers the possibility to perform a Fourier transformation (FT) on the raw data of one-dimensional NMR spectra. To process an FID, open the FID by dragging it into the **Drag and drop here** box ([section 2](#2-open-spectra)). 
+NMRium automatically performs zero filling and then Fourier transformation. Phase correction is also performed automatically. You have the option of viewing all automatically performed work steps. Open the processings panel to view the individual steps. You can reversibly undo a step by removing the tick in the corresponding line or setting it again. To permanently remove a step, click on the recycle bin symbol in the corresponding line. The step is deleted. If you remove all tick 
 
 ![](./img104.png)
 
