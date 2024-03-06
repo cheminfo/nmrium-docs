@@ -78,7 +78,7 @@ To select the appropriate method, click on the corresponding button above the pa
 
 ![](./Methodenauswahl.png)
 
-## 7. Processing of raw data (currently only 1D)
+## 8. Processing of raw data (currently only 1D)
 
 NMRium offers the possibility to perform a Fourier transformation (FT) on the raw data of one-dimensional NMR spectra. To process an FID, open the FID by dragging it into the **Drag and drop here** box ([section 2](#2-open-spectra)).
 
@@ -125,13 +125,13 @@ Click the icon Baseline correction to the left of the spectrum. You can choose b
 - To use the algorithm **polynomial**, you may define a degree and then click **apply**.
 - To apply the **AIR PLS** algorithm, you may define both a maximum iteration and a tolerance range and then click **apply**.
 
-## 8. Referencing
+## 9. Referencing
 
 Click the button **Peaks Picking** to the left of the spectrum. Then identify your solvent signal (or the reference signal). Capture it with the crosshairs and press the shift key and the left mouse button at the same time. The chemical shift of the signal will be shown both in the spectrum and in a list on the right-hand side of the spectrum in the panel  **Peaks**. Select one of the two displayed values (in the spectrum single click with the left mouse button, in the list double-click with the left mouse button) and enter the correct reference value.
 
 ![](./img105.png)
 
-## 9. Peak Picking
+## 10. Peak Picking
 
 Click onto the button **Peaks Picking**. You can choose between automatic peaks picking and manual peaks picking.
 
@@ -147,13 +147,13 @@ Locate a signal. When you capture it with the crosshairs, press the shift key an
 
 :::
 
-## 10. Delete peaks
+## 11. Delete peaks
 
 If you want to delete a single peak, find the corresponding signal on the right side of the spectrum in the list in the panel **Peaks**. Click the recycle bin icon on the far right of the line. The peak will be deleted.
 
 If you want to delete all peaks, click on the recycle bin icon located above the signal list in the panel **Peaks**. Confirm that you want to delete all peaks by clicking **Yes** in the pop-up window.
 
-## 11. Choosing the values to display in the "Peaks" list
+## 12. Choosing the values to display in the "Peaks" list
 
 You can display various information in the panel **Peaks**. Open the panel **Peaks** on the right side of the spectrum. Click onto the gear wheel at the top right. All measured nuclei will be displayed. You can choose to display the following values for each nucleus:
 
@@ -166,7 +166,7 @@ You can display various information in the panel **Peaks**. Open the panel **Pea
 
 Check the box next to the values you want to have displayed for the respective nucleus. Then click onto the green check mark at the top right.
 
-## 12. Integration
+## 13. Integration
 
 Click onto the button **Integral tool** on the left side of the spectrum. To integrate a signal, hold down the shift key and move the mouse over the signal while holding down the left mouse button. Then let go of both the shift key and the left mouse button. Proceed in this way with each signal that you want to integrate. The integrals are displayed in a list on the right-hand side of the spectrum in the panel **Integrals**.
 
@@ -176,13 +176,13 @@ The pre-set relative number of all integrated H-atoms is 100. To change this num
 
 ![](./img106a.png)
 
-## 13. Deleting integrals
+## 14. Deleting integrals
 
 If you want to delete a single integral, find the corresponding signal on the right side of the spectrum in the list in the panel **Integrals**. Click the recycle bin icon on the far right of the line. The integral will be deleted. Alternatively, you can click onto the red field at the bottom of the spectrum that belongs to the respective integral. The corresponding integral will be deleted.
 
 If you want to delete all integrals, click onto the recycle bin icon located above the signal list in the panel **Integrals**. Confirm that you want to delete all integrals by clicking **Yes** in the pop-up window.
 
-## 14. Picking ranges and determination of coupling constants
+## 15. Picking ranges and determination of coupling constants
 
 Click on the **Ranges Picking** button on the left side of the spectrum to specify signal assignment ranges, for example to determine coupling constants. You have the option of either manually or automatically defining the assignment ranges:
 
@@ -200,12 +200,12 @@ Press the Shift key and move the mouse over the range you want to set. The marke
 
 ![](./img107.png)
 
-## 15. Delete ranges
+## 16. Delete ranges
 
 If you want to delete a single range, find the corresponding range on the right side of the spectrum in the list in the **Ranges** field. Click the trash icon on the far right of the line, the range will be deleted.
 If you want to delete all ranges, click on the trash icon located above the signal list in the **ranges** field. Confirm that you want to delete all ranges by clicking **Yes** in the window that opens.
 
-## 16. Assignment of signals
+## 17. Assignment of signals
 
 To assign signals, you have to define assignment ranges ([section 14](#14-picking-ranges-and-determination-of-coupling-constants)) and insert a molecular structure ([section 6](#6-insert-a-molecular-structure)). Open the **Ranges** and **Structures** fields on the right side. Specify the correct number of relative H atoms by clicking the sum icon above the **Ranges** list. In the window that opens, you can either enter the number of H atoms manually and then click on **Set** or accept the number of H atoms specified by the sum formula by clicking on **Set** in the lower area.
 
@@ -213,7 +213,7 @@ In the list, click the box under the link icon in the line of the signal you wan
 
 ![](./img108.png)
 
-## 17. Export of assigned spectra
+## 18. Export of assigned spectra
 
 To export the assigned spectra, click on the **Export** button to the left side of the spectrum. A field will open where you can select in which format you want to export your spectrum. You have the following options:
 
