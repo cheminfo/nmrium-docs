@@ -14,16 +14,26 @@ The analyzed spectra can be saved as a NMRium file (text file) for further proce
 
 Select the desired settings and click save.
 
-![](./Export_as_an_image.svg)
+## Save as an Image
 
-## Save an Image
+NMRium allows to save the analyzed spectra as images using either the [PNG (Portable Network Graphics)](https://en.wikipedia.org/wiki/PNG) format or the [SVG (Scalable Vector Graphics)](https://en.wikipedia.org/wiki/SVG). SVG is the best format for publications and can be further reprocessed using application like the free application [Inkscape](https://inkscape.org/).
 
-The analysed spectra can be saved as an image file (png). Click on the export button and then select the button export as png in the opening window. A new window will appear. Press **ok**, if you want to continue the process. The spectrum is opened as a png file which you can save on your computer afterwards. You also can press copy image to clipboard. An image file, too, will be saved to the clipboard. Afterwards, you can, for example, paste the image into a Word document.
+In order to export as PNG, click on the export button and then select the `Export as PNG` option in the drop-down menu. A new window will appear. Depending on your preferences, you will be prompted for a destination or your image will be saved directly to the disk. This PNG can be directly imported into your reports or presentations.
 
 ![](./export_as_png.gif)
 
-## Export
+In a similar way you can save as SVG.
 
-There are two ways to save data. One way is to save the spectrum as an SVG file as a vector file. This format allows to save the spectrum in a high resolution. Click onto the export button and then select the button export as SVG in the opening window. Another way is to save an analysed spectrum as NMReDATA. To do this, also click on the export button and select the button save NMRE data
+![](./export_as_svg.gif)
 
-![](./Export.svg)
+## Copy directly to the clipboard
+
+The fastest way to create your reports is to copy the PNG image directly to the clipboard. This can be achieved through the export menu by selecting the option `Copy image to clipboard`.
+
+![](./copy_to_clipboard.gif)
+
+:::tip Copy to clipboard using shortcuts
+
+If your mouse pointer is over the spectrum, you can simply press <kbd>CTRL</kbd> + <kbd>c</kbd> to copy it as a PNG image and paste it into other software. Please note that this functionality is only available in Chrome and Edge.
+
+:::

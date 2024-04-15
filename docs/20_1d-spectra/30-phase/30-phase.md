@@ -12,16 +12,20 @@ Click the **Phase correction** icon to the left of the spectrum. You can choose 
 
 You can perform zero-order and first-order phase correction.
 
-For zero-order phase correction, move the pivot point (red line) by one click anywhere in the spectrum and select the highest peak. Then click and hold the green **PH0** button located above the spectrum. By moving the mouse to the left or right, you can perform phase correction until the signal is correctly phased. Then let go of the button.
+Generally, you will select a pivot point (red line) by holding SHIFT and clicking on a peak. Most of the time, you will select a large peak on an extremity of the spectrum.
 
-The first order phase correction is performed in an analogous manner by pressing  **PH1**. The focus here should be on the signals furthest away from the signal under the pivot point. Clicking the Apply button completes the phase correction.
+For zero-order phase correction, click and hold the green **PH0** button located above the spectrum. By moving the mouse to the left or right, you can perform phase correction until the signal at the level of the pivot is correctly phased.
+
+First-order phase correction is performed in an analogous manner by pressing **PH1**. The focus here should be on the signals furthest from the signal under the pivot point.
+
+Clicking the Apply button completes the phase correction.
 
 ![](./phase_correction.gif)
 
 ## Automatic
 
-Select the **Automatic** Phase Correction and click the green **Apply** button. The phase will be corrected automatically.
+Select the **Automatic** Phase Correction and click the green **Apply** button. The phase will be corrected automatically. It case it fails you can still correct it manually.
 
 ## Absolute Value
 
-Select the **Absolut** Phase Correction and click the green **Apply** button. The phase will be corrected automatically.
+Select the **Absolute** Phase Correction and click the green **Apply** button.
