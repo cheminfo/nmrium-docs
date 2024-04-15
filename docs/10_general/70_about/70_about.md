@@ -10,5 +10,4 @@ If you need help or want to open the handbook, click on the question mark on the
 
 Alternatively, you can also contact us by mail. To use this service, click onto the button contact us.
 
-
-![](./About_NMRium.png)
+![](./about_nmrium.gif)

@@ -4,8 +4,10 @@ title: Help
 
 # Help
 
-If you need help or want to open the handbook, click the question mark on the right side of the screen. The documentation will open in a new tab.
+From the NMRium application, you have direct access to this help, but also to a YouTube channel containing numerous videos explaining the various functionalities.
 
-Alternatively, you can also contact us by email. To use this service, click on the contact us button.
+If you need help, click the question mark on the right side of the screen. The documentation will open in a new tab.
 
-![](./help.png)
+For the video press the corresponding movie icon.
+
+![](./help.gif)
