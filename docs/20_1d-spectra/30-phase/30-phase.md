@@ -6,7 +6,7 @@ title: Phase Correction
 
 Click the **Phase correction** icon to the left of the spectrum. You can choose between **manual**, **absolut** and **automatic** phase correction.
 
-![](./Phase_correction1.svg)
+![](./phase_correction.png)
 
 ## Manual
 
@@ -20,11 +20,13 @@ First-order phase correction is performed in an analogous manner by pressing **P
 
 Clicking the Apply button completes the phase correction.
 
-![](./phase_correction.gif)
+![](./phase_correction_manual.gif)
 
 ## Automatic
 
 Select the **Automatic** Phase Correction and click the green **Apply** button. The phase will be corrected automatically. It case it fails you can still correct it manually.
+
+![](./phase_correction_automatic.gif)
 
 ## Absolute Value
 
