@@ -135,7 +135,7 @@ Klicken Sie den Button **Peaks Picking** auf der linken Seite des Spektrums an. 
 
 ## 10. Löschen von Chemischen Verschiebungen
 
-Wenn Sie die chemische Verschiebung eines Signals löschen woollen, wählen Sie den entsprechenden Wert im Panel **Peaks** auf der rechten Seite des Bildschirms. Klicken sie das Papierkorbsymbol auf der rechten Seite der entsprechenden Zeile an, der Wert wird gelöscht..
+Wenn Sie die chemische Verschiebung eines Signals löschen wollen, wählen Sie den entsprechenden Wert im Panel **Peaks** auf der rechten Seite des Bildschirms. Klicken sie das Papierkorbsymbol auf der rechten Seite der entsprechenden Zeile an, der Wert wird gelöscht..
 
 Wenn Sie alle Chemischen Verschiebungen löschen wollen, klicken Sie das Papierkorbsymbol oberhalb der Liste mit den Chemischen Verschiebungen im Panel **Peaks** auf der rechten Seite des Bildschirms. Bestätigen Sie, dass Sie alle chemischen Verschiebungen löschen wollen, indem Sie **Yes** im sich öffnenden Fenster anklicken.
 
