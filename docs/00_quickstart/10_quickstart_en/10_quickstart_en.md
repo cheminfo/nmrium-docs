@@ -99,6 +99,8 @@ If you are unsure which values to set, you can use the following recommendations
 
 :::
 
+NMRium has a live function. If you edit the raw data, you can see the changes directly. The changes are only saved when you click on the **Apply** button. If you want to hide the live function, uncheck the **Live** function above the workspace. This function is also available for many other NMRium functions.
+
 ### Phase correction
 
 Click the icon **Phase correction** to the left of the spectrum. You can choose between manual and automatic phase correction.
