@@ -86,7 +86,7 @@ Wenn Sie sich nicht sicher sind, welche Werte Sie verwenden sollen, empfehlen wi
 
 :::
 
-NMRium hat eine Live-Funktion. Wenn Sie die Rohdaten bearbeiten, können Sie die Änderungen direkt sehen. Die Änderungen werden erst gespeichert, wenn Sie den Button **Apply** anklicken. Möchten Sie die Live-Funktion ausblenden, so entfernen Sie den gesetzten Haken bei der Funktion **Live** oberhalb der Arbeitsfläche. 
+NMRium hat eine Live-Funktion. Wenn Sie die Rohdaten bearbeiten, können Sie die Änderungen direkt sehen. Die Änderungen werden erst gespeichert, wenn Sie den Button **Apply** anklicken. Möchten Sie die Live-Funktion ausblenden, so entfernen Sie den gesetzten Haken bei der Funktion **Live** oberhalb der Arbeitsfläche. Diese Funktion gibt es auch für viele weitere Funktionen von NMRium.
 
 ### Phasenkorrektur
 
