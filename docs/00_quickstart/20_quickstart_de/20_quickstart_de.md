@@ -68,7 +68,7 @@ Klicken Sie auf den Panel **Structures** auf der rechten Seite des Spektrums und
 
 ## 7. Prozessierung der Rohdaten (derzeit ausschließlich 1D)
 
-NMRium bietet die Möglichkeit, eine Fourier Tranformation (FT) der eindimensionalen Rohdaten durchzuführen. Öffnen Sie den FID, indem Sie auf die entsprechende Datei im Panel **Spectra** klicjen.
+NMRium bietet die Möglichkeit, eine Fourier Tranformation (FT) der eindimensionalen Rohdaten durchzuführen. Öffnen Sie den FID, indem Sie auf die entsprechende Datei im Panel **Spectra** klicken.
 
 ![](./img104.png)
 
@@ -85,6 +85,8 @@ Wenn Sie sich nicht sicher sind, welche Werte Sie verwenden sollen, empfehlen wi
 **Line Broadening (LB)**: Geben Sie 0.3 Hz für ¹H-Spektren an und 1-3 Hz für ¹³C-Spektren.
 
 :::
+
+NMRium hat eine Live-Funktion. Wenn Sie die Rohdaten bearbeiten, können Sie die Änderungen direkt sehen. Die Änderungen werden erst gespeichert, wenn Sie den Button **Apply** anklicken. Möchten Sie die Live-Funktion ausblenden, so entfernen Sie den gesetzten Haken bei der Funktion **Live** oberhalb der Arbeitsfläche. 
 
 ### Phasenkorrektur
 
