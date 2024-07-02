@@ -18,7 +18,7 @@ Um Spektren öffnen zu können, müssen sie in einem der folgenden Dateiformate 
 - Jeol (.jdf)
 - NMRium-Datei (.nmrium)
 
-Ziehen Sie die Datei, die Sie öffnen wollen, mit der Maus in die graue Box **Drag and drop here** in der Mitte des Bildschirms. Sie können ein Spektrenset öffnen, indem Sie entweder die Spektren einzeln in die Arbeitsfläche ziehen oder indem Sie einen gezippten Ordner, der alle Spektren enthält, in die graue Box ziehen. Außerdem können gezippte Bruker-Ordner, die mehrere Spektren enthalten, öffnen.
+Ziehen Sie die Datei, die Sie öffnen wollen, mit der Maus in die graue Box **Drag and drop or click to open data.** in der Mitte des Bildschirms. Sie können ein Spektrenset öffnen, indem Sie entweder die Spektren einzeln in die Arbeitsfläche ziehen oder indem Sie einen gezippten Ordner, der alle Spektren enthält, in die graue Box ziehen. Außerdem können gezippte Bruker-Ordner, die mehrere Spektren enthalten, öffnen.
 
 ![](./img101.png)
 
