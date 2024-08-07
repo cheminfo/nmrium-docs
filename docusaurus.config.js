@@ -48,7 +48,11 @@ module.exports = {
       style: 'dark',
       copyright: `Copyright © ${new Date().getFullYear()} NMRium contributors. Built with Docusaurus.`,
     },
-    hideableSidebar: true,
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
   },
   presets: [
     [
