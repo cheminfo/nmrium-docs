@@ -26,7 +26,7 @@ The first step is to use the following project https://github.com/cheminfo/nmr-d
 
 Then click on the button "Create repository". The basic structure of your exercise will be created. 
 
-A github page will open.  Click on the "Include all branches" box. You have to give your exercise a name, which you enter at "Repository name". You also have to select the setting "Public". Then click on the button "Create repository". The basic structure of your exercise will be created. Next, you need to create your own exercise.
+A GitHub page will open.  Click on the "Include all branches" box. You have to give your exercise a name, which you enter at "Repository name". You also have to select the setting "Public". Then click on the button "Create repository". The basic structure of your exercise will be created. Next, you need to create your own exercise.
 
 
 
@@ -40,7 +40,7 @@ To make changes to the repository created from the template, we recommend to wor
 
 :::
 
-Github has provided a basic structure for the exercise. 
+GitHub has provided a basic structure for the exercise. 
 
 You may then change all the files and folders (except the .github folder required to build the series). You have the possibility to group exercises in folders or have them directly at the first level.
 
@@ -48,11 +48,11 @@ You may then change all the files and folders (except the .github folder require
 
 If you want to create or rename folders, click the **Explorer** button on the menu bar on the left side of **Visual Studio Code**. To create a new folder, click the **New Folder** icon. Then label the folder and click the **Enter key**. To rename an existing folder, right-click on it. Click **Rename** in the opened box. Specify the new name and click the **Enter button**. To delete an existing folder, right-click on it. Click **Delete permanently** in the opened box. Than click **Delete** in the opening box.
 
-To save the changes click the **Source control** button on the menu bar on the left. All the changes you have made are shown there. Write a short commit message in the **message** box. Then click the **check mark** above the box. The process may take a few minutes. Your changes will directly committed to the master branch on GitHub
+To save the changes click the **Source control** button on the menu bar on the left. All the changes you have made are shown there. Write a short commit message in the **message** box. Then click the **check mark** above the box. The process may take a few minutes. Your changes will directly committed to the main branch on GitHub
 
 :::
 
-Now you need to switch back to the Github page. If you are using the browser version of the Visual Studio code, click the button at the top right. Click the "Switch to repository" button there. You will be redirected to Github. 
+Now you need to switch back to the GitHub page. If you are using the browser version of the Visual Studio code, click the button at the top right. Click the "Switch to repository" button there. You will be redirected to GitHub. 
 
 Now click on the "Settings" button in the bar at the top center. Then click the "Actions" button on the left side of the desktop, then go to Generals. You need to select the following settings:
 
@@ -61,13 +61,13 @@ Now click on the "Settings" button in the bar at the top center. Then click the 
 - Read and Write permissions
 
 For all three settings you have to click the respective "Save" button.
-Now click the "Actions" button in the bar above the workspace, then click gh-pages deployment. On the right side of the workspace you will now find the button "Run workflow", which you also have to click. Github will now apply all the settings you have chosen and save them. This step may take a few minutes. You can perform all further steps, but you may not be able to view your correct exercises until a few minutes later (see last step).   
+Now click the "Actions" button in the bar above the workspace, then click gh-pages deployment. On the right side of the workspace you will now find the button "Run workflow", which you also have to click. GitHub will now apply all the settings you have chosen and save them. This step may take a few minutes. You can perform all further steps, but you may not be able to view your correct exercises until a few minutes later (see last step).   
 
 Now click the Code button in the upper left corner. You will be redirected to your exercise.  
 
 Click on the Main button in the upper left corner and then on "gh-pages". Your exercise will be created.
 
-In the "Readme.md" box at the bottom of the workspace, you can click the link to your exercises on Github or copy it and forward it to your students. Depending on the size of your created exercises, it may take a few minutes for NMRium to display the correct exercises.
+In the "Readme.md" box at the bottom of the workspace, you can click the link to your exercises on GitHub or copy it and forward it to your students. Depending on the size of your created exercises, it may take a few minutes for NMRium to display the correct exercises.
 
 ![](./Teaching_part_2.gif)
 
