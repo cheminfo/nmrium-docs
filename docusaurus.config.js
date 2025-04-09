@@ -12,13 +12,11 @@ module.exports = {
   projectName: 'nmrium-docs',
   plugins: [
     [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
+      '@orama/plugin-docusaurus-v3',
       {
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
-        hashed: true,
-        docsRouteBasePath: '/',
-        indexPages: true, //because of bug: https://github.com/easyops-cn/docusaurus-search-local/issues/42
+        searchbox: {
+          disableChat: true,
+        },
       },
     ],
   ],
