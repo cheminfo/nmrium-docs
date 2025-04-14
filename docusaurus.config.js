@@ -11,14 +11,7 @@ module.exports = {
   organizationName: 'cheminfo',
   projectName: 'nmrium-docs',
   plugins: [
-    [
-      '@orama/plugin-docusaurus-v3',
-      {
-        searchbox: {
-          disableChat: true,
-        },
-      },
-    ],
+    '@orama/plugin-docusaurus-v3'
   ],
   themeConfig: {
     navbar: {
