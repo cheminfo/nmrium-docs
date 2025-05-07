@@ -1,10 +1,7 @@
 ---
 slug: 2024-03-01-newsletter
 title: NMRium new features - March 2024
-author: Luc Patiny
-author_title: Chief Scientific Officer, Zakodium
-author_url: https://www.linkedin.com/in/lpatiny
-author_image_url: https://avatars0.githubusercontent.com/u/1484241?s=400&v=4
+authors: lpatiny
 tags: [NMRium, newsletter]
 ---
 

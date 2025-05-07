@@ -1,10 +1,7 @@
 ---
 slug: 2024-10-16-newsletter
 title: Introducing NMRiumDB - Your In-house NMR Spectra Database Solution
-author: Luc Patiny
-author_title: Chief Scientific Officer, Zakodium
-author_url: https://www.linkedin.com/in/lpatiny
-author_image_url: https://avatars0.githubusercontent.com/u/1484241?s=400&v=4
+authors: lpatiny
 tags: [NMRium, newsletter]
 ---
 

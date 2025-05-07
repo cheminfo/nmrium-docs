@@ -56,6 +56,8 @@ module.exports = {
           routeBasePath: '/',
         },
         blog: {
+          onUntruncatedBlogPosts: 'ignore',
+          blogSidebarCount: 'ALL',
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
