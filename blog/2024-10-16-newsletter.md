@@ -5,8 +5,6 @@ authors: lpatiny
 tags: [NMRium, newsletter]
 ---
 
-Dear XXX,
-
 We are excited to announce our latest product - NMRiumDB, a comprehensive solution designed to streamline and secure your NMR spectra analysis.
 
 NMRiumDB is a custom application that can be installed within your company's firewall, ensuring the utmost data security. It indexes all available NMR spectra on your system and provides a user-friendly web server that allows intranet access to all your spectra.
