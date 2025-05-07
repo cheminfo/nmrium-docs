@@ -14,21 +14,21 @@ The latest version of www.nmrium.org includes the following enhancements:
 
 1. **Right toolbar** to open/close panels in order to simplify the interface.
 
-![01](/newsletters/2025/march/01.gif)
+![right-toolbar](/newsletters/2025/march/right-toolbar.gif)
 
 2. **New processing panel** with **more advanced apodization options**.
 
-![02](/newsletters/2025/march/02.gif)
+![new-processing-panel](/newsletters/2025/march/new-processing-panel.gif)
 
 3. **Horizontal zoom** with **SHIFT + Scroll wheel and right Click + Drag to pan**.
 
-![03](/newsletters/2025/march/03.gif)
+![horizontal-zoom](/newsletters/2025/march/horizontal-zoom.gif)
 
 4. Move elements before creating reports
 
-![04](/newsletters/2025/march/04.gif)
+![move-elements](/newsletters/2025/march/move-elements.gif)
 
 5. **Select resolution** when exporting as PNG or SVG.
 
-![05](/newsletters/2025/march/05.gif)
+![select-resolution](/newsletters/2025/march/select-resolution.gif)
 

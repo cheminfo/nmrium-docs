@@ -16,7 +16,7 @@ The latest version of www.nmrium.org includes the following enhancements:
 
 1. **Annotation of 1D ranges (multiplet)**:
 
-![01](/newsletters/2024/may/01.gif)
+![annotation-of-1d-ranges](/newsletters/2024/may/annotation-of-1d-ranges.gif)
 
 2. **Vertical and Horizontal Scaling**
 
@@ -26,15 +26,15 @@ The latest version of www.nmrium.org includes the following enhancements:
 
 - Right click + drag to move the spectrum
 
-![02](/newsletters/2024/may/02.gif)
+![vertical-and-horizontal-scaling](/newsletters/2024/may/vertical-and-horizontal-scaling.gif)
 
 3. **Annotation of 2D zones**
 
-![03](/newsletters/2024/may/03.gif)
+![annotation-of-2d-zones](/newsletters/2024/may/annotation-of-2d-zones.gif)
 
 4. **New contextual tooltip** with more detailed information and direct link to https://docs.nmrium.org
 
-![04](/newsletters/2024/may/04.gif)
+![new-contextual-tooltip](/newsletters/2024/may/new-contextual-tooltip.gif)
 
 We are committed to enhancing NMRium. If you have any suggestions, please do not hesitate to contact us.
 

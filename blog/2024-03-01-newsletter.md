@@ -23,19 +23,19 @@ The latest version of www.nmrium.org includes the following enhancements:
 
 - Visualization of the zero as a yellow line
 
-![01](/newsletters/2024/march/01.gif)
+![baseline-correction](/newsletters/2024/march/baseline-correction.gif)
 
 2. It is now possible to export the spectrum as textfile for further processing in other softwares.
 
-![02](/newsletters/2024/march/02.gif)
+![export-spectrum](/newsletters/2024/march/export-spectrum.gif)
 
 3. A new link was added to NMRium video tutorials.
 
-![03](/newsletters/2024/march/03.gif)
+![link](/newsletters/2024/march/link.gif)
 
 4. Show atom numbers in the molecule and the corresponding range. Very practical to write reports !
 
-![04](/newsletters/2024/march/04.gif)
+![atom-numbers](/newsletters/2024/march/atom-numbers.gif)
 
 5. Improvements in SVG exportation. The obtained SVG is now compatible with most of the softwares.
 

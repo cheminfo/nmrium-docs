@@ -16,11 +16,11 @@ The latest version of www.nmrium.org includes the following enhancements
 
 1. For a range (multiplet analysis), you can now toggle the display of peaks and integrals. Changing the size of a range will also recalculate the peaks.
 
-![01](/newsletters/2024/january/01.gif)
+![peaks-and-integrals](/newsletters/2024/january/peaks-and-integrals.gif)
 
 2. It is now possible to select spectra in the stack view which is very practical to identify outliers.
 
-![02](/newsletters/2024/january/02.gif)
+![select-spectra](/newsletters/2024/january/select-spectra.gif)
 
 3. Other improvements:
 

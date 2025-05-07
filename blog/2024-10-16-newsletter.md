@@ -29,4 +29,4 @@ Best Regards,
 
 Corinne
 
-![01](/newsletters/2024/october/01.gif)
+![latest-product](/newsletters/2024/october/latest-product.gif)
