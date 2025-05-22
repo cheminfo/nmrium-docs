@@ -17,7 +17,7 @@ To zoom out horizontally, press <kbd>f</kbd> or click the corresponding icon. Pr
 
 ![](./ff.gif)
 
-## Other Mouse Controls
+## Basic Zoom Controls
 
 - **Vertical Zoom:** Use the scroll wheel to zoom vertically.
 - **Horizontal Zoom:** Hold <kbd>Shift</kbd> and use the scroll wheel to zoom horizontally.
@@ -27,12 +27,25 @@ To zoom out horizontally, press <kbd>f</kbd> or click the corresponding icon. Pr
 
 ![](./other.gif)
 
+## Other Zoom Controls
+
 - **Panning:** Right-click and drag horizontally to pan the view.
+
+![](./pan.gif)
+
 - **Advanced Zoom:** Hold <kbd>Ctrl</kbd> and press the mouse button.
   - Move the mouse vertically to zoom vertically.
   - Move the mouse horizontally to zoom horizontally.
 
 ![](./control.gif)
+
+:::tip Saving zoom levels
+
+To quickly navigate between different zoom levels and nuclei, you can use the number keys on your keyboard. The first time you press a number key (such as <kbd>1</kbd>, <kbd>2</kbd>, etc.), NMRium saves the current zoom parameters to that number. Pressing the same number key again will instantly recall the saved zoom level and nucleus selection. If you want to update or replace the saved zoom for a specific number, hold <kbd>Shift</kbd> and press the desired number key (<kbd>Shift</kbd> + <kbd>number</kbd>). This makes it easy to switch between your favorite views during analysis.
+
+![](./numbers.gif)
+
+:::
 
 ## Esc to select zoom tool
 
