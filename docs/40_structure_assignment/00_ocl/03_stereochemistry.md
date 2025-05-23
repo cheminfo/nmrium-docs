@@ -24,7 +24,7 @@ To differentiate between these three possibilities, three enhanced stereo recogn
 
 To switch between the different stereochemical possibilities, first add a chiral bond to your structure. Then, use the enhanced stereochemistry tool to select one of the three options: only this enantiomer, both enantiomers (racemic mixture), or one enantiomer with unknown configuration. This allows precise control over how stereochemistry is represented in your molecule.
 
-![changing.png](03_stereo/changing.png)
+![changing.png](03_stereo/changing.gif)
 
 ![chlorobutane-absolute.png](03_stereo/chlorobutane-absolute.png)
 

@@ -69,19 +69,20 @@ Click onto the panel **Structures** on the right side of the screen and then on 
 
 ## 7. Selection of analysis method
 
-You can analyse your spectra using three different analysis methods: 
+You can analyse your spectra using three different analysis methods:
+
 - Simple NMR analysis
 - 1D multiple spectra analysis
 - NMR spectra assignment
 
-To select the appropriate method, click on the corresponding button above the panels. 
+To select the appropriate method, click on the corresponding button above the panels.
 
 ![](./Methodenauswahl.png)
 
 ## 8. Processing of raw data (currently only 1D)
 
-NMRium offers the possibility to perform a Fourier transformation (FT) on the raw data of one-dimensional NMR spectra. To process an FID, open the FID by dragging it into the **Drag and drop here** box ([section 2](#2-open-spectra)). 
-NMRium automatically performs zero filling and then Fourier transformation. Phase correction is also performed automatically. You have the option of viewing all automatically performed work steps. Open the processings panel to view the individual steps. You can reversibly undo a step by removing the tick in the corresponding line or setting it again. To permanently remove a step, click on the recycle bin symbol in the corresponding line. The step is deleted. If you remove all tick 
+NMRium offers the possibility to perform a Fourier transformation (FT) on the raw data of one-dimensional NMR spectra. To process an FID, open the FID by dragging it into the **Drag and drop here** box ([section 2](#2-open-spectra)).
+NMRium automatically performs zero filling and then Fourier transformation. Phase correction is also performed automatically. You have the option of viewing all automatically performed work steps. Open the processings panel to view the individual steps. You can reversibly undo a step by removing the tick in the corresponding line or setting it again. To permanently remove a step, click on the recycle bin symbol in the corresponding line. The step is deleted. If you remove all tick
 
 ![](./img104.png)
 
@@ -130,7 +131,7 @@ Click the icon Baseline correction to the left of the spectrum. You can choose b
 
 ## 9. Referencing
 
-Click the button **Peaks Picking** to the left of the spectrum. Then identify your solvent signal (or the reference signal). Capture it with the crosshairs and press the shift key and the left mouse button at the same time. The chemical shift of the signal will be shown both in the spectrum and in a list on the right-hand side of the spectrum in the panel  **Peaks**. Select one of the two displayed values (in the spectrum single click with the left mouse button, in the list double-click with the left mouse button) and enter the correct reference value.
+Click the button **Peaks Picking** to the left of the spectrum. Then identify your solvent signal (or the reference signal). Capture it with the crosshairs and press the shift key and the left mouse button at the same time. The chemical shift of the signal will be shown both in the spectrum and in a list on the right-hand side of the spectrum in the panel **Peaks**. Select one of the two displayed values (in the spectrum single click with the left mouse button, in the list double-click with the left mouse button) and enter the correct reference value.
 
 ![](./img105.png)
 
@@ -140,7 +141,7 @@ Click onto the button **Peaks Picking**. You can choose between automatic peaks 
 
 :::note Automatic peaks picking
 
-A list appears above the spectrum in which you can specify the maximum number of peaks, the noise factor and the minimum-maximum ratio (Min Max Ratio). Then press **Apply**. The chemical shift of the peaks is displayed both in the spectrum and in a list on the right side of the spectrum in the panel  **Peaks**.
+A list appears above the spectrum in which you can specify the maximum number of peaks, the noise factor and the minimum-maximum ratio (Min Max Ratio). Then press **Apply**. The chemical shift of the peaks is displayed both in the spectrum and in a list on the right side of the spectrum in the panel **Peaks**.
 
 :::
 
@@ -210,7 +211,7 @@ If you want to delete all ranges, click on the trash icon located above the sign
 
 ## 17. Assignment of signals
 
-To assign signals, you have to define assignment ranges ([section 14](#14-picking-ranges-and-determination-of-coupling-constants)) and insert a molecular structure ([section 6](#6-insert-a-molecular-structure)). Open the **Ranges** and **Structures** fields on the right side. Specify the correct number of relative H atoms by clicking the sum icon above the **Ranges** list. In the window that opens, you can either enter the number of H atoms manually and then click on **Set** or accept the number of H atoms specified by the sum formula by clicking on **Set** in the lower area.
+To assign signals, you have to define assignment ranges ([section 15](#15-picking-ranges-and-determination-of-coupling-constants)) and insert a molecular structure ([section 6](#6-inserting-a-molecular-structure)). Open the **Ranges** and **Structures** fields on the right side. Specify the correct number of relative H atoms by clicking the sum icon above the **Ranges** list. In the window that opens, you can either enter the number of H atoms manually and then click on **Set** or accept the number of H atoms specified by the sum formula by clicking on **Set** in the lower area.
 
 In the list, click the box under the link icon in the line of the signal you want to assign, . A red zero appears there. Then assign the signal by clicking on the corresponding atoms in the structural formula. Proceed in the same way with all other ranges. You can also assign several, different H atoms to a range by clicking successively on all H atoms in the structural formula that belong to the respective signal. If you want to assign diastereotopic H atoms, hold the Shift key while clicking the corresponding H atom in the structure. This makes both diastereotopic H atoms visible.
 
