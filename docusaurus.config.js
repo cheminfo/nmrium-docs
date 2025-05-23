@@ -10,9 +10,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'cheminfo',
   projectName: 'nmrium-docs',
-  plugins: [
-    '@orama/plugin-docusaurus-v3'
-  ],
+  plugins: ['@orama/plugin-docusaurus-v3'],
   themeConfig: {
     navbar: {
       title: '',
@@ -29,8 +27,8 @@ module.exports = {
         },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/cheminfo/nmrium-docs',
-          label: 'GitHub',
+          href: 'https://www.nmrium.org',
+          label: 'nmrium.org',
           position: 'right',
         },
       ],
