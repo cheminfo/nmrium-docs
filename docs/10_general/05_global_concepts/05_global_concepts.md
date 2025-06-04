@@ -1,6 +1,6 @@
 # Introduction to NMRium
 
-NMRium is a web-based platform for NMR data analysis, designed for intuitive and efficient spectral interpretation. Its user interface is organized to streamline your workflow, with clearly defined toolbars and panels.
+NMRium is a web-based platform for NMR data processing and analysis. NMRium is designed for intuitive and efficient workflows and data interpretation. The  user interface is designed to with the needs of both novice and expert users in mind, allowing customization and streamlining of toolbars and panels.
 
 ## Main Layout
 
