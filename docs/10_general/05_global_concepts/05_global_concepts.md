@@ -10,8 +10,8 @@ The NMRium interface is divided into four key areas: Left - Top - Central - Righ
 
 - **Top Area:**
 
-  - **Tool Options Bar:** This dynamic bar displays options and settings specific to the currently selected tool, allowing for quick parameter adjustments.
-  - **Global Toolbar:** This toolbar provides access to general actions like file import/export, undo/redo, application settings, and links to video tutorials.
+  - **Tool Options Bar:** changes dynamically and displays options and settings specific to the currently selected tool, allowing for quick parameter adjustments.
+  - **Global Toolbar:** provides access to general actions like file import/export, undo/redo, application settings, and links to video tutorials.
 
 - **Central area:** The main area where spectra are visualized and analyzed.
 
