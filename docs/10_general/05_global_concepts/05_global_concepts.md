@@ -4,7 +4,7 @@ NMRium is a web-based platform for NMR data processing and analysis. NMRium is d
 
 ## Main Layout
 
-The NMRium interface is divided into several key areas:
+The NMRium interface is divided into four key areas: Left - Top - Central - Right.
 
 - **Left Sidebar (Toolbar):** Contains context-sensitive tools such as peak picking, integration, and annotation. The available tools change depending on the current mode or selection.
 
