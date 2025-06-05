@@ -52,6 +52,7 @@ module.exports = {
           // Please change this to your repo.
           editUrl: 'https://github.com/cheminfo/nmrium-docs/edit/main/',
           routeBasePath: '/',
+          showLastUpdateTime: true,
         },
         blog: {
           onUntruncatedBlogPosts: 'ignore',
