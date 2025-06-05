@@ -36,7 +36,7 @@ NMRium allows you to manage multiple molecular structures within a single datase
 
 It is possible to predict NMR spectra for a given molecular structure. To do this, draw a molecular structure or insert a molfile. Then click on the Predict spectra button in the Structures panel.
 
-![predict1](Predict_spectra1.png)
+![predict](predict.gif)
 
 A window opens in which you can select the following settings:
 
@@ -46,12 +46,8 @@ A window opens in which you can select the following settings:
 
 You also need to specify the line width in Hz and the number of points. Before you are predicted the spectrum, you must agree that you are aware that the predicted spectra are not confidential by setting a check mark in the corresponding box. Then click on the Predict spectrum button.
 
-![predict](Predict.png)
-
 The predicted spectrum is displayed on the workspace. You can hide it by opening the Spectra panel and clicking on the corresponding button. To show it again, click on the corresponding button once more.
 
-![predict3](Predict_spectra3.png)
+You can analyse the predicted spectrum in the same way as a measured spectrum. You will find a proposed assignment in the Ranges panel and hover will highlight the atoms and corresponding ranges.
 
-You can analyse the predicted spectrum in the same way as a measured spectrum. You will find a proposed assignment in the Ranges panel.
-
-![predict4](Predict_spectra4.png)
+![predict-over](predict-over.gif)
