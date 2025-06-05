@@ -12,25 +12,25 @@ Above the panel, a button shows the total number of loaded spectra.
 
 ![Spectra panel](spectra.gif)
 
-Click on the button. A list of the loaded spectra is displayed. The list indicates the time at which the spectrum was uploaded. Spectra that have not been uploaded correctly are highlighted in red. In this case, the **Error** column indicates the error. All correctly uploaded spectra are highlighted in green. If you click on the **Clear Logs** button, all listed spectra in the list will be deleted. The spectra are not deleted in NMRium.
+If there are event logs generated during the import process or other actions in NMRium, a badge will appear on the bug icon in the global toolbar. Click this icon to display a list of logged events. The list shows the as well as the event. Errors will be highlighted in pink, warning in yellow and information in green. Clicking the **Clear Logs** button will remove all entries from the log list.
 
-![](./korrekte_Spektren2.png)
+![Logs](logs.gif)
 
-To hide all spectra press the icon **hide all spectra**. To show all spectra, press the icon "**show all spectra**".
+You can select spectra directly from the spectra display by clicking on the baseline of a spectrum. To select multiple spectra, use Shift + Click on the last spectrum in a range to select all spectra between the first and last clicked. Alternatively, you can cherry-pick individual spectra by holding CMD (or Ctrl on Windows) + Click on each desired spectrum.
 
-![Hide spectrum](./Hide.gif)
+Once selected, you can perform actions such as hiding the selection, adding it to the displayed spectra, focusing on it, and more. Spectra can also be selected from the spectra panel, offering another way to manage your selections.
 
-To show one, two or more spectra in the workspace, press the icon for each spectrum.
+![Spectra selection](spectra-selection.gif)
 
-![](./show_Spectra.gif)
+# Color spectra
 
-In each line of the spectrum, you find general information about the solvent.
+By default, when loading spectra, colors are assigned according to your general preferences. You can also set a custom color for each spectrum. For 2D spectra, you can choose separate colors for positive and negative contours.
 
-![](./solvent.svg)
+![Individual colors](color-individual.gif)
 
-To delete a single spectrum, click on the corresponding line. Then click on the red trash icon above the list of measured spectra. A window will open. Click yes if you want to delete the selected spectrum. The spectrum will be deleted.
+Spectra can also be colored based on a specific property. For example, if your spectra have a property with categories such as Pre, w2, w6, and w8, you can click the header of this meta information to color spectra by their distinct values. You can also reset the colors or apply a new color to all spectra at once.
 
-![](./Delete_spectra.png)
+![Color spectra](color-spectra.gif)
 
 # Mode selection
 
