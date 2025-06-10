@@ -10,10 +10,10 @@ NMRium provides a convenient way to process NMR spectra directly in the browser,
 The latest version of www.nmrium.org includes the following enhancements:
 
 1. Advanced 1D and 2D **mouse zoom**.
-   For more information, [click here](/help/zoom-and-scale) to visit the documentation.
    Use SHIFT and scroll wheel for horizontal zoom
    Use CTRL + click + move for horizontal and vertical zoom
    Zoom in horizontally and vertically at the same time.
+   [Learn more here](/help/zoom-and-scale).
 
 ![zoom](/newsletters/2025/june/zoom.gif)
 
