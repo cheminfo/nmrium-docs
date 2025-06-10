@@ -9,7 +9,7 @@ NMRium provides a convenient way to process NMR spectra directly in the browser,
 
 The latest version of www.nmrium.org includes the following enhancements:
 
-1. Advanced 1D and 2D **mouse zoom** https://docs.nmrium.org/help/zoom-and-scale
+1. Advanced 1D and 2D **mouse zoom** [See the relevant documentation](/help/zoom-and-scale).
    Use SHIFT and scroll wheel for horizontal zoom
    Use CTRL + click + move for horizontal and vertical zoom
    Zoom in horizontally and vertically at the same time.
@@ -24,6 +24,6 @@ The latest version of www.nmrium.org includes the following enhancements:
 
 ![preview](/newsletters/2025/june/preview.gif)
 
-4. **Improved molecular editor** to deal with advanced stereochemistry. [More info here](https://docs.nmrium.org/ocl/stereochemistry).
+4. **Improved molecular editor** to deal with advanced stereochemistry. [More info here](/ocl/stereochemistry).
 
 ![editor](/newsletters/2025/june/editor.gif)
