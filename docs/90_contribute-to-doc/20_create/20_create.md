@@ -29,4 +29,4 @@ on the file hierarchy.
 
 For 1D spectra except if otherwise specified we will always use the spectrum of ethylbenzene.
 
-https://app.nmrium.com/#?jcamp=https://cheminfo.github.io/nmr-dataset2/100-86-7/1h.dx
+https://app.nmrium.com#?jcamp=https://cheminfo.github.io/nmr-dataset2/100-86-7/1h.dx
