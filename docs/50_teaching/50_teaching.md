@@ -6,15 +6,15 @@ title: Using NMRium for teaching
 
 NMRium is likely the best platform to teach structure elucidation to students. You may already have a look at series of exercises using the following links
 
-- https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset2/toc.json
-- https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset-nils/toc.json
-- https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset-jgumainz/toc.json
+- https://app.nmrium.com/teaching/exercises#?toc=https://cheminfo.github.io/nmr-dataset2/toc.json
+- https://app.nmrium.com/teaching/exercises#?toc=https://cheminfo.github.io/nmr-dataset-nils/toc.json
+- https://app.nmrium.com/teaching/exercises#?toc=https://cheminfo.github.io/nmr-dataset-jgumainz/toc.json
 
 ## Creating your own series
 
 Creating your own series of exercises is relatively easy but you should be a little bit familiar with GitHub.
 
-:::info 
+:::info
 
 If you do not have a GitHub account yet, you can easily sign up there. You can register for free [here](https://github.com/signup).
 
@@ -24,23 +24,19 @@ The first step is to use the following project https://github.com/cheminfo/nmr-d
 
 ![use as template](images/use_this_template.png)
 
-Then click on the button "Create repository". The basic structure of your exercise will be created. 
+Then click on the button "Create repository". The basic structure of your exercise will be created.
 
-A GitHub page will open.  Click on the "Include all branches" box. You have to give your exercise a name, which you enter at "Repository name". You also have to select the setting "Public". Then click on the button "Create repository". The basic structure of your exercise will be created. Next, you need to create your own exercise.
-
-
+A GitHub page will open. Click on the "Include all branches" box. You have to give your exercise a name, which you enter at "Repository name". You also have to select the setting "Public". Then click on the button "Create repository". The basic structure of your exercise will be created. Next, you need to create your own exercise.
 
 ![](./Teaching_part_1.gif)
 
-
-
 :::info
 
-To make changes to the repository created from the template, we recommend to work with the software **Visual Studio Code** which is available for free [here](https://code.visualstudio.com/). If you do not have this program installed on your computer, you can also work with the browser version. Open your repository on GitHub and press the `.` key on the keyboard. You will be automatically directed to the browser version of **Visual Studio Code**. It may take a few moments until all functions are usable. 
+To make changes to the repository created from the template, we recommend to work with the software **Visual Studio Code** which is available for free [here](https://code.visualstudio.com/). If you do not have this program installed on your computer, you can also work with the browser version. Open your repository on GitHub and press the `.` key on the keyboard. You will be automatically directed to the browser version of **Visual Studio Code**. It may take a few moments until all functions are usable.
 
 :::
 
-GitHub has provided a basic structure for the exercise. 
+GitHub has provided a basic structure for the exercise.
 
 You may then change all the files and folders (except the .github folder required to build the series). You have the possibility to group exercises in folders or have them directly at the first level.
 
@@ -52,7 +48,7 @@ To save the changes click the **Source control** button on the menu bar on the l
 
 :::
 
-Now you need to switch back to the GitHub page. If you are using the browser version of the Visual Studio code, click the button at the top right. Click the "Switch to repository" button there. You will be redirected to GitHub. 
+Now you need to switch back to the GitHub page. If you are using the browser version of the Visual Studio code, click the button at the top right. Click the "Switch to repository" button there. You will be redirected to GitHub.
 
 Now click on the "Settings" button in the bar at the top center. Then click the "Actions" button on the left side of the desktop, then go to Generals. You need to select the following settings:
 
@@ -61,9 +57,9 @@ Now click on the "Settings" button in the bar at the top center. Then click the 
 - Read and Write permissions
 
 For all three settings you have to click the respective "Save" button.
-Now click the "Actions" button in the bar above the workspace, then click gh-pages deployment. On the right side of the workspace you will now find the button "Run workflow", which you also have to click. GitHub will now apply all the settings you have chosen and save them. This step may take a few minutes. You can perform all further steps, but you may not be able to view your correct exercises until a few minutes later (see last step).   
+Now click the "Actions" button in the bar above the workspace, then click gh-pages deployment. On the right side of the workspace you will now find the button "Run workflow", which you also have to click. GitHub will now apply all the settings you have chosen and save them. This step may take a few minutes. You can perform all further steps, but you may not be able to view your correct exercises until a few minutes later (see last step).
 
-Now click the Code button in the upper left corner. You will be redirected to your exercise.  
+Now click the Code button in the upper left corner. You will be redirected to your exercise.
 
 Click on the Main button in the upper left corner and then on "gh-pages". Your exercise will be created.
 
@@ -79,7 +75,7 @@ You should save the NMR spectra as a JCAMP-DX file (on topspin use the `tojdx` c
 
 :::info
 
-There are three folder levels on **GitHub** or **Visual Studio Code** when building your own exercise series. The first level contains the `.github` folder and individual chapters for series of exercises (so call Table of Contents or tocs), e.g. Chapter 1 **Exercises for Beginners** and Chapter 2 **Exercises for Experts**. Each chapter contains second level folders. Here you can set up the different exercises (molecules). Each exercise contains on the third level one or more spectra and the corresponding molfile belonging to the molecule. You can add as many spectra to a molecule as you want. 
+There are three folder levels on **GitHub** or **Visual Studio Code** when building your own exercise series. The first level contains the `.github` folder and individual chapters for series of exercises (so call Table of Contents or tocs), e.g. Chapter 1 **Exercises for Beginners** and Chapter 2 **Exercises for Experts**. Each chapter contains second level folders. Here you can set up the different exercises (molecules). Each exercise contains on the third level one or more spectra and the corresponding molfile belonging to the molecule. You can add as many spectra to a molecule as you want.
 
 :::
 
@@ -103,19 +99,17 @@ By default we expect that those jcamps contains only the processed data. If you 
 - 1h.fid.jdx
 - 1h.full.jdx
 
-
 ## Many series of exercises
 
 While the action will generate a Table Of Contents (toc) for all the exercises, on toc is also generated per folder.
 
-https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset-template/toc_10_First.json
+https://app.nmrium.com/teaching/exercises#?toc=https://cheminfo.github.io/nmr-dataset-template/toc_10_First.json
 
 The name of the toc for each folder is `toc_ABCD.json` in which ABCD is the name of the folder. Only the folder present at the first level are considered.
 
-
 ## Test your exercises
 
-https://www.nmrium.org/teaching#?toc=https://cheminfo.github.io/nmr-dataset-template/toc.json
+https://app.nmrium.com/teaching/exercises#?toc=https://cheminfo.github.io/nmr-dataset-template/toc.json
 
 In order to find the URL of your repository you should open the settings of your project and click on the left on `Pages`. You will then see the URL on which the data are published.
 
@@ -126,4 +120,3 @@ In order to find the URL of your repository you should open the settings of your
 Technically there is a GitHub action (present in `.github/deploy/workflow.yml`) that will add various JSON files containing the list of exercises, calculate the molecular formula and generate a secret key corresponding to the answer. This action will publish your website on a branch `gh-pages` that is publicly available on the internet.
 
 :::
-
