@@ -5,9 +5,9 @@ authors: lpatiny
 tags: [NMRium, newsletter]
 ---
 
-NMRium provides a convenient way to process NMR spectra directly in the browser - eliminating the need to install specialized software. Simply visit www.nmrium.org to get started.
+NMRium provides a convenient way to process NMR spectra directly in the browser - eliminating the need to install specialized software. Simply visit www.nmrium.com to get started.
 
-The latest version of www.nmrium.org includes the following enhancements
+The latest version of www.nmrium.com includes the following enhancements
 
 1. For a range (multiplet analysis), you can now toggle the display of peaks and integrals. Changing the size of a range will also recalculate the peaks.
 

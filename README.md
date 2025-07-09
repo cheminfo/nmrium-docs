@@ -12,7 +12,7 @@ Newsletter is done in 800 x 500
 
 Here is a general compact layout for the documentation and newsletter:
 
-- https://www.nmrium.org/nmrium/embed#?nmrium=https://workspaces.nmrium.org/zakodium/compact/v1.json
+- https://app.nmrium.com/embed#?nmrium=https://workspaces.nmrium.org/zakodium/compact/v1.json
 
 ## Installation
 

@@ -27,8 +27,8 @@ module.exports = {
         },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://www.nmrium.org',
-          label: 'nmrium.org',
+          href: 'https://www.nmrium.com',
+          label: 'nmrium.com',
           position: 'right',
         },
       ],
