@@ -1,25 +1,26 @@
 ---
-title: Assign a Spectrum
+title: Spectrum assignment
 ---
 
-# Assign a Spectrum
+# Simple 1D assignment
 
-To assign the signals of the spectrum to the atoms of a molecule, you must have determined the ranges (see chapter 1 D Spectra, Ranges). In addition, you must have defined a molecular structure in the panel Ranges. Open both panels. In the ranges panel, select a signal and click in the corresponding row in the assignment box.
-A red zero appears.
+To assign molecules in NMRium, follow these steps:
 
-![](./asign1.png)
+1. **Multiplet (Ranges) Analysis**:  
+   Begin by analyzing the spectrum to identify multiplets (ranges). You can do this by pressing <kbd>r</kbd> and clicking on the **Auto Ranges Picking** button.
 
-Now click in the Structure panel on the atoms that correspond to the signal. When the cursor moves over a proton, a red ring is shown. 
+2. **Load the Molecular Structure**:  
+   Import or draw your molecule. You can then let it float over the spectrum.
 
-![](./asign2.png)
+3. **Assigning Ranges to Atoms**:
 
-Click on the proton belonging to the signal. You can assign several atoms at the same time. All atoms assigned to the signal are marked with a yellow ring. If you now click with the mouse us either over the signal in the workspace or over the row in the Ranges panel or over the assigned atoms in the structure, the assignment will be highlighted in orange in the workspace and in both panels. This allows you to assign all signals to the corresponding atoms in the structure. 
+- Hoevering a range will show a link icon. You should click on it if you want to assign this range. Alternatively you can click on the link in the ranges panel.
+- Then, click on the atom(s) in the structure that correspond to that range.
+- Diastereotopic atoms can be expanded for selective assignment by holding <kbd>SHIFT</kbd> and clicking on the atom.
 
-To determine the number of relative H-atoms, first click in the Ranges panel in the corresponding line in the box of the sum sign. 
+4. **Visual Feedback**:
 
-![](./asign3.png)
+- Atoms and ranges with a yellow background are assigned.
+- Clicking on an assigned atom or range highlights the corresponding assignment across panels.
 
-Then click on the corresponding protons in the molecular structure in the Structures panel. In the panel Ranges the number of H-atoms determined automatically by NMRium is indicated in the corresponding line. 
-
-![](./asing4.png)
-
+![Simple 1D Assignment](./simple-1d-assignment.gif)

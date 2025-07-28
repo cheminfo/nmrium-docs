@@ -8,7 +8,7 @@ slug: /
 
 Open NMRium by clicking the following link:
 
-[https://www.nmrium.org/nmrium/](https://www.nmrium.org/nmrium/)
+[https://app.nmrium.com](https://app.nmrium.com)
 
 ## 2. Open spectra
 

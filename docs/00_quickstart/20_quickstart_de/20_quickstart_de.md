@@ -7,7 +7,7 @@ description: Eine kurze Beschreibung der wichtigsten Funktionen in NMRium
 
 Öffnen Sie das Programm in Ihrem Browser, indem Sie auf folgenden Link klicken:
 
-[https://www.nmrium.org/nmrium/](https://www.nmrium.org/nmrium/)
+[https://app.nmrium.com](https://app.nmrium.com)
 
 ## 2. Öffnen von Spektren
 
