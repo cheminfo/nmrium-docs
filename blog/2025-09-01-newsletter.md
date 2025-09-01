@@ -5,8 +5,6 @@ authors: lpatiny
 tags: [NMRium, newsletter]
 ---
 
-NMRium is free for non-commercial and open-data use. Need secure processing for commercial or private data? We offer affordable academic licenses and flexible commercial plans designed to fit your needs. Discover more at [nmrium.com/pricing](https://www.nmrium.com/pricing) feel free to [reach out](https://www.nmrium.com/contact) anytime for a chat or to schedule a Zoom meeting!!
-
 This trimester brings two powerful new features to NMRium!
 
 1. **Multiple customizable insets** – You can now add as many insets as you like, and easily resize, rescale, and customize what each one displays, giving you greater flexibility and clarity in spectrum analysis.
