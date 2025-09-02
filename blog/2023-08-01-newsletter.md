@@ -3,6 +3,7 @@ slug: 2023-08-01-newsletter
 title: NMRium new features - August 2023
 authors: lpatiny
 tags: [NMRium, newsletter]
+
 ---
 
 The latest version of www.nmrium.com includes the following enhancements:
@@ -18,7 +19,3 @@ The latest version of www.nmrium.com includes the following enhancements:
 3. **A new method of displaying peaks has been implemented**; peak labels are now visible at the top of the screen, although the option to switch back to the previous mode is still available.
 
 ![displaying-peaks](/newsletters/2023/august/displaying-peaks.gif)
-
-We are committed to enhancing NMRium. If you have any suggestions, please do not hesitate to contact us.
-All the best,
-The NMRium team

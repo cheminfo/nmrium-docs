@@ -3,6 +3,7 @@ slug: 2024-01-01-newsletter
 title: NMRium new features - January 2024
 authors: lpatiny
 tags: [NMRium, newsletter]
+
 ---
 
 The latest version of www.nmrium.com includes the following enhancements
@@ -24,9 +25,3 @@ The latest version of www.nmrium.com includes the following enhancements
 - Reading assignments and chemical structures from JCAMP-CX.
 
 - Reading integrals from Bruker files.
-
-We are committed to enhancing NMRium. If you have any suggestions, please do not hesitate to contact us.
-
-All the best,
-
-The NMRium team

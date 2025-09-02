@@ -3,6 +3,7 @@ slug: 2025-05-01-newsletter
 title: NMRium new features - May 2024
 authors: lpatiny
 tags: [NMRium, newsletter]
+
 ---
 
 The latest version of www.nmrium.com includes the following enhancements:
@@ -28,9 +29,3 @@ The latest version of www.nmrium.com includes the following enhancements:
 4. **New contextual tooltip** with more detailed information and direct link to https://docs.nmrium.org
 
 ![new-contextual-tooltip](/newsletters/2024/may/new-contextual-tooltip.gif)
-
-We are committed to enhancing NMRium. If you have any suggestions, please do not hesitate to contact us.
-
-All the best,
-
-The NMRium team
