@@ -18,10 +18,4 @@ Key Features:
 
 We invite you to try out a demo of NMRiumDB at https://db.nmrium.org or have a look at the attached video.
 
-Are you interested in implementing NMRiumDB within your company? Please feel free to contact us to discover how our software can enhance your workflow and productivity.
-
-Best Regards,
-
-Corinne
-
 ![latest-product](/newsletters/2024/october/latest-product.gif)
