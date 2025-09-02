@@ -1,5 +1,6 @@
 ---
 title: Baseline Correction
+slug: /help/baseline
 ---
 
 # Baseline Correction

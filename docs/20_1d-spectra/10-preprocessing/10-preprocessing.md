@@ -1,5 +1,6 @@
 ---
 title: Preprocessing the FID
+slug: /help/apodization
 ---
 
 # Preprocessing the FID

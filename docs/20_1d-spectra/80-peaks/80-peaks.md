@@ -1,5 +1,6 @@
 ---
 title: Peaks and Reference
+slug: /help/peaks
 ---
 
 # Peaks and Reference
@@ -12,13 +13,11 @@ To select a single signal, click the **Peaks Picking** button on the left of the
 
 The chemical shift is shown in the workspace at the corresponding signal in ppm to one decimal place. If you would like to have more decimal place, click on the ppm value on the workspace. The chemical shift is shown to 12 decimal places.
 
-
 ### Automatic peaks picking
 
 You can automatically detect all peaks. To use this, click the **Peaks Picking** button on the left side of the workspace. Above the workspace you can set the maximal number of peaks, the noise factor and the min max ration. Also, tick the box if you want to detect negative signal. Then click the button **Apply** above the workspace. All detected peaks are listed in the **Peaks** panel.
 
 ![Peaks](./automatic_peaks_picking.gif)
-
 
 ## Panel "Peaks"
 
@@ -40,12 +39,12 @@ You can display various information in the peaks panel. Click on the gear wheel 
 
 All measured nuclei will be displayed. You can choose to display the following values for each nucleus:
 
--   Peak Number
--   Peak Index
--   Chemical shift (ppm)
--   Chemical shift (Hz)
--   Width
--   Intensity
+- Peak Number
+- Peak Index
+- Chemical shift (ppm)
+- Chemical shift (Hz)
+- Width
+- Intensity
 
 Place a check mark next to the values that you want to have displayed for the respective nucleus. Then click on the green check mark at the top right.
 
@@ -66,4 +65,3 @@ To delete all signals move the mouse to the **Peaks** panel and the recycle bin 
 ### Delete the chemical shift of a single peak
 
 To delete the chemical shift of one signal, move the mouse to the list and select a signal. Press the recycle bin icon on the right side of the line of the signal. The chemical shift of this peak is deleted.
-

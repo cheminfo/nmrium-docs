@@ -1,5 +1,6 @@
 ---
 title: Phase Correction
+slug: /help/phase
 ---
 
 # Phase Correction
