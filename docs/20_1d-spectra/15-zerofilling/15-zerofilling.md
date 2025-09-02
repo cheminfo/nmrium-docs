@@ -1,6 +1,6 @@
 ---
 title: Zero filling
-slug: /help/zerofilling
+slug: /help/zero-filling
 ---
 
 # Zero filling
