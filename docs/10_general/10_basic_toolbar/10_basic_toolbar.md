@@ -6,7 +6,7 @@ title: Basic Toolbar
 
 ## Shortcuts
 
-There are various key combinations or shortcuts to activate different applications of the program. The following lists contain the shortcuts: 
+There are various key combinations or shortcuts to activate different applications of the program. The following lists contain the shortcuts:
 
 | Description                             | Shortcuts                |
 | --------------------------------------- | ------------------------ |
@@ -23,7 +23,6 @@ There are various key combinations or shortcuts to activate different applicatio
 
 | Description   | OsX shortcuts              | Windows shortcuts           |
 | ------------- | -------------------------- | --------------------------- |
-| Save          | <kbd>cmd</kbd><kbd>s</kbd> | <kbd>ctrl</kbd><kbd>s</kbd> |
-| Open          | <kbd>cmd</kbd><kbd>o</kbd> | <kbd>ctrl</kbd><kbd>o</kbd> |
-| Copy as image | <kbd>cmd</kbd><kbd>c</kbd> | <kbd>ctrl</kbd><kbd>c</kbd> |
-
+| Save          | <kbd>cmd</kbd><kbd>s</kbd> | <kbd>CTRL</kbd><kbd>s</kbd> |
+| Open          | <kbd>cmd</kbd><kbd>o</kbd> | <kbd>CTRL</kbd><kbd>o</kbd> |
+| Copy as image | <kbd>cmd</kbd><kbd>c</kbd> | <kbd>CTRL</kbd><kbd>c</kbd> |

@@ -1,5 +1,6 @@
 ---
 title: Zoom
+slug: /help/zoom-2d
 ---
 
 # Zoom
@@ -20,5 +21,4 @@ If you click the icon "zoom out" once, the horizontal scaling is zoomed out. If 
 
 ## Vertical zoom
 
-When the mouse cursor is over the 2D part of the spectrum and you turn the wheel of the mouse, you can change the vertical size of the spectrum. If the cursor of the mouse is over the 1D part of the spectrum and you turn the wheel, the size of the 1D part changes. 
-
+When the mouse cursor is over the 2D part of the spectrum and you turn the wheel of the mouse, you can change the vertical size of the spectrum. If the cursor of the mouse is over the 1D part of the spectrum and you turn the wheel, the size of the 1D part changes.

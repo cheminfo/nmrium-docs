@@ -1,13 +1,12 @@
 ---
 title: Integrations
-slug:  /help/integrations
+slug: /help/integrations
 unlisted: true
 ---
 
-
 ## Automatic integration
 
-You mark a signal by simultaneously holding down the shift key and the left mouse button and moving the mouse over the range of the signal. After releasing both keys, the integral of the signal appears. On the right side of the screen, under the "Integrals" tab, a list of all integrals is listed. If you move the mouse over the shift of the integral in the spectrum, the corresponding entry is displayed in the list. If you move the mouse over a certain line in the list, the corresponding integral in the spectrum is marked.
+You mark a signal by simultaneously holding down the <kbd>SHIFT</kbd> key and the left mouse button and moving the mouse over the range of the signal. After releasing both keys, the integral of the signal appears. On the right side of the screen, under the "Integrals" tab, a list of all integrals is listed. If you move the mouse over the shift of the integral in the spectrum, the corresponding entry is displayed in the list. If you move the mouse over a certain line in the list, the corresponding integral in the spectrum is marked.
 
 ![Integrations](./img/integration/integral_picking.gif)
 
@@ -25,10 +24,8 @@ An alternativ way to delete a single integral is to move the mouse over a integr
 
 ![Integrations](./img/integration/delete_single_integral.gif)
 
-
 ## Change integral sum
 
-The default sum of all integrated protons is 100. To change this sum, click on the sum symbol. A grey box appears. Enter the total number of integrated protons and click "Set".  In the list on the right side, the relative number of protons for the respective integral is indicated.
+The default sum of all integrated protons is 100. To change this sum, click on the sum symbol. A grey box appears. Enter the total number of integrated protons and click "Set". In the list on the right side, the relative number of protons for the respective integral is indicated.
 
 ![image](./img/integration/change_integral_sum.gif)
-

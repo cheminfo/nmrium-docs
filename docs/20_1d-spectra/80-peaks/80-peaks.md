@@ -9,7 +9,7 @@ slug: /help/peaks
 
 ### Select a single signal
 
-To select a single signal, click the **Peaks Picking** button on the left of the workspace. Move the mouse over the signal you want to specify whilst holding down the left mouse button and pressing the shift key. The peak shift appears over the signal. After releasing both keys, the shift of the signal appears. On the right side of the screen under the panel peaks, a list of all selected signals is shown. If you move the mouse over the shift of the signal in the spectrum, the corresponding entry is displayed in the list. If you move the mouse over a certain line in the list, the corresponding shift in the spectrum is highlighted.
+To select a single signal, click the **Peaks Picking** button on the left of the workspace. Move the mouse over the signal you want to specify whilst holding down the left mouse button and pressing the <kbd>SHIFT</kbd> key. The peak shift appears over the signal. After releasing both keys, the shift of the signal appears. On the right side of the screen under the panel peaks, a list of all selected signals is shown. If you move the mouse over the shift of the signal in the spectrum, the corresponding entry is displayed in the list. If you move the mouse over a certain line in the list, the corresponding shift in the spectrum is highlighted.
 
 The chemical shift is shown in the workspace at the corresponding signal in ppm to one decimal place. If you would like to have more decimal place, click on the ppm value on the workspace. The chemical shift is shown to 12 decimal places.
 
@@ -52,7 +52,7 @@ Place a check mark next to the values that you want to have displayed for the re
 
 ## Set a Reference
 
-Click the **Peaks Picking** button to the left of the spectrum. Find your solvent signal (or the reference signal). When you have captured it with the crosshairs, press the shift key and the left mouse button at the same time. The value of the signal will be shown both in the spectrum and in a list on the right side of the spectrum in the field Peaks. Select one of the two displayed values (in the spectrum single click with the left mouse button, in the list double click with the left mouse button) and enter the correct reference value.
+Click the **Peaks Picking** button to the left of the spectrum. Find your solvent signal (or the reference signal). When you have captured it with the crosshairs, press the <kbd>SHIFT</kbd> key and the left mouse button at the same time. The value of the signal will be shown both in the spectrum and in a list on the right side of the spectrum in the field Peaks. Select one of the two displayed values (in the spectrum single click with the left mouse button, in the list double click with the left mouse button) and enter the correct reference value.
 
 ## Remove Peaks
 

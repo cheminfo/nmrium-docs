@@ -18,6 +18,6 @@ unlisted: true
 
 | Description   | OsX shortcuts              | Windows shortcuts           |
 | ------------- | -------------------------- | --------------------------- |
-| Save          | <kbd>cmd</kbd><kbd>s</kbd> | <kbd>ctrl</kbd><kbd>s</kbd> |
-| Open          | <kbd>cmd</kbd><kbd>o</kbd> | <kbd>ctrl</kbd><kbd>o</kbd> |
-| Copy as image | <kbd>cmd</kbd><kbd>c</kbd> | <kbd>ctrl</kbd><kbd>c</kbd> |
+| Save          | <kbd>cmd</kbd><kbd>s</kbd> | <kbd>CTRL</kbd><kbd>s</kbd> |
+| Open          | <kbd>cmd</kbd><kbd>o</kbd> | <kbd>CTRL</kbd><kbd>o</kbd> |
+| Copy as image | <kbd>cmd</kbd><kbd>c</kbd> | <kbd>CTRL</kbd><kbd>c</kbd> |

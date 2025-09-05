@@ -1,13 +1,14 @@
 ---
 title: Help
+slut: /help/help
 ---
 
 # Help
 
-From the NMRium application, you have direct access to this help, but also to a YouTube channel containing numerous videos explaining the various functionalities.
+NMRium offers several ways to get help and learn about its features:
 
-If you need help, click the question mark on the right side of the screen. The documentation will open in a new tab.
+- Contextual tooltips provide quick guidance throughout the application. Many of them contain a direct link to more detailed explanations.
+- Click the question mark icon on the right side of the screen to open the documentation in a new tab.
+- For video tutorials, press the movie icon to visit our YouTube channel with detailed guides and feature explanations.
 
-For the video press the corresponding movie icon.
-
-![](./help.gif)
+![How to get help](./help.gif)
