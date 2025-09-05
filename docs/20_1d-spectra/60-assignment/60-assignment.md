@@ -1,6 +1,6 @@
 ---
 title: Spectrum assignment
-slut: /help/assignment
+slug: /help/assignment
 ---
 
 # Simple 1D assignment

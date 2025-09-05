@@ -1,6 +1,6 @@
 ---
 title: Help
-slut: /help/help
+slug: /help/help
 ---
 
 # Help

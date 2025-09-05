@@ -1,6 +1,6 @@
 ---
 title: Add a Structure
-slut: /help/editStructure
+slug: /help/editStructure
 ---
 
 # Adding a chemical Structure
