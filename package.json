@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
@@ -16,7 +15,6 @@
     "@docusaurus/core": "~3.6.0",
     "@docusaurus/preset-classic": "~3.6.0",
     "@mdx-js/react": "^3.1.0",
-    "@orama/plugin-docusaurus-v3": "^3.1.4",
     "clsx": "^2.1.1",
     "prettier": "^3.5.3",
     "react": "^18.2.0",

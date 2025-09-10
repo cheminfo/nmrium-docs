@@ -10,7 +10,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'cheminfo',
   projectName: 'nmrium-docs',
-  plugins: ['@orama/plugin-docusaurus-v3'],
   themeConfig: {
     navbar: {
       title: '',
@@ -41,6 +40,11 @@ module.exports = {
       sidebar: {
         hideable: true,
       },
+    },
+    algolia: {
+      appId: 'AQJHVJURQV',
+      apiKey: '22c9c6ccd1a47ad295db7dccbeeff60d',
+      indexName: 'NMRium documentation',
     },
   },
   presets: [
