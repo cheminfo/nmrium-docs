@@ -10,6 +10,17 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'cheminfo',
   projectName: 'nmrium-docs',
+  plugins: [
+    [
+      '@dipakparmar/docusaurus-plugin-umami',
+      /** @type {import('@dipakparmar/docusaurus-plugin-umami').Options} */
+      ({
+        websiteID: 'd76ac65c-597c-4bf7-bfef-ec2d47a53364',
+        analyticsDomain: 'umami.zakodium.com',
+        dataDomains: 'docs.nmrium.org', // Comma-separated list of domains
+      }),
+    ],
+  ],
   themeConfig: {
     navbar: {
       title: '',
