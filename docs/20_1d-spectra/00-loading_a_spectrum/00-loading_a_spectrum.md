@@ -17,7 +17,7 @@ The following formats are currently supported:
 | JCAMP-DX     | .jdx, .dx |
 | Bruker files |           |
 | Jeol files   | .jdf      |
-| NMReData     |           |
+| Varian       |           |
 | molfile      | .mol      |
 
 Drag the file you want to open into the grey box **Drag and drop here** in the middle of the screen. You can open a set of spectra of a molecule by either dragging the spectra individually or by dragging a folder containing all spectra into the workspace. `.zip` or `.gz` files will automatically be decompressed and loaded.
