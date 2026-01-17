@@ -72,6 +72,7 @@ Example folder structure:
 my-nmr-dataset/
 ├── index.yml                    # Dataset metadata (required)
 ├── sample_1/                    # First sample (name will be reused in the table of content)
+│   ├── structure.mol            # Optional: chemical structure file (molfile format)
 │   ├── 12/                      # Experiment number of a native Bruker folder
 │   │   ├── fid
 │   │   ├── acqu
@@ -82,11 +83,20 @@ my-nmr-dataset/
 │   │   │       ├── procs
 │   │   │       └── ...
 │   │   └── ...
+│   ├── 13/                      # Another experiment
 │   └── ...
-├── sample_2.nmrium.zip          # Second sample was processed using NMRium
-└── sample_3/
-    └── spectrum.jdx
+├── sample_2.nmrium.zip          # Second sample was processed using NMRium. It could contain assignment
+├── sample_3/
+│   ├── structure.mol            # Optional: chemical structure file (molfile format)
+│   └── spectrum.jdx             # JCAMP-DX file (e.g., exported from Topspin using `tojdx` or from MNova with peak assignments)
+└── ...
 ```
+
+:::tip Chemical structure files
+
+Each sample folder may optionally contain a `structure.mol` file (MOL format) if the chemical structure is known. This allows NMRium to display and analyze the structure alongside the NMR spectra.
+
+:::
 
 ### 2. Create the Metadata File (index.yml)
 
