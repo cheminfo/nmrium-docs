@@ -160,6 +160,66 @@ Sandbox and production tokens are always different. You will only see this token
 
 :::
 
+#### Providing the Token
+
+You can provide your Zenodo API tokens in two ways:
+
+**Option 1: Command Line**
+
+Pass the token directly via the `-t` or `--access-token` option:
+
+```bash
+./zenodo-nmrium ./my-nmr-dataset -t YOUR_SANDBOX_TOKEN
+```
+
+**Option 2: Environment Variables (.env file)**
+
+Store your tokens in a `.env` file. The tool will look for this file in one of three locations (in order):
+
+1. `.env` in the current working directory
+2. `.zenodo-nmrium` in your home directory (`~/.zenodo-nmrium`)
+3. `.env` in your home directory (`~/.env`)
+
+Create a `.env` file with the following environment variables:
+
+```env
+ACCESS_TOKEN=<ZENODO_PRODUCTION_TOKEN>
+ACCESS_TOKEN_SANDBOX=<ZENODO_SANDBOX_TOKEN>
+```
+
+:::warning Different tokens for environments
+
+You **must** use two different tokens:
+
+- `ACCESS_TOKEN` for production submissions (`-p` flag)
+- `ACCESS_TOKEN_SANDBOX` for sandbox submissions (default or `-s` flag)
+
+Using the wrong token for the environment will fail!
+
+:::
+
+Example `.env` file:
+
+```env
+# Zenodo production token
+# Generated from: https://zenodo.org/account/settings/applications/tokens/new/
+ACCESS_TOKEN=your_production_token_here
+
+# Zenodo sandbox token
+# Generated from: https://sandbox.zenodo.org/account/settings/applications/tokens/new/
+ACCESS_TOKEN_SANDBOX=your_sandbox_token_here
+```
+
+When using environment variables, you can omit the `-t` option:
+
+```bash
+# Uses ACCESS_TOKEN_SANDBOX from .env file
+./zenodo-nmrium ./my-nmr-dataset
+
+# Uses ACCESS_TOKEN from .env file
+./zenodo-nmrium ./my-nmr-dataset -p
+```
+
 ### 4. Submit Your Data
 
 #### Basic submission to sandbox:
@@ -217,9 +277,10 @@ Options:
 - **Contains**: `index.yml` file and NMR data folders/ZIPs
 - **Example**: `./my-nmr-dataset`, `/Users/username/data/spectra`
 
-#### Access Token (-t, --access-token) - REQUIRED
+#### Access Token (-t, --access-token)
 
 - **Description**: API token for authentication with Zenodo
+- **Required?** Yes, either via `-t` option or environment variables (`ACCESS_TOKEN` or `ACCESS_TOKEN_SANDBOX`)
 - **How to get**:
   1. Log in to Zenodo (sandbox or production)
   2. Go to Account → Settings → Applications → Personal access tokens
@@ -233,7 +294,9 @@ Options:
   - Keep tokens private and secure
   - Never commit tokens to version control
   - Ensure your token has `deposit:action` and `deposit:write` permissions
-- **Usage**: `-t YOUR_TOKEN` or `--access-token YOUR_TOKEN`
+- **Usage**:
+  - Command line: `-t YOUR_TOKEN` or `--access-token YOUR_TOKEN`
+  - Environment: Set `ACCESS_TOKEN` or `ACCESS_TOKEN_SANDBOX` in a `.env` file
 
 #### Environment (-s, --sandbox | -p, --production)
 
