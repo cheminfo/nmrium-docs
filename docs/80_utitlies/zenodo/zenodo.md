@@ -266,6 +266,9 @@ Options:
   -d, --data-selection <type>             Data selection for NMRium visualization
                                           Choices: ft, fid, both, preferFT, preferFID
                                           Default: ft
+  -l, --log-level <level>                 Logger level
+                                          Choices: trace, debug, info, warn, error, fatal, silent
+                                          Default: info
   -h, --help                              Show this help message
 ```
 
@@ -341,5 +344,25 @@ Options:
 - **Default**: `ft`
 - **Usage**: `-d ft`, `--data-selection both`
 - **Example**: For comparing raw and processed data: `-d both`
+
+#### Log Level (-l, --log-level)
+
+- **Description**: Sets the verbosity level of the logger output
+- **Choices**:
+  - `trace`: Most verbose; logs detailed execution trace information
+  - `debug`: Logs debugging information and variable values
+  - `info`: Standard logging level (recommended); logs important information (default)
+  - `warn`: Logs warnings and errors only
+  - `error`: Logs errors only
+  - `fatal`: Logs only fatal errors
+  - `silent`: No output at all
+
+- **Default**: `info`
+- **Usage**: `-l debug`, `--log-level warn`
+- **Example**: For detailed debugging: `-l debug` or `-l trace`
+- **Recommendation**:
+  - Use `info` (default) for normal submissions
+  - Use `debug` or `trace` when troubleshooting issues
+  - Use `warn` or `silent` for batch operations to reduce output
 
 Visit the [NMRium dataset on Zenodo](https://zenodo.org/search?q=metadata.subjects.subject%3A%22NMRium%20dataset%22&l=list&p=1&s=50&sort=bestmatch) to browse submitted datasets.
