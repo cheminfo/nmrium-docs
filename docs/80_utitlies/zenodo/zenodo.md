@@ -40,21 +40,37 @@ This tool ensures your NMR data follows FAIR principles:
 
 ## Installation
 
-### Pre-built Binary (macOS ARM64)
+### Pre-built Binaries
 
-A pre-built binary is available for macOS ARM64 (Apple Silicon):
+Pre-built binaries are available for macOS ARM64 and Linux x64.
+
+#### macOS ARM64 (Apple Silicon)
 
 ```bash
 curl -o zenodo-nmrium https://www.lactame.com/lib/zenodo-nmrium/HEAD/zenodo-nmrium-darwin-arm64 && chmod 555 zenodo-nmrium
 ```
 
-You can then use this command line using:
+Then use it:
 
 ```bash
-./zenodo-nmrium-darwin-arm64 <path> [options]
+./zenodo-nmrium <path> [options]
 ```
 
-**Note**: Currently, binaries are only available for macOS ARM64. For other platforms, please [contact us](https://www.nmrium.com/contact).
+#### Linux x64
+
+```bash
+curl -o zenodo-nmrium https://www.lactame.com/lib/zenodo-nmrium/HEAD/zenodo-nmrium-linux-x64 && chmod 555 zenodo-nmrium
+```
+
+Then use it:
+
+```bash
+./zenodo-nmrium <path> [options]
+```
+
+#### Other Platforms
+
+For other platforms (Windows, macOS Intel, ARM Linux, etc.), please [contact us](https://www.nmrium.com/contact).
 
 ## Quick Start
 
