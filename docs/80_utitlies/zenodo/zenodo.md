@@ -40,9 +40,9 @@ This tool ensures your NMR data follows FAIR principles:
 
 ## Installation
 
-### Pre-built Binaries
+### Option 1: Pre-built Binaries
 
-Pre-built binaries are available for macOS ARM64 and Linux x64.
+Pre-built binaries are available for macOS ARM64 and Linux x64. This option is useful if you **don't have Node.js installed** and are working on macOS ARM64 (Apple Silicon) or Linux Intel (x64).
 
 #### macOS ARM64 (Apple Silicon)
 
@@ -56,7 +56,7 @@ Then use it:
 ./zenodo-nmrium <path> [options]
 ```
 
-#### Linux x64
+#### Linux x64 (Intel)
 
 ```bash
 curl -o zenodo-nmrium https://www.lactame.com/lib/zenodo-nmrium/HEAD/zenodo-nmrium-linux-x64 && chmod 555 zenodo-nmrium
@@ -70,7 +70,31 @@ Then use it:
 
 #### Other Platforms
 
-For other platforms (Windows, macOS Intel, ARM Linux, etc.), please [contact us](https://www.nmrium.com/contact).
+For other platforms (Windows, macOS Intel, ARM Linux, etc.), use Option 2 (npm) instead.
+
+### Option 2: npm Package
+
+If you have [Node.js](https://nodejs.org/) installed, you can use the npm package.
+
+#### Using npx (Recommended - No Installation Required)
+
+```bash
+npx zenodo-nmrium <path> [options]
+```
+
+This downloads and runs the latest version without installing anything.
+
+#### Global Installation
+
+```bash
+npm install -g zenodo-nmrium
+```
+
+Then use it:
+
+```bash
+zenodo-nmrium <path> [options]
+```
 
 ## Quick Start
 
