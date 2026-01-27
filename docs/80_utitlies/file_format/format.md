@@ -65,16 +65,6 @@ By design, this format ensures **data integrity**, **traceability**, and **FAIR 
 
 Identifies the archive type. This file is placed at the root of the ZIP to allow fast type detection.
 
-### `META-INF/`
-
-Metadata describing the archive itself.
-
-- **`NMRIUM_ARCHIVE`**  
-  Marker file indicating a valid NMRium archive.
-
-- **`VERSION`**  
-  Archive format version. Allows backward compatibility handling.
-
 ## Index Files
 
 ### `index.txt`
@@ -109,9 +99,8 @@ This guarantees:
 
 - No filename collisions
 - Safe repeated drag-and-drop of identical datasets
-- Clear provenance of each import
 
-The UUID directory contains the original dataset hierarchy, preserved exactly as imported.
+The UUID directory contains the original dataset hierarchy, preserved exactly as imported even if the files are not related to NMR.
 
 ### Embedded Files
 
