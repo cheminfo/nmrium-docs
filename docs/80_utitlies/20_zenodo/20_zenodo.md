@@ -3,11 +3,13 @@ title: Submit NMR spectra to Zenodo
 slug: /help/zenodo
 ---
 
+import NMRiumYamlEditor from './NMRiumYamlEditor';
+
 :::caution Experimental feature
 
 Submitting data to Zenodo is still an experimental feature. Please test it **in the sandbox** and share your feedback on https://www.nmrium.com/contact.
 
-Visit the [NMRium dataset on Zenodo](https://zenodo.org/search?q=metadata.subjects.subject%3A%22NMRium%20dataset%22&l=list&p=1&s=50&sort=bestmatch) to browse submitted datasets.
+Visit the [NMRium dataset on Zenodo](https://zenodo.org/search?q=metadata.subjects.subject%3A%22NMRium%20dataset%22&l=list&p=1&s=10&sort=bestmatch) to browse submitted datasets.
 
 You may also check the [NMRium dataset in the sandbox](https://sandbox.zenodo.org/search?q=metadata.subjects.subject%3A%22NMRium%20dataset%22&l=list&p=1&s=50&sort=bestmatch) but don't forget they may deleted anytime.
 
@@ -144,27 +146,9 @@ The `index.yml` file is required and should be placed at the root of your datase
 
 #### Example index.yml
 
-```yaml
-title: NMR spectra dataset generated with NMRium CLI
-description: |-
-  <p>This is a dataset generated with NMRium CLI.</p>
-  <p>The dataset will be visible and accessible in <strong>NMRium</strong>, providing an <strong>interactive</strong> viewing experience for NMR spectra analysis.</p>
-  <p>This represents the <strong>ultimate FAIR data submission</strong> — ensuring that your data is Findable, Accessible, Interoperable, and Reusable.</p>
-copyright: cc-by-4.0
-keywords:
-  - NMR spectra
-  - FAIR data
-  - Nuclear Magnetic Resonance
-authors:
-  - family_name: 'Zasso'
-    given_name: 'Michaël'
-    affiliation: 'Zakodium Sàrl, Switzerland'
-    orcid: '0000-0001-5295-2159'
-  - family_name: 'Bolaños'
-    given_name: 'Alejandro'
-    affiliation: 'Universidad del Valle, Cali, Colombia'
-    orcid: '0000-0001-5933-5524'
-```
+Use the interactive editor below to tweak the example metadata and validate the YAML syntax.
+
+<NMRiumYamlEditor />
 
 #### Metadata Fields
 

@@ -51,12 +51,12 @@ By design, this format ensures **data integrity**, **traceability**, and **FAIR 
 └── data/
     └── <UUID>/
         └── <dataset-name>/
-            ├── *.dx
-            ├── *.mol
-            └── 2d/
-                ├── COSY_*.dx
-                ├── HSQC_*.dx
-                └── HMBC_*.dx
+            ├── proton.dx
+            ├── carbon.dx
+            ├── structure.mol
+            ├── COSY_*.dx
+            ├── HSQC_*.dx
+            └── HMBC_*.dx
 ```
 
 ## Top-Level Files
@@ -104,7 +104,7 @@ The UUID directory contains the original dataset hierarchy, preserved exactly as
 
 ### Embedded Files
 
-All original files (e.g. `.dx`, `.mol`) are embedded _without modification_:
+All original files (e.g. `.dx`, `.mol`, bruker) are embedded _without modification_:
 
 - 1D NMR spectra
 - 2D NMR spectra (COSY, HSQC, HMBC, …)
