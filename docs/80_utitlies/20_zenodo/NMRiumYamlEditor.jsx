@@ -122,11 +122,18 @@ authors:
   }, []);
 
   return (
-    <div style={{ height: '600px', padding: '20px' }}>
-      <h3>NMRium CLI YAML Editor (with Error Highlighting)</h3>
+    <div
+      style={{
+        height: '450px',
+        maxHeight: '450px',
+        padding: '20px',
+        overflow: 'auto',
+        boxSizing: 'border-box',
+      }}
+    >
       <CodeMirror
         value={yamlContent}
-        height="100%"
+        height="400px"
         extensions={extensions}
         onChange={onChange}
         theme="light"

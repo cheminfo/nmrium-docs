@@ -144,9 +144,11 @@ Each sample folder may optionally contain a `structure.mol` file (MOL format) if
 
 The `index.yml` file is required and should be placed at the root of your dataset folder. It contains metadata about your entire dataset.
 
-#### Example index.yml
+:::tip
 
-Use the interactive editor below to tweak the example metadata and validate the YAML syntax.
+You can use the interactive editor below to tweak the example metadata and validate the YAML syntax.
+
+:::
 
 <NMRiumYamlEditor />
 
