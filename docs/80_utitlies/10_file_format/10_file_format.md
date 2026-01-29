@@ -147,3 +147,45 @@ The NMRium archive format follows FAIR principles:
 ## Conclusion
 
 The `.nmrium.zip` format is a durable, transparent, and future-proof container for NMR data and analysis. By preserving original files and storing all processing separately in structured JSON, it enables reproducible science, long-term archiving, and seamless integration with databases and external tools.
+
+## Specification
+
+### Conformance
+
+The keywords _MAY_, _MUST_, _MUST NOT_, _OPTIONAL_, _RECOMMENDED_, _REQUIRED_, _SHOULD_, and _SHOULD NOT_
+in the specification section of this document are to be interpreted as described in
+**[BCP 14][BCP-14]**, **[RFC2119][RFC2119]**, **[RFC8174][RFC8174]** when, and only when, they appear in all capitals, as shown here.
+
+### File Format Rules
+
+1. It MUST be a valid `ium` file.
+   1. `.mimetype` MUST be the first file entry of zip for signature check.
+   2. It MUST contain the UTF-8 string `chemical/x-nmrium+zip`.
+2. It MUST contain `index.json`.
+   1. It MUST be a valid `ium` navigation document.  
+      It contains options to init the `file-collection` and a list of sources (pointing to web resources, or local to the archive if `baseURL` starts with `ium:`).
+3. It MUST contain `.META-IUM/NMRIUM_ARCHIVE` flag file. It SHOULD be empty, signal this archive is a NMRium Archive file.
+4. It MUST contain `.META-IUM/VERSION` file. Content MUST be the UTF-8 string `1`.
+5. It MUST contain a `state.json` file
+   1. It MUST be valid `JSON`
+   2. It MUST match the `@zakodium/nmrium-core#SerializedNmriumState` type.  
+      `import type { SerializedNmriumState } from '@zakodium/nmrium-core';`
+   3. All spectra and molecules SHOULD contain a `.selector` property
+      1. `.root` SHOULD point to "folder" containing the original files.
+      2. `.files` SHOULD containing a list of path relative to `.root` used to filter files to get the spectrum or molecule
+6. It SHOULD contain an `index.txt` file for humans.  
+   The list of files grouped by subroots, with `embedded` or `linked` annotations.
+7. It MAY contain some folders not referenced by any spectra selector root or molecules selector root.  
+   They SHOULD be ignored.
+8. It MAY not contain some folders referenced by spectra selector root or molecules selector root.  
+   If so, NMRium application SHOULD warn some files may miss and SHOULD ignore concerned spectra and molecules.
+
+### Distribution Rules
+
+1. It SHOULD have the `.nmrium.zip` file name extension.
+2. When it is possible, it SHOULD be shared with `chemical/x-nmrium+zip` mimetype.
+   Ex: an HTTP Response SHOULD send the `Content-Type: chemical/x-nmrium+zip` header.
+
+[BCP-14]: https://www.rfc-editor.org/info/bcp14
+[RFC2119]: https://www.rfc-editor.org/rfc/rfc2119
+[RFC8174]: https://www.rfc-editor.org/rfc/rfc8174
