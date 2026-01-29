@@ -7,7 +7,7 @@ slug: /help/nmrium.zip
 
 ## Overview
 
-The **NMRium Archive Format** (`.nmrium.zip`, usually displayed as `.nmrium`) is a ZIP-based container designed to persist _all_ data opened and processed in **NMRium** without converting them into a proprietary binary format.
+The **NMRium Archive File Format** (`.nmrium.zip`) is a ZIP-based container designed to persist _all_ data opened and processed in **NMRium** without converting them into a proprietary binary format.
 
 The archive preserves:
 
@@ -34,13 +34,14 @@ By design, this format ensures **data integrity**, **traceability**, and **FAIR 
 ## File Extension and Packaging
 
 - The archive is a standard ZIP file.
-- Typical file extension: `.nmrium` or `.nmrium.zip`
+- The archive extends the [`ium`](https://cheminfo.github.io/file-collection/classes/FileCollection.html#toium) format.
+- Typical file extension: `.nmrium.zip`
 - The internal directory structure is stable and versioned.
 
 ## Archive Structure
 
 ```text
-<archive>.nmrium/
+<archive>.nmrium.zip/
 ├── .mimetype
 ├── index.txt
 ├── index.json
@@ -63,7 +64,8 @@ By design, this format ensures **data integrity**, **traceability**, and **FAIR 
 
 ### `.mimetype`
 
-Identifies the archive type. This file is placed at the root of the ZIP to allow fast type detection.
+Identifies the archive type. This file is the first file entry of the ZIP to allow [fast type detection](https://cheminfo.github.io/file-collection/classes/FileCollection.html#isium).
+It contains the following UTF-8 string: `chemical/x-nmrium+zip`.
 
 ## Index Files
 
@@ -77,12 +79,12 @@ Example:
 
 ```text
 data/a8a2792b-1d59-4695-9d40-8002dbd114b8/
-    cytisine/13C_Cytisin_600_fid.dx
-    cytisine/cytisine.mol
-    cytisine/1H_Cytisin_600MHz-R-I.dx
-    cytisine/2d/COSY_Cytisin.dx
-    cytisine/2d/HMBC_Cytisin.dx
-    cytisine/2d/HSQC_Cytisin.dx
+    cytisine/13C_Cytisin_600_fid.dx (embedded)
+    cytisine/cytisine.mol   (embedded)
+    cytisine/1H_Cytisin_600MHz-R-I.dx   (embedded)
+    cytisine/2d/COSY_Cytisin.dx (embedded)
+    cytisine/2d/HMBC_Cytisin.dx (embedded)
+    cytisine/2d/HSQC_Cytisin.dx (embedded)
 ```
 
 ### `index.json`
@@ -116,7 +118,7 @@ All original files (e.g. `.dx`, `.mol`, bruker) are embedded _without modificati
 
 Stores the complete NMRium application state.
 
-This includes, but is not limited to:
+This includes but is not limited to:
 
 - Phase correction parameters
 - Baseline correction
@@ -142,6 +144,6 @@ The NMRium archive format follows FAIR principles:
 - **Interoperable**: JSON state and standard spectral file formats
 - **Reusable**: Original data preserved without loss
 
-## Summary
+## Conclusion
 
 The `.nmrium.zip` format is a durable, transparent, and future-proof container for NMR data and analysis. By preserving original files and storing all processing separately in structured JSON, it enables reproducible science, long-term archiving, and seamless integration with databases and external tools.
