@@ -1,9 +1,9 @@
 ---
-title: NMRium file format
+title: NMRium Archive File Format
 slug: /help/nmrium.zip
 ---
 
-# NMRium Archive Format (`.nmrium.zip`)
+# NMRium Archive File Format
 
 ## Overview
 
