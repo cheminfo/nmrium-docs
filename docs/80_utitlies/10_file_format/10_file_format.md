@@ -183,7 +183,7 @@ in the specification section of this document are to be interpreted as described
 ### Distribution Rules
 
 1. It SHOULD have the `.nmrium.zip` file name extension.
-2. When it is possible, it SHOULD be shared with `chemical/x-nmrium+zip` mimetype.
+2. When it is possible, it SHOULD be shared with `chemical/x-nmrium+zip` mimetype.  
    Ex: an HTTP Response SHOULD send the `Content-Type: chemical/x-nmrium+zip` header.
 
 [BCP-14]: https://www.rfc-editor.org/info/bcp14
