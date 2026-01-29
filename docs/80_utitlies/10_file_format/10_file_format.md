@@ -34,7 +34,7 @@ By design, this format ensures **data integrity**, **traceability**, and **FAIR 
 ## File Extension and Packaging
 
 - The archive is a standard ZIP file.
-- The archive extends the [`ium`](https://cheminfo.github.io/file-collection/classes/FileCollection.html#toium) format.
+- The archive extends the [`ium` file format](https://cheminfo.github.io/file-collection/classes/FileCollection.html#toium).
 - Typical file extension: `.nmrium.zip`
 - The internal directory structure is stable and versioned.
 
