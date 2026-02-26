@@ -1,6 +1,6 @@
 ---
 title: NMRium File Format
-slug: /help/nmrium.zip
+slug: /help/nmrium_zip
 ---
 
 # NMRium File Format
