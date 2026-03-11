@@ -11,11 +11,15 @@ Submitting data to Zenodo is still an experimental feature. Please test it **in 
 
 Visit the [NMRium dataset on Zenodo](https://zenodo.org/search?q=metadata.subjects.subject%3A%22NMRium%20dataset%22&l=list&p=1&s=10&sort=bestmatch) to browse submitted datasets.
 
-You may also check the [NMRium dataset in the sandbox](https://sandbox.zenodo.org/search?q=metadata.subjects.subject%3A%22NMRium%20dataset%22&l=list&p=1&s=50&sort=bestmatch) but don't forget they may deleted anytime.
-
 :::
 
 Submit NMR spectra to Zenodo with direct integration into NMRium for interactive visualization and analysis. This tool enables the ultimate **FAIR data submission** for NMR datasets, making your research data Findable, Accessible, Interoperable, and Reusable.
+
+:::success Try it out
+
+You can check the result of this script on the [Zenodo sandbox](https://sandbox.zenodo.org/records/445105). Even though the data is hosted on Zenodo, the spectra can be displayed interactively in NMRium — the visualization loads the data directly from Zenodo.
+
+:::
 
 ## About
 
@@ -391,4 +395,4 @@ Options:
   - Use `debug` or `trace` when troubleshooting issues
   - Use `warn` or `silent` for batch operations to reduce output
 
-Visit the [NMRium dataset on Zenodo](https://zenodo.org/search?q=metadata.subjects.subject%3A%22NMRium%20dataset%22&l=list&p=1&s=50&sort=bestmatch) to browse submitted datasets.
+Visit the [NMRium dataset on Zenodo](https://zenodo.org/search?q=%22NMRium+dataset%22&l=list&p=1&s=50&sort=bestmatch) to browse submitted datasets.
