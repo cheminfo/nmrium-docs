@@ -27,8 +27,6 @@ Workspaces can adjust settings such as:
 
 Settings can be customized for each panel using the graphical interface (such as resizing the column dedicated to panels), as well as from the general preferences, where you can define which panels are visible and which tools are available.
 
-Panels have 4 options:
-
 Panel visibility can be customized with four options:
 
 - **Hidden**: The panel is completely inaccessible in this workspace.
@@ -53,7 +51,7 @@ By default, NMRium provides three ready-to-use workspaces:
 3. **NMR Spectra Assignment**  
    Optimized for structure assignment.
 
-![Switching worksapce](switchingWorkspace.gif)
+![Switching workspace](switchingWorkspace.gif)
 
 ## Customizing Workspaces
 
@@ -63,11 +61,11 @@ This indicates that modifications were made compared to the current workspace.
 - If the workspace is **custom**, you can save changes directly.
 - If it is a **default workspace**, you must save it under a **new name**.
 
-![Custom worksapce](customWorkspace.gif)
+![Custom workspace](customWorkspace.gif)
 
 :::info
 
-All workspaces are saved **locally in your browser**. However it is possible to save and share workspace
+All workspaces are saved **locally in your browser**. You can, however, export a workspace to a file and share it with colleagues — see [Saving and sharing workspaces with colleagues](#saving-and-sharing-workspaces-with-colleagues) below.
 
 :::
 
@@ -77,9 +75,9 @@ From the **General Preferences** menu, you can:
 
 - Reset to the currently saved settings
 - Rename a workspace
-- Suppress a workspace
+- Delete a workspace
 
-![Advanced worksapce](advanced.gif)
+![Advanced workspace](advanced.gif)
 
 ## Saving and sharing workspaces with colleagues
 
