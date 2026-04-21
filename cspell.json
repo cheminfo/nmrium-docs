@@ -65,7 +65,8 @@
     "Typedoc",
     "Varian",
     "Zakodium",
-    "zakodium"
+    "zakodium",
+    "Zenodo"
   ],
   "ignorePaths": [
     "node_modules",
