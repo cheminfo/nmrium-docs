@@ -13,17 +13,17 @@ Above the panel, a button shows the total number of loaded spectra.
 
 ![Spectra panel](spectra.gif)
 
-If there are event logs generated during the import process or other actions in NMRium, a badge will appear on the bug icon in the global toolbar. Click this icon to display a list of logged events. The list shows the as well as the event. Errors will be highlighted in pink, warning in yellow and information in green. Clicking the **Clear Logs** button will remove all entries from the log list.
+If event logs are generated during the import process or other actions in NMRium, a badge appears on the bug icon in the global toolbar. Click this icon to display the list of logged events. Each entry shows the time and a description of the event: errors are highlighted in pink, warnings in yellow, and info messages in green. Click **Clear Logs** to remove all entries from the list.
 
 ![Logs](logs.gif)
 
-You can select spectra directly from the spectra display by clicking on the baseline of a spectrum. To select multiple spectra, use Shift + Click on the last spectrum in a range to select all spectra between the first and last clicked. Alternatively, you can cherry-pick individual spectra by holding CMD (or Ctrl on Windows) + Click on each desired spectrum.
+You can select spectra directly from the spectra display by clicking on the baseline of a spectrum. To select a range of spectra, <kbd>Shift</kbd>-click the last spectrum to select everything between the first and last clicked. To cherry-pick individual spectra, hold <kbd>Cmd</kbd> (or <kbd>Ctrl</kbd> on Windows) while clicking each one.
 
 Once selected, you can perform actions such as hiding the selection, adding it to the displayed spectra, focusing on it, and more. Spectra can also be selected from the spectra panel, offering another way to manage your selections.
 
 ![Spectra selection](spectra-selection.gif)
 
-# Color spectra
+## Color spectra
 
 By default, when loading spectra, colors are assigned according to your general preferences. You can also set a custom color for each spectrum. For 2D spectra, you can choose separate colors for positive and negative contours.
 
@@ -33,14 +33,12 @@ Spectra can also be colored based on a specific property. For example, if your s
 
 ![Color spectra](color-spectra.gif)
 
-# Mode selection
+## Mode selection
 
-You can choose between different modes of how you want to analyze your spectra: **Simple NMR analysis**, **1D multiple spectra analysis** and **NMR spectra assignment**.
+You can choose between three analysis modes: **Simple NMR analysis**, **1D multiple spectra analysis**, and **NMR spectra assignment**.
 
-With the mode **Simple NMR analysis**, you can analyse chemical shifts of the signals with the help of peaks picking and integrate the signals. There is also the possibility to analyse the spectrum with the help of ranges and to do a multiple spectrum analysis. You can select the individual functions and process the spectrum by yourself.
+- **Simple NMR analysis** lets you analyze chemical shifts via peak picking, integrate signals, define ranges, and run a basic multiple-spectrum analysis. You drive each step manually.
+- **1D multiple spectra analysis** is intended for several 1D spectra of the same substance that you want to analyze together. NMRium handles the multi-spectrum analysis, and you can refine the results manually.
+- **NMR spectra assignment** uses NMRium to assign one or more spectra of a compound for you: it analyzes the ranges, determines the integral (or the relative number of H atoms), performs the multiplet analysis, and computes the coupling constants. You can still refine any of these manually.
 
-If you have several 1D spectra of a substance and you want to analyse them at the same time, you can choose the mode **1D multiple spectra analysis**. NMRium is able to analyse multiple spectra of a substance. You can make corrections by yourself.
-
-If you have one or more spectra of a compound, NMRium is able to assign these spectra for you. To use this, select the function **NMR spectra assignment**. NMRium analyses the ranges. It determines the integral or the relative H part of a range. It also does a multiplet analysis and a calculation of the coupling constants. Finally, you can also make corrections by yourself.
-
-Click above the panels on the right side on the red marked button and select the corresponding function. You must activate it by clicking on a spectrum or a nucleus in the panel **Spectra**. Afterwards, the selected mode will be available.
+To switch modes, click the highlighted button above the panels on the right side and pick the desired mode. Activate it by clicking a spectrum or a nucleus in the **Spectra** panel — the selected mode then becomes available.

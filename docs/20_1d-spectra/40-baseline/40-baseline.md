@@ -5,18 +5,18 @@ slug: /help/baseline
 
 # Baseline Correction
 
-Click the **Baseline correction** button to the left of the spectrum. You can choose between two possible algorithms: **polynomial** and **AIR PLS**.
+Click the **Baseline correction** button to the left of the spectrum. You can choose between two algorithms: **polynomial** and **airPLS**.
 
 ![baseline](baselin_correction.svg)
 
 ## Polynomial
 
-To use the algorithm **polynomial**, you may define a degree and then click **apply**.
+For the **polynomial** algorithm, define a degree and click **Apply**.
 
 ![baseline](baselin_correction.gif)
 
 ## airPLS
 
-To apply the **airPLS** algorithm, you may define both maximum iteration and a tolerance range and then click **apply**.
+For the **airPLS** algorithm, define both a maximum iteration count and a tolerance range, then click **Apply**.
 
 ![baseline](baselin_correction2.gif)

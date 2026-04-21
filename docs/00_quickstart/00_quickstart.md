@@ -4,19 +4,19 @@ description: A brief explanation of NMRium's most important functions
 slug: /
 ---
 
-In order to fully benefic from NMRium you should learn a little bit the phylosophy behind the program. The software as be designed to be simple to use but also very powerfull and it may differ from other competitive softwares.
+To get the most out of NMRium, take a few minutes to learn the philosophy behind the program. The software is designed to be simple to use yet very powerful, and it may differ from other competing software.
 
-Please read this quick start guide, it should not be a waste of time and you will fully benefit of NMRium.
+Reading this quick start guide should save you time and help you fully benefit from NMRium.
 
-**Forget about integrals and peak picking !**
+**Forget about integrals and peak picking!**
 
-In order to keep some similarity with other softwares we have kept the integral and peak picking tools. But … they should never be used ! You should directly switch to the workspace ‘NMR spectra assignment’
+For familiarity with other software, we kept the integral and peak picking tools — but they should never be used. Instead, switch directly to the **NMR spectra assignment** workspace.
 
 ![Spectra assignment](spectraAssignment.gif)
 
 :::tip How to get help
 
-Tooltips appear when you hover over different tools, providing quick information and listing available keyboard shortcuts. Most shortcuts are single-letter keys — no need to press <kbd>CTRL</kbd>, <kbd>shift</kbd>, or other modifier keys. Tooltips often include direct links to more detailed documentation. You can [learn more](/help/help) about additional help resources.
+Tooltips appear when you hover over different tools, providing quick information and listing available keyboard shortcuts. Most shortcuts are single-letter keys — no need to press <kbd>Ctrl</kbd>, <kbd>Shift</kbd>, or other modifier keys. Tooltips often include direct links to more detailed documentation. You can [learn more](/help/help) about additional help resources.
 
 ![Tooltip](tooltip.png)
 
@@ -35,7 +35,7 @@ To load your NMR data into NMRium, make sure your files are in one of the follow
 - JCAMP-DX (.dx, .jdx, .jcamp)
 - Bruker folder (raw or processed data)
 - Jeol (.jdf)
-- NMRium file (.nmrium)
+- NMRium archive (.nmrium.zip)
 
 You can also use zipped files containing any of the above formats.
 
@@ -55,11 +55,11 @@ You can [learn more](/help/spectraPanel) about the spectrum panel and how to cha
 
 In NMRium, you can zoom in at any time, regardless of the selected tool. To zoom in, simply click and drag with the left mouse button around the area you want to magnify, then release. To zoom out, double-click anywhere on the spectrum. To scale the spectrum vertically, use the scroll wheel.
 
-You can also use keyboard shortcuts: press <kbd>f</kbd> to zoom out horizontally by one step, or <kbd>ff</kbd> to fully zoom out both vertically and horizontally.
+You can also use keyboard shortcuts: press <kbd>f</kbd> to zoom out horizontally by one step, or <kbd>f</kbd><kbd>f</kbd> to fully zoom out both vertically and horizontally.
 
 :::tip Learn more
 
-You can learn more about all the possibilities to zoom and pan the spectra for [1D](/help/zoom-and-scale) and for [2D](/help/zoom-2d)
+Learn more about all the ways to zoom and pan the spectra for [1D](/help/zoom-and-scale) and for [2D](/help/zoom-2d).
 
 :::
 
@@ -79,23 +79,23 @@ Check more [advanced information](/help/editStructure) about structure edition o
 
 :::note Integrated structure editor
 
-Click onto the panel **Structures** on the right side of the screen and then on the **+** sign. A window opens where you can draw your molecular structure. Then click on the **Save** button. In the panel **Structures**, the drawn molecular structure appears as well as the molecular weight and the molecular formula.
+Click on the **Chemical structures** panel on the right side of the screen and then on the **+** sign. A window opens where you can draw your molecular structure. Then click the **Save** button. The drawn molecular structure then appears in the **Chemical structures** panel, along with the molecular weight and molecular formula.
 
 :::
 
 ## Processing of raw data
 
-By default NMRium will automatically process raw data. If you need further customization you may find more information about manual processing [here](/help/processing)
+By default, NMRium automatically processes raw data. For further customization, see the page on [manual processing](/help/processing).
 
 ## Ranges and multiplet analysis
 
-Click the **Ranges and multiplet analysis** button on the left side to define integration zones and multiplets. Alternatively you should use the shortcut <kbd>r</kbd>. You can begin with an automatic analysis, which can be adjusted manually as needed.
+Click the **Ranges and multiplet analysis** button on the left side to define integration zones and multiplets. Alternatively, use the shortcut <kbd>r</kbd>. You can begin with an automatic analysis, which can be adjusted manually as needed.
 
 Tips for working with ranges:
 
 - To adjust a range, drag its boundary to the desired position.
-- To delete a range, hover over it and press the <kbd>backspace</kbd> key.
-- To manually add a range, hold <kbd>shift</kbd> while clicking, dragging, and releasing over the desired area.
+- To delete a range, hover over it and press <kbd>Backspace</kbd>.
+- To manually add a range, hold <kbd>Shift</kbd> while clicking, dragging, and releasing over the desired area.
 
 ![Ranges and multiplet analysis](ranges.gif)
 
@@ -111,17 +111,19 @@ The easiest way to assign a molecule is to keep it floating and create links bet
 
 ![Assign](assign.gif)
 
-Diastereotopic hydrogens can be expanded by holding <kbd>SHIFT</kbd> and clicking on the atom. Assigned ranges and atoms will be highlighted in light yellow.
+Diastereotopic hydrogens can be expanded by holding <kbd>Shift</kbd> and clicking on the atom. Assigned ranges and atoms will be highlighted in light yellow.
 
 :::tip Export the assignment
 
-Exportation of the assignment can be done in a single click from the "Ranges / Multiplet analysis" panel.
+The assignment can be exported in a single click from the "Ranges / Multiplet analysis" panel.
 
 ![Export assignment](exportAssignment.gif)
 
+:::
+
 :::note Advanced assignment
 
-More advanced options are described on this [dedicated help page](/help/assignment).
+More advanced options are described on the [dedicated help page](/help/assignment).
 
 :::
 
@@ -129,7 +131,7 @@ More advanced options are described on this [dedicated help page](/help/assignme
 
 :::tip Copy to clipboard
 
-Simply press <kbd>CTRL</kbd>+<kbd>c</kbd> to copy the current image to the clipboard.
+Press <kbd>Ctrl</kbd>+<kbd>c</kbd> to copy the current image to the clipboard.
 
 :::
 
@@ -138,10 +140,10 @@ To export the assigned spectra, click on the **Export** button to the left side 
 - Export as SVG
 - Export as PNG
 - Copy image to Clipboard
-- Save data as .nmrium file
+- Save data as `.nmrium.zip` archive
 
 :::info
 
-An .nmrium file is a compressed text file containing all information of the (partially) assigned stored spectra. Depending on the number of spectra contained, saving can take longer, as can opening an .nmrium file again.
+A `.nmrium.zip` file is a ZIP-based archive that preserves the original raw/processed data alongside all processing, annotations, and assignments — making it future-proof and reproducible. See [NMRium File Format](/help/nmrium_zip) for details. Depending on the number of spectra it contains, saving and reopening it can take longer.
 
 :::

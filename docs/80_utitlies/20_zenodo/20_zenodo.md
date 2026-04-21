@@ -31,7 +31,7 @@ This tool ensures your NMR data follows FAIR principles:
 
 - **Findable**: Your data is registered and discoverable on Zenodo
 - **Accessible**: Data is freely available on the public internet
-- **Interoperable**: Data is stored as a zip file that contains the original NMR data that work with NMRium and other tools
+- **Interoperable**: Data is stored as a ZIP file containing the original NMR data, which works with NMRium and other tools
 - **Reusable**: Rich metadata and open licenses facilitate reuse by others
 
 ### The Ultimate Goal
@@ -134,7 +134,7 @@ my-nmr-dataset/
 ├── sample_2.nmrium.zip          # Second sample was processed using NMRium. It could contain assignment
 ├── sample_3/
 │   ├── structure.mol            # Optional: chemical structure file (molfile format)
-│   └── spectrum.jdx             # JCAMP-DX file (e.g., exported from Topspin using `tojdx` or from MNova with peak assignments)
+│   └── spectrum.jdx             # JCAMP-DX file (e.g., exported from TopSpin using `tojdx` or from Mnova with peak assignments)
 └── ...
 ```
 

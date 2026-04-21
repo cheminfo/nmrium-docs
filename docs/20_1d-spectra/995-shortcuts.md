@@ -16,8 +16,8 @@ unlisted: true
 | Toggle center / bottom spectra position | <kbd>c</kbd>             |
 | Toggle stack / bottom spectra position  | <kbd>s</kbd>             |
 
-| Description   | OsX shortcuts              | Windows shortcuts           |
+| Description   | macOS                      | Windows / Linux             |
 | ------------- | -------------------------- | --------------------------- |
-| Save          | <kbd>cmd</kbd><kbd>s</kbd> | <kbd>CTRL</kbd><kbd>s</kbd> |
-| Open          | <kbd>cmd</kbd><kbd>o</kbd> | <kbd>CTRL</kbd><kbd>o</kbd> |
-| Copy as image | <kbd>cmd</kbd><kbd>c</kbd> | <kbd>CTRL</kbd><kbd>c</kbd> |
+| Save          | <kbd>Cmd</kbd><kbd>s</kbd> | <kbd>Ctrl</kbd><kbd>s</kbd> |
+| Open          | <kbd>Cmd</kbd><kbd>o</kbd> | <kbd>Ctrl</kbd><kbd>o</kbd> |
+| Copy as image | <kbd>Cmd</kbd><kbd>c</kbd> | <kbd>Ctrl</kbd><kbd>c</kbd> |

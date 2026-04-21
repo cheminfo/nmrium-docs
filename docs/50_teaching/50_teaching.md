@@ -4,7 +4,7 @@ title: Using NMRium for teaching
 
 ## NMRium teaching
 
-NMRium is likely the best platform to teach structure elucidation to students. You may already have a look at series of exercises using the following links
+NMRium is likely the best platform for teaching structure elucidation to students. You can already look at existing series of exercises through the following links:
 
 - https://app.nmrium.com/teaching/exercises#?toc=https://cheminfo.github.io/nmr-dataset2/toc.json
 - https://app.nmrium.com/teaching/exercises#?toc=https://cheminfo.github.io/nmr-dataset-nils/toc.json
@@ -20,7 +20,7 @@ If you do not have a GitHub account yet, you can easily sign up there. You can r
 
 :::
 
-The first step is to use the following project https://github.com/cheminfo/nmr-dataset-template as template. You will be redirected to the github page. Click the "Use this template" button there. In the box that opens, click "Create a new repository".
+The first step is to use the following project as a template: https://github.com/cheminfo/nmr-dataset-template. You will be redirected to the GitHub page. Click the **Use this template** button, and in the box that opens click **Create a new repository**.
 
 ![use as template](images/use_this_template.png)
 
@@ -42,18 +42,18 @@ You may then change all the files and folders (except the .github folder require
 
 :::info
 
-If you want to create or rename folders, click the **Explorer** button on the menu bar on the left side of **Visual Studio Code**. To create a new folder, click the **New Folder** icon. Then label the folder and click the **Enter key**. To rename an existing folder, right-click on it. Click **Rename** in the opened box. Specify the new name and click the **Enter button**. To delete an existing folder, right-click on it. Click **Delete permanently** in the opened box. Than click **Delete** in the opening box.
+If you want to create or rename folders, click the **Explorer** button on the menu bar on the left side of **Visual Studio Code**. To create a new folder, click the **New Folder** icon, then label the folder and press <kbd>Enter</kbd>. To rename an existing folder, right-click it and choose **Rename**, specify the new name, and press <kbd>Enter</kbd>. To delete an existing folder, right-click it, choose **Delete permanently**, then click **Delete** in the confirmation box.
 
-To save the changes click the **Source control** button on the menu bar on the left. All the changes you have made are shown there. Write a short commit message in the **message** box. Then click the **check mark** above the box. The process may take a few minutes. Your changes will directly committed to the main branch on GitHub
+To save the changes, click the **Source Control** button on the menu bar on the left. All the changes you have made are shown there. Write a short commit message in the **message** box, then click the **check mark** above the box. The process may take a few minutes. Your changes will be committed directly to the main branch on GitHub.
 
 :::
 
 Now you need to switch back to the GitHub page. If you are using the browser version of the Visual Studio code, click the button at the top right. Click the "Switch to repository" button there. You will be redirected to GitHub.
 
-Now click on the "Settings" button in the bar at the top center. Then click the "Actions" button on the left side of the desktop, then go to Generals. You need to select the following settings:
+Now click the **Settings** button in the bar at the top center. Then click **Actions** on the left side of the page and go to **General**. You need to select the following settings:
 
-- Allow all actions an resuable workflows
-- Require approval for first-time contributs
+- Allow all actions and reusable workflows
+- Require approval for first-time contributors
 - Read and Write permissions
 
 For all three settings you have to click the respective "Save" button.
@@ -61,21 +61,21 @@ Now click the "Actions" button in the bar above the workspace, then click gh-pag
 
 Now click the Code button in the upper left corner. You will be redirected to your exercise.
 
-Click on the Main button in the upper left corner and then on "gh-pages". Your exercise will be created.
+Click the **main** button in the upper left corner and then on **gh-pages**. Your exercise will be created.
 
-In the "Readme.md" box at the bottom of the workspace, you can click the link to your exercises on GitHub or copy it and forward it to your students. Depending on the size of your created exercises, it may take a few minutes for NMRium to display the correct exercises.
+In the `README.md` box at the bottom of the workspace, click the link to your exercises on GitHub or copy it and forward it to your students. Depending on the size of your created exercises, it may take a few minutes for NMRium to display the correct exercises.
 
 ![](./Teaching_part_2.gif)
 
 ## NMR spectra format
 
-You should save the NMR spectra as a JCAMP-DX file (on topspin use the `tojdx` command). The spectrum should be FT and phase corrected. To spare bandwidth you may only save the real part of the spectrum.
+You should save the NMR spectra as JCAMP-DX files (on TopSpin, use the `tojdx` command). The spectra should be FT and phase corrected. To save bandwidth, you can store only the real part of the spectrum.
 
 ## One folder = One exercise
 
 :::info
 
-There are three folder levels on **GitHub** or **Visual Studio Code** when building your own exercise series. The first level contains the `.github` folder and individual chapters for series of exercises (so call Table of Contents or tocs), e.g. Chapter 1 **Exercises for Beginners** and Chapter 2 **Exercises for Experts**. Each chapter contains second level folders. Here you can set up the different exercises (molecules). Each exercise contains on the third level one or more spectra and the corresponding molfile belonging to the molecule. You can add as many spectra to a molecule as you want.
+There are three folder levels on **GitHub** or **Visual Studio Code** when building your own exercise series. The first level contains the `.github` folder and individual chapters for series of exercises (so-called Tables of Contents, or tocs) — e.g. Chapter 1 **Exercises for Beginners** and Chapter 2 **Exercises for Experts**. Each chapter contains second-level folders where you set up the different exercises (molecules). Each exercise, at the third level, contains one or more spectra and the corresponding molfile. You can add as many spectra per molecule as you want.
 
 :::
 
@@ -94,18 +94,18 @@ For each exercise (second level) you want to create you can add the following fi
 
 Only folders that contain an answer (file `structure.mol` as a molfile) will be processed.
 
-By default we expect that those jcamps contains only the processed data. If you would like to provide FID or FID + FT data please use the following convention:
+By default we expect that the JCAMP files contain only the processed data. If you would like to provide FID, or FID + FT data, please use the following convention:
 
 - 1h.fid.jdx
 - 1h.full.jdx
 
 ## Many series of exercises
 
-While the action will generate a Table Of Contents (toc) for all the exercises, on toc is also generated per folder.
+While the action generates a Table of Contents (toc) for all the exercises, one toc is also generated per folder.
 
 https://app.nmrium.com/teaching/exercises#?toc=https://cheminfo.github.io/nmr-dataset-template/toc_10_First.json
 
-The name of the toc for each folder is `toc_ABCD.json` in which ABCD is the name of the folder. Only the folder present at the first level are considered.
+The name of the toc for each folder is `toc_ABCD.json`, where `ABCD` is the name of the folder. Only folders present at the first level are considered.
 
 ## Test your exercises
 

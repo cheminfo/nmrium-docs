@@ -35,6 +35,6 @@ We'd be happy to add new templates with their corresponding labels to NMRium. Si
 
 ## Recall an existing molecule template
 
-NMRium includes over 100 searchable templates that you can easily retrieve to begin drawing your chemical structure. Simply open the template database, search for your compound, and click <kbd>+</kbd> to add the chemical structure to the structure panel.
+NMRium includes over 100 searchable templates that you can easily retrieve to begin drawing your chemical structure. Simply open the template database, search for your compound, and click <kbd>+</kbd> to add the chemical structure to the **Chemical structures** panel.
 
 ![Load structure from template](from-template.gif)

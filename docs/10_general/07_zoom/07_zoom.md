@@ -3,17 +3,17 @@ title: Zoom Mode
 slug: /help/zoom-and-scale
 ---
 
-# Zoom Functionality
+# Zoom Mode
 
-The zoom functionality is accessible in all tools. This means that even if you select tools like peak picking or integration, the same commands will allow you to zoom in and out of the spectrum.
+Zoom is available in every tool — even when peak picking, integration, or another tool is active, the same shortcuts and mouse actions zoom in and out of the spectrum.
 
-To zoom in on the spectrum, click and hold the left mouse button, drag to highlight the desired section, and release the mouse button. You can repeat this process to zoom in further.
+To zoom in, click and hold the left mouse button, drag to highlight the desired section, and release. Repeat to zoom in further.
 
-Double-click to return to the previous zoom level. Double-click again to return to the full spectrum. NMRium remembers all zoom levels.
+Double-click anywhere to step back to the previous zoom level; repeat double-clicks to walk back through your zoom history. NMRium remembers all zoom levels.
 
 ![](./zoom.gif)
 
-To zoom out horizontally, press <kbd>f</kbd> or click the corresponding icon. Press <kbd>f</kbd> twice (<kbd>ff</kbd>) to zoom out both horizontally and vertically. Clicking the "zoom out" icon once zooms out horizontally; clicking it twice zooms out both horizontally and vertically.
+To zoom out horizontally, press <kbd>f</kbd> or click the "zoom out" icon. Press <kbd>f</kbd> twice (<kbd>ff</kbd>), or click the icon twice, to zoom out both horizontally and vertically.
 
 ![](./ff.gif)
 
@@ -22,8 +22,8 @@ To zoom out horizontally, press <kbd>f</kbd> or click the corresponding icon. Pr
 - **Vertical Zoom:** Use the scroll wheel to zoom vertically.
 - **Horizontal Zoom:** Hold <kbd>Shift</kbd> and use the scroll wheel to zoom horizontally.
 - **Click and Drag:**
-  - Click, drag, and release horizontally to zoom in on a horizontal region.
-  - Click, drag, and release both horizontally and vertically to select and zoom into a specific area.
+  - Drag horizontally to zoom in on a horizontal region.
+  - Drag diagonally to select a rectangular area and zoom into it.
 
 ![](./other.gif)
 
@@ -47,9 +47,9 @@ To quickly navigate between different zoom levels and nuclei, you can use the nu
 
 :::
 
-## Esc to select zoom tool
+## Switch to the Zoom Tool with Esc
 
-Press <kbd>Esc</kbd> to unselect your current tool and select the zoom too.
+Press <kbd>Esc</kbd> to deselect the current tool and switch back to the zoom tool.
 
 ## Display Chemical Shift and Intensity of a Peak
 

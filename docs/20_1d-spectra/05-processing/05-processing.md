@@ -5,10 +5,11 @@ slug: /help/processing
 
 # Processing
 
-NMRium offers the possibility to perform a Fourier transformation (FT) on the raw data of one-dimensional NMR spectra. To process an FID, open the FID by dragging it into the **Drag and drop here** box ([section 2](#2-open-spectra)).
-NMRium automatically performs zero filling and then Fourier transformation. Phase correction is also performed automatically. You have the option of viewing all automatically performed work steps. Open the processings panel to view the individual steps. You can reversibly undo a step by removing the tick in the corresponding line or setting it again. To permanently remove a step, click on the recycle bin symbol in the corresponding line. The step is deleted. If you remove all tick
+NMRium can perform a Fourier transformation (FT) on the raw data of one-dimensional NMR spectra. To process an FID, drag it into the **Drag and drop here** box.
 
-### Fourier transformation
+NMRium automatically performs zero filling, Fourier transformation, and phase correction. You can review every step in the **Processings** panel. Toggle the checkbox on a line to reversibly disable or re-enable a step. To remove a step permanently, click the recycle-bin icon on its line.
+
+## Fourier transformation
 
 To prepare the FID for the Fourier transformation, click onto the **Zero Filling** icon to the left of the spectrum. Set the desired values for **Size** (zero filling) and **Line Broadening** (exponential window function) and click **Apply**. Then start the Fourier transformation by clicking on the **FFT Filter** button to the left of the spectrum.
 
@@ -24,13 +25,13 @@ If you are unsure which values to set, you can use the following recommendations
 
 NMRium has a live function. If you edit the raw data, you can see the changes directly. The changes are only saved when you click on the **Apply** button. If you want to hide the live function, uncheck the **Live** function above the workspace. This function is also available for many other NMRium functions.
 
-### Phase correction
+## Phase correction
 
 Click the icon **Phase correction** to the left of the spectrum. You can choose between manual and automatic phase correction.
 
 :::note Automatic phase correction
 
-Click the **Apply** button, the phase will be corrected automatically.
+Click the **Apply** button — the phase will be corrected automatically.
 
 :::
 
@@ -44,12 +45,12 @@ Repeat the process for the first-order phase correction by pressing **PH1** and 
 
 :::
 
-### Baseline correction
+## Baseline correction
 
-Click the icon Baseline correction to the left of the spectrum. You can choose between two algorithms: **polynomial** and **AIR PLS**.
+Click the **Baseline correction** icon to the left of the spectrum. You can choose between two algorithms: **polynomial** and **airPLS**.
 
-- To use the algorithm **polynomial**, you may define a degree and then click **apply**.
-- To apply the **AIR PLS** algorithm, you may define both a maximum iteration and a tolerance range and then click **apply**.
+- For the **polynomial** algorithm, define a degree and click **Apply**.
+- For the **airPLS** algorithm, define a maximum iteration count and a tolerance, then click **Apply**.
 
 The different processing steps are explained in the following sections:
 
@@ -57,4 +58,4 @@ The different processing steps are explained in the following sections:
 - [Zero filling](/help/zero-filling)
 - [Fourier transform](/help/ft)
 - [Phase correction](/help/phase)
-- [Baseline correcion](/help/baseline)
+- [Baseline correction](/help/baseline)

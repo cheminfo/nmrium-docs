@@ -1,5 +1,5 @@
 ---
-title: Multiplets / Ranges
+title: Ranges / Multiplets / Peaks
 slug: /help/ranges
 ---
 
@@ -36,11 +36,7 @@ If you would like to see how the multiplicity was determined, hold the `Alt` key
 
 ## Edit multiplets manually
 
-While we continously improve the multiplicty analysis there are always some situation in which the multipliicty could not be accurately determined. In those cases you always have the possibility to manually edit the multiplicity. Editing manually is a little bit more challenging but you should be able to deal with all the situations.
-
-### Multiplicity was not determined correctly
-
-### There are overlapping multiplet (signals)
+While we continuously improve the multiplicity analysis, there are always some situations in which the multiplicity cannot be accurately determined. In those cases you can edit the multiplicity manually. Editing manually is a little more challenging, but it lets you handle every case.
 
 ## Set the reference
 
@@ -77,7 +73,7 @@ Sometimes your sample may contain impurities or residual solvent. If you integra
 
 Various toggle buttons are available to display integrals, peaks, the multiplicity tree, and other features.
 
-![kind](21_toggles.gif)
+![toggles](21_toggles.gif)
 
 ### Multiplicity Tree
 

@@ -4,21 +4,21 @@ title: Zones
 
 # Zones
 
-A zone is a correlation between a proton and a carbon. Every zone has a center. It is a area that contains all signals.
+A zone is a correlation between a proton and a carbon (or between two protons). Each zone has a center and defines the area that contains the associated signals.
 
 ## Define zones
 
 ### Auto zones picking
 
-NMRium try to find out what are the zones that should be integrated. Click the zones picking button. Select a specified noise factor. Then press the **Auto Zones Picking** button. The zones found by NMRium are listed in the **Zones** panel on the right side of the workspace.
+NMRium tries to find the zones that should be integrated. Click the **Zones Picking** button, set a noise factor, then press the **Auto Zones Picking** button. The detected zones are listed in the **Zones** panel on the right side of the workspace.
 
 ### Manual zones picking
 
-To select a single zone, click the **Zones Tool** button. Move the mouse to the selected zone. Click on it with the left mouse button. Simultaneously press the <kbd>SHIFT</kbd> key on the keyboard, drag over the whole zone and release the mouse button and the shift button. The exact value of the zone can be found in a table on the right side in the panel zones.
+Click the **Zones Tool** button. Move the mouse to the region of interest, hold the <kbd>Shift</kbd> key and the left mouse button, drag over the whole zone, then release both. The exact coordinates of the zone appear in the **Zones** panel on the right.
 
-### Transference of the chemical shifts from the 1D spectra
+### Transferring chemical shifts from the 1D spectra
 
-If you do in a 1D proton spektrum peak picking or automatic range picking, automaticly you can see grey vertical lines in the 2D spectrum which correspond to the chemical shifts of the 1D proton signals. If you di in the 1D carbon spectrum peak picking or range picking, there also are grey horizobtal linesin the 2D spectrum which correspond to the chemical shift of the 1D carbon signals.
+When you perform peak picking or automatic range picking on a 1D proton spectrum, grey vertical lines appear in the 2D spectrum at the chemical shifts of the 1D proton signals. The same applies to 1D carbon spectra, which display grey horizontal lines.
 
 ### Panel Zones
 
@@ -34,12 +34,12 @@ All measured nuclei will be displayed. You can choose to display the following v
 
 ### Delete a single zone
 
-To delete one zone move the mouse to the **Zones** panel and select a zone. Press the trash button on the rigth side of the line of the zone. The zone is deleted.
+To delete one zone, move the mouse to the **Zones** panel, select a zone, and press the trash button on the right side of its row. The zone is deleted.
 
 ### Delete all zones
 
-To delete all zones move the mouse to the panel zones and press the trash button on the left side above the list. A red box apears. Click **yes**. All zones are deleted.
+To delete all zones, move the mouse to the **Zones** panel and press the trash button on the left side above the list. A red confirmation box appears. Click **Yes**, and all zones are deleted.
 
 ### Set a reference
 
-Click the **Zones Tool** button to the left of the spectrum. Find your solvent zone (or the reference zone). When you point at it with the crosshairs, press the <kbd>SHIFT</kbd> key and the left mouse button at the same time. The value of the signal will be shown in the list on the right side of the spectrum in the **Zones** panel. Click twice on the proton value and enter the correct reference value. Than click twice on the carbon value and also enter the correct value. All the values of the spectra will change.
+Click the **Zones Tool** button to the left of the spectrum. Find your solvent zone (or the reference zone). When you point at it with the crosshairs, press the <kbd>Shift</kbd> key and the left mouse button at the same time. The value of the signal appears in the **Zones** panel on the right. Double-click the proton value and enter the correct reference value, then do the same for the carbon value. All other values update accordingly.

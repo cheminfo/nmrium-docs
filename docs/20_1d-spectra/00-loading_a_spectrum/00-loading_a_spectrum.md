@@ -4,7 +4,7 @@ title: Loading a spectrum
 
 # Loading a Spectrum
 
-Spectra can be loaded by either drag and drop or by opening a file from the file system. <kbd>CTRL</kbd><kbd>o</kbd>
+Spectra can be loaded either by drag and drop or by opening a file from the file system (<kbd>Ctrl</kbd>+<kbd>o</kbd>).
 
 ![Import file](./import_from_file_system.png)
 
@@ -12,13 +12,14 @@ Spectra can be loaded by either drag and drop or by opening a file from the file
 
 The following formats are currently supported:
 
-| Format       | Extension |
-| ------------ | --------- |
-| JCAMP-DX     | .jdx, .dx |
-| Bruker files |           |
-| Jeol files   | .jdf      |
-| Varian       |           |
-| molfile      | .mol      |
+| Format        | Extension          |
+| ------------- | ------------------ |
+| JCAMP-DX      | .jdx, .dx, .jcamp  |
+| Bruker files  |                    |
+| Jeol files    | .jdf               |
+| Varian        |                    |
+| molfile       | .mol               |
+| NMRium archive| .nmrium.zip        |
 
 Drag the file you want to open into the grey box **Drag and drop here** in the middle of the screen. You can open a set of spectra of a molecule by either dragging the spectra individually or by dragging a folder containing all spectra into the workspace. `.zip` or `.gz` files will automatically be decompressed and loaded.
 
@@ -28,19 +29,19 @@ You can load a spectrum by clicking the button **Import** on the toolbar on the 
 
 ## Autoprocessing
 
-By default NMRium will keep all the 1D and 2D spectra. In case both FID and after FT spectra are available, NMRium will load by default the spectrum after FT. This can be change at the level of the general preferences.
+By default, NMRium keeps all 1D and 2D spectra. If both the FID and the post-FT spectrum are available, NMRium loads the post-FT spectrum by default. This can be changed in the general preferences.
 
 ![](./import_filters.png)
 
-If the spectrum is a FID and if auto processing is enabled in the General Preferences, NMRium will try to process FID.
+If the spectrum is an FID and auto-processing is enabled in the General Preferences, NMRium attempts to process the FID.
 
 ![](./auto_processing_prefs.png)
 
-For 1D spectra spectrum it implies:
+For 1D spectra, this involves:
 
 - Apodization
 - Zero filling
-- Fourier transofrm
+- Fourier transform
 - Phase correction
 
 ![](./auto_processing.png)

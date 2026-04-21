@@ -6,23 +6,23 @@ title: Save and Export
 
 ## Save Data
 
-The analyzed spectra can be saved as a NMRium file (text file) for further processing. Click the export button and then select the **save as** (NMRium) button. There are several possibilities to choose how to save the data:
+Analyzed spectra can be saved as an NMRium archive (`.nmrium.zip`) for further processing. The archive is a ZIP-based container that preserves the original data along with all processing and annotations — see [NMRium File Format](/help/nmrium_zip) for details. Click the export button and then select the **Save as** (NMRium) option. Several settings control how the data is saved:
 
 - compressed
 - pretty format
 - include data
 
-Select the desired settings and click save.
+Select the desired settings and click **Save**.
 
 ## Save as an Image
 
-NMRium allows to save the analyzed spectra as images using either the [PNG (Portable Network Graphics)](https://en.wikipedia.org/wiki/PNG) format or the [SVG (Scalable Vector Graphics)](https://en.wikipedia.org/wiki/SVG). SVG is the best format for publications and can be further reprocessed using application like the free application [Inkscape](https://inkscape.org/).
+NMRium can save the analyzed spectra as images in either [PNG (Portable Network Graphics)](https://en.wikipedia.org/wiki/PNG) or [SVG (Scalable Vector Graphics)](https://en.wikipedia.org/wiki/SVG) format. SVG is the best format for publications and can be further edited with tools such as the free [Inkscape](https://inkscape.org/).
 
-In order to export as PNG, click on the export button and then select the `Export as PNG` option in the drop-down menu. A new window will appear. Depending on your preferences, you will be prompted for a destination or your image will be saved directly to the disk. This PNG can be directly imported into your reports or presentations.
+To export as PNG, click the export button and select **Export as PNG** in the drop-down menu. A new window appears. Depending on your preferences, you will be prompted for a destination, or the image will be saved directly to disk. The resulting PNG can be inserted directly into your reports or presentations.
 
 ![](./export_as_png.gif)
 
-In a similar way you can save as SVG.
+Saving as SVG works the same way.
 
 ![](./export_as_svg.gif)
 
@@ -34,6 +34,6 @@ The fastest way to create your reports is to copy the PNG image directly to the 
 
 :::tip Copy to clipboard using shortcuts
 
-If your mouse pointer is over the spectrum, you can simply press <kbd>CTRL</kbd> + <kbd>c</kbd> to copy it as a PNG image and paste it into other software. Please note that this functionality is only available in Chrome and Edge.
+When the mouse pointer is over the spectrum, press <kbd>Ctrl</kbd> + <kbd>c</kbd> to copy it as a PNG image and paste it into other software. This shortcut is currently available only in Chrome and Edge.
 
 :::

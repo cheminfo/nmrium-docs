@@ -4,7 +4,7 @@ title: Colors
 
 # Colors
 
-When loading 2D spectra in NMRium automatic positive and negative colors are applied following the following rules:
+When loading 2D spectra, NMRium automatically assigns positive and negative colors using the following rules:
 
 | Experiment | Positive color | Negative color |
 | ---------- | -------------- | -------------- |
@@ -16,19 +16,12 @@ When loading 2D spectra in NMRium automatic positive and negative colors are app
 | hmbc       | dark violet    | yellow         |
 
 
-You can change the colors of the positive and negative sinals. To do this, open the **Spectra** panel. Select the spectrum of which you want to change the color, e.g. the cosy that you can find under the button **1H,1H**. Click on the colored box on the right side of the corresponding line. 
-
-
+You can change the colors of the positive and negative signals. Open the **Spectra** panel, select the spectrum whose color you want to change (e.g. the COSY listed under the **1H,1H** button), and click the colored box on the right side of its row.
 
 ![2D_Colour1](2D_Colour1.svg)
 
-
-
-A box will open. There you can change the color for the positive signals as well as for the negative signals. When you are done, click anywhere on the workspace outside the box. The colors will be changed. 
-
-
+A box opens where you can set separate colors for positive and negative signals. When you are done, click anywhere on the workspace outside the box and the colors are updated.
 
 ![2D_Colour2](2D_Colour2.svg)
 
-
-The colors of the 1H and 13C spectra used for the respective 2D spectrum are the colors of the corresponding 1D spectra. If you want to change the color of the deposited spectra, you have to do it in the respective 1D spectrum.  
+The traces shown alongside a 2D spectrum use the color of the corresponding 1D spectrum. To change those colors, edit the underlying 1D spectrum.

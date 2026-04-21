@@ -20,15 +20,15 @@ To assign molecules in NMRium, follow these steps:
 3. **Assigning Ranges to Atoms**:
    - Hover over a range to display a link icon. Click the icon to assign the range, or use the link in the ranges panel.
    - Next, click on the atom(s) in the structure that correspond to the selected range.
-   - To expand diastereotopic atoms for selective assignment, hold <kbd>SHIFT</kbd> and click the atom.
+   - To expand diastereotopic atoms for selective assignment, hold <kbd>Shift</kbd> and click the atom.
 
 ![Assign 1D spectrum to molecule](./10_assign_molecule.gif)
 
-## Edition of the assignment and label
+## Editing the assignment and label
 
 You can unlink an assigned range by clicking the red unlink icon. You can also add an assignment label either directly on the range in the spectrum or in the ranges table.
 
-![Assignement edition](./11_remove_link_add_label.gif)
+![Assignment editing](./11_remove_link_add_label.gif)
 
 ## Visual Feedback
 

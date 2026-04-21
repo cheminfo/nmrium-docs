@@ -46,7 +46,7 @@ By design, this format ensures **data integrity**, **traceability**, and **FAIR 
 ├── index.txt
 ├── index.json
 ├── state.json
-├── META-INF/
+├── .META-IUM/
 │   ├── NMRIUM_ARCHIVE
 │   └── VERSION
 └── data/
@@ -106,7 +106,7 @@ The UUID directory contains the original dataset hierarchy, preserved exactly as
 
 ### Embedded Files
 
-All original files (e.g. `.dx`, `.mol`, bruker) are embedded _without modification_:
+All original files (e.g. JCAMP-DX `.dx`, `.mol` structures, Bruker folders) are embedded _without modification_:
 
 - 1D NMR spectra
 - 2D NMR spectra (COSY, HSQC, HMBC, …)
@@ -164,21 +164,21 @@ in the specification section of this document are to be interpreted as described
 2. It MUST contain `index.json`.
    1. It MUST be a valid `ium` navigation document.  
       It contains options to init the `file-collection` and a list of sources (pointing to web resources, or local to the archive if `baseURL` starts with `ium:`).
-3. It MUST contain `.META-IUM/NMRIUM_ARCHIVE` flag file. It SHOULD be empty, signal this archive is a NMRium Archive file.
-4. It MUST contain `.META-IUM/VERSION` file. Content MUST be the UTF-8 string `1`.
-5. It MUST contain a `state.json` file
-   1. It MUST be valid `JSON`
+3. It MUST contain a `.META-IUM/NMRIUM_ARCHIVE` flag file. It SHOULD be empty; its presence signals that this archive is an NMRium Archive file.
+4. It MUST contain a `.META-IUM/VERSION` file. Its content MUST be the UTF-8 string `1`.
+5. It MUST contain a `state.json` file.
+   1. It MUST be valid `JSON`.
    2. It MUST match the `@zakodium/nmrium-core#SerializedNmriumState` type.  
       `import type { SerializedNmriumState } from '@zakodium/nmrium-core';`
-   3. All spectra and molecules SHOULD contain a `.selector` property
-      1. `.root` SHOULD point to "folder" containing the original files.
-      2. `.files` SHOULD containing a list of path relative to `.root` used to filter files to get the spectrum or molecule
+   3. All spectra and molecules SHOULD contain a `.selector` property.
+      1. `.root` SHOULD point to the folder containing the original files.
+      2. `.files` SHOULD contain a list of paths relative to `.root`, used to filter the files that make up the spectrum or molecule.
 6. It SHOULD contain an `index.txt` file for humans.  
-   The list of files grouped by subroots, with `embedded` or `linked` annotations.
-7. It MAY contain some folders not referenced by any spectra selector root or molecules selector root.  
-   They SHOULD be ignored.
-8. It MAY not contain some folders referenced by spectra selector root or molecules selector root.  
-   If so, NMRium application SHOULD warn some files may miss and SHOULD ignore concerned spectra and molecules.
+   It lists the files grouped by sub-root, with `embedded` or `linked` annotations.
+7. It MAY contain folders that are not referenced by any spectra or molecule selector root.  
+   Such folders SHOULD be ignored.
+8. A folder referenced by a spectra or molecule selector root MAY be absent.  
+   If so, the NMRium application SHOULD warn that some files may be missing and SHOULD ignore the affected spectra and molecules.
 
 ### Distribution Rules
 

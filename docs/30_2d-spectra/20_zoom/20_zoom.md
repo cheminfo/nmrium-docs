@@ -7,17 +7,15 @@ slug: /help/zoom-2d
 
 ## Zoom in
 
-To zoom in on the spectrum, click on the section with the left mouse button, drag the mouse to highlight the section and release the mouse button.
-
-To zoom in on the spectrum again, click on the section with the left mouse button, drag the mouse to highlight the section and release the mouse button.
+To zoom in, click and hold the left mouse button, drag to highlight the region of interest, then release. Repeat the same action to zoom in further.
 
 ## Zoom out
 
-By double-clicking, you will return to the previous zoom. If you double-click again, you will return to the full spectrum. NMRium remembers all zoom levels
+Double-click anywhere to return to the previous zoom level; double-click again to step further back. NMRium remembers all zoom levels.
 
-Vertical scaling of the spectrum is possible when you scroll the mouse wheel.
+You can also scroll the mouse wheel to scale the spectrum vertically.
 
-If you click the icon "zoom out" once, the horizontal scaling is zoomed out. If you click the icon "zoom out" twice, the horizontal and vertical scaling will be zoomed out.
+Click the "zoom out" icon once to zoom out horizontally, or twice to zoom out both horizontally and vertically.
 
 ## Vertical zoom
 
