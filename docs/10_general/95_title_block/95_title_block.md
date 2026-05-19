@@ -16,7 +16,14 @@ You are also able to fully customize the fields you would like to display.
 
 ![](./title_block.gif)
 
-This involves adding any parameter present in the experiment, such as solvent, pulse sequence, etc.
+This involves adding any parameter present in the experiment. Commonly used fields include:
+
+- `info.nucleus` — observed nucleus (e.g. `1H`, `13C`)
+- `info.frequency` — spectrometer frequency in MHz
+- `info.name` — sample name derived from the filename
+- `info.experiment` — experiment type (e.g. `COSY`, `HSQC`)
+- `info.solvent` — solvent used
+- `info.pulseSequence` — pulse sequence name
 
 :::tip Various dates
 
@@ -33,6 +40,21 @@ Here is an example of how those three fields are rendered:
 ![](./date_display.png)
 
 :::
+
+## Styling
+
+The **Styling** section in **General settings → Title block** lets you control the appearance of both the field labels and the field values independently.
+
+![Title block styling options](./customize.png)
+
+| Property | Field label | Field value |
+|----------|-------------|-------------|
+| Color | Yes | Yes |
+| Font size | Yes | Yes |
+| Bold | Yes | Yes |
+| Italic | Yes | Yes |
+
+A live **Preview** is shown for each group, so you can judge the result before clicking **Apply**.
 
 ## Getting the name correct
 
