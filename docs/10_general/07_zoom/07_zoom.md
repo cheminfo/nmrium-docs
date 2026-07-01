@@ -17,6 +17,15 @@ To zoom out horizontally, press <kbd>f</kbd> or click the "zoom out" icon. Press
 
 ![](./ff.gif)
 
+## Tool actions and zoom
+
+When a tool such as peak picking, integration, ranges, phase, or baseline correction is active, its action and zooming share the same click-drag-release gesture. The **Invert actions** preference (general preferences) decides which one a plain gesture triggers:
+
+- **Invert actions on** (default): a plain click or click-drag-release performs the **tool's action**; hold <kbd>Shift</kbd> and drag to **zoom**.
+- **Invert actions off**: a plain click-drag-release **zooms**; hold <kbd>Shift</kbd> and drag to perform the **tool's action**.
+
+It is on by default so the tools work with a simple gesture. This matters on a touchscreen or tablet, where holding <kbd>Shift</kbd> is impractical.
+
 ## Basic Zoom Controls
 
 - **Vertical Zoom:** Use the scroll wheel to zoom vertically.

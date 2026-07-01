@@ -5,63 +5,84 @@ slug: /help/peaks
 
 # Peaks and Reference
 
+:::warning Prefer Ranges / Multiplet analysis
+For routine work, use **[Ranges / Multiplet analysis](/help/ranges)** instead of peak picking. Range picking integrates each signal, extracts its multiplicity and coupling constants, and still keeps the underlying peaks. Plain peak picking should normally only be used for peak-shape analysis (deconvolution), described below.
+:::
+
 ## Peak Picking
 
-### Select a single signal
+Click the **Peaks picking** button on the left of the workspace, or press <kbd>p</kbd>, to enter peak picking mode. You can then let NMRium detect peaks automatically or add them manually. All picked peaks are listed in the **Peaks** panel on the right.
 
-To select a single signal, click the **Peaks Picking** button on the left of the workspace. Move the mouse over the signal you want to mark while holding down the left mouse button and the <kbd>Shift</kbd> key. The peak shift appears above the signal. Once you release the key and button, the chemical shift of the signal appears. On the right side of the screen, under the **Peaks** panel, a list of all selected signals is shown. Hover over a shift in the spectrum to highlight the corresponding row in the list, and vice versa.
+:::info Simple click, no <kbd>Shift</kbd>
+With the tool active you add peaks with a plain click or click-drag-release — no <kbd>Shift</kbd> needed. This depends on the **Invert actions** preference; see [Tool actions and zoom](/help/zoom-and-scale#tool-actions-and-zoom). The interactions below assume the default setting.
+:::
 
-The chemical shift is shown at the signal in ppm to one decimal place. For more decimal places, click the ppm value in the workspace — the chemical shift will then be shown to 12 decimal places.
+### Automatic peak picking
 
-### Automatic peaks picking
+To detect all peaks at once, open the options bar above the workspace and set the detection parameters:
 
-You can automatically detect all peaks. Click the **Peaks Picking** button on the left side of the workspace. Above the workspace you can set the maximum number of peaks, the noise factor, and the min/max ratio. Tick the corresponding box if you want to detect negative signals. Then click **Apply** above the workspace. All detected peaks are listed in the **Peaks** panel.
+| Option        | Meaning                                        |
+| ------------- | ---------------------------------------------- |
+| **Direction** | Detect `Both`, positive, or negative signals   |
+| **Max peaks** | Maximum number of peaks to return              |
+| **Noise**     | Noise factor used to reject small fluctuations |
+| **Ratio**     | Minimum relative intensity a peak must reach   |
 
-![Peaks](./automatic_peaks_picking.gif)
+Click **Apply to _N_ spectra** to run the detection. The same parameters are applied to every displayed spectrum at once — _N_ is the number of spectra currently loaded — so you can peak pick a whole set in a single step. Every detected peak is labelled on its spectrum and added to the **Peaks** panel. To restrict detection to one region, drag over it first, then apply.
+
+![Automatic peak picking](automatic_peak_picking.gif)
+
+### Manual peak picking
+
+With the peak picking tool active you have two ways to add a single peak:
+
+- **Click** on the spectrum — adds a peak exactly at the pointer position.
+- **Drag** over a range — adds a peak at the maximum found within that range.
+
+As you move the pointer, the current chemical shift is shown above the trace and the live readout at the bottom of the workspace reports the shift in ppm and Hz together with the intensity. Click the ppm value shown next to a peak to edit it — the inline field reveals the chemical shift to full precision.
+
+![Manual peak picking and setting a reference](manual_and_set_ref.gif)
 
 ## Panel "Peaks"
 
-All signals are shown in the **Peaks** panel. The signals highlighted in yellow can be observed in the section of the spectrum shown. The signals highlighted in white are not visible in the screen section. If you switch off zoom by double-clicking, the signals of the whole shown spectrum are highlighted in yellow.
+Every picked peak is listed in the **Peaks** panel with its number, chemical shift **δ (ppm)** and shape **Kind**. The toolbar at the top of the panel controls the list and how peaks are drawn:
 
-![](./Panel_Peaks_yellow.svg)
+| Button                                | Action                                                                                                       |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Recycle bin                           | Delete all peaks                                                                                             |
+| Funnel                                | Toggle between all peaks and only those in the displayed region — the counter shows `[ visible / total ]`    |
+| Show / hide peaks                     | Show or hide the peak markers on the spectrum                                                                |
+| Top of the spectrum / Top of the peak | Choose where the chemical-shift labels are drawn — aligned near the top of the plot, or just above each peak |
+| Copy as TSV                           | Copy the peak list to the clipboard as tab-separated values                                                  |
+| Gear                                  | Open the display settings to choose which columns appear (for example the **mu** factor)                     |
 
-If you click on the funnel button, only the signals shown on screen are listed. To see all signals in the list again, press the funnel button a second time.
-
-![](./Panel_Peaks_funnel.svg)
-
-On the right side of the panel, the total number of listed signals is shown in a square bracket.
-
-![](./Panel_Peaks_number_of_peaks.svg)
-
-You can display various information in the peaks panel. Click on the gear wheel at the top right.
-
-![](./Panel_Peaks_wheel1.svg)
-
-All measured nuclei will be displayed. You can choose to display the following values for each nucleus:
-
-- Peak Number
-- Peak Index
-- Chemical shift (ppm)
-- Chemical shift (Hz)
-- Width
-- Intensity
-
-Place a check mark next to the values that you want to have displayed for the respective nucleus. Then click on the green check mark at the top right.
-
-![](./Panel_Peaks_wheel2.svg)
+![Filtering peaks and moving the labels](filter_and_peak_position.gif)
 
 ## Set a Reference
 
-Click the **Peaks Picking** button to the left of the spectrum. Find your solvent signal (or the reference signal). When you have captured it with the crosshairs, press the <kbd>Shift</kbd> key and the left mouse button at the same time. The value of the signal will be shown both in the spectrum and in a list on the right side of the spectrum in the field Peaks. Select one of the two displayed values (in the spectrum single click with the left mouse button, in the list double click with the left mouse button) and enter the correct reference value.
+Referencing means giving a known signal its correct chemical shift; the whole spectrum is then shifted accordingly. Pick the solvent or reference signal, then set its value in one of two ways:
+
+- **From the label** — click the peak's ppm label in the spectrum and type the correct value.
+- **From the table** — double-click the **δ (ppm)** cell of its row in the **Peaks** panel and type the correct value.
+
+NMRium recalibrates the spectrum so that peak lands on the value you entered (see the manual peak picking animation above).
+
+You can also set the reference from a range or multiplet — see [Set the reference](/help/ranges#set-the-reference) on the Ranges page.
+
+## Peak Shapes and Deconvolution
+
+NMRium can deconvolute the spectrum to analyze the shape of each peak. Every peak has a shape **Kind** — **Gaussian**, **Lorentzian**, or **pseudo-Voigt** (which mixes Gaussian and Lorentzian through the **mu** factor). Enable the **fwhm** (width) and **mu** columns from the panel settings (gear) to inspect the fitted values.
+
+Click **Optimize peaks** in the panel toolbar to fit the peak shapes to the experimental data. Two display toggles then let you inspect the result:
+
+- **Show peaks sum** — the reconstructed trace (blue) obtained by summing all fitted peaks, overlaid on the experimental spectrum.
+- **Show peaks shapes** — the individual fitted peak shapes.
+
+Comparing the reconstructed trace with the experimental spectrum shows how well the chosen shapes and the fitted **fwhm** / **mu** values reproduce the real signals.
+
+![Optimizing peak shapes and displaying the deconvolution](peak_shape.gif)
 
 ## Remove Peaks
 
-### Delete all peaks
-
-To delete all signals, move the mouse to the **Peaks** panel and click the recycle-bin icon on the left side above the list. A red confirmation box appears. Click **Yes**, and all signals are deleted.
-
-![](./Peaks_picking3.svg)
-
-### Delete the chemical shift of a single peak
-
-To delete the chemical shift of one signal, move the mouse to the list and select a signal. Press the recycle bin icon on the right side of the line of the signal. The chemical shift of this peak is deleted.
+- **Delete all peaks** — click the recycle-bin icon at the top left of the **Peaks** panel and confirm.
+- **Delete a single peak** — press the recycle-bin icon at the end of that peak's row in the list.
