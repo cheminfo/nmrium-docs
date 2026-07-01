@@ -45,16 +45,21 @@ As you move the pointer, the current chemical shift is shown above the trace and
 
 ## Panel "Peaks"
 
-Every picked peak is listed in the **Peaks** panel with its number, chemical shift **δ (ppm)** and shape **Kind**. The toolbar at the top of the panel controls the list and how peaks are drawn:
+Every picked peak is listed in the **Peaks** panel with its number, chemical shift **δ (ppm)** and shape **Kind**. The toolbar at the top of the panel controls the list and how peaks are drawn, in this order:
 
-| Button                                | Action                                                                                                       |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Recycle bin                           | Delete all peaks                                                                                             |
-| Funnel                                | Toggle between all peaks and only those in the displayed region — the counter shows `[ visible / total ]`    |
-| Show / hide peaks                     | Show or hide the peak markers on the spectrum                                                                |
-| Top of the spectrum / Top of the peak | Choose where the chemical-shift labels are drawn — aligned near the top of the plot, or just above each peak |
-| Copy as TSV                           | Copy the peak list to the clipboard as tab-separated values                                                  |
-| Gear                                  | Open the display settings to choose which columns appear (for example the **mu** factor)                     |
+| Button                                    | Action                                                                                                       |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Recycle bin                               | Delete all peaks                                                                                             |
+| Funnel                                    | Toggle between all peaks and only those in the displayed region — the counter `[ visible / total ]` follows  |
+| **Peaks shapes** _(shape analysis)_       | Show or hide the individual fitted peak shapes                                                               |
+| **Peaks sum** _(shape analysis)_          | Show or hide the reconstructed trace obtained by summing all fitted shapes                                   |
+| **Optimize peaks** _(shape analysis)_     | Fit the peak shapes to the experimental data — see [Peak Shapes and Deconvolution](#peak-shapes-and-deconvolution) below |
+| Show / hide peaks                         | Show or hide the peak markers on the spectrum                                                                |
+| Top of the spectrum / Top of the peak     | Choose where the chemical-shift labels are drawn — aligned near the top of the plot, or just above each peak |
+| Copy as TSV                               | Copy the peak list to the clipboard as tab-separated values                                                  |
+| Gear                                      | Open the display settings to choose which columns appear (for example the **fwhm** and **mu** factors)       |
+
+The three middle buttons — **Peaks shapes**, **Peaks sum** and **Optimize peaks** — drive the peak-shape analysis (deconvolution) covered in the next section. The **fwhm** and **mu** values they produce are shown in the panel once you enable those columns from the gear.
 
 ![Filtering peaks and moving the labels](filter_and_peak_position.gif)
 
@@ -73,10 +78,10 @@ You can also set the reference from a range or multiplet — see [Set the refere
 
 NMRium can deconvolute the spectrum to analyze the shape of each peak. Every peak has a shape **Kind** — **Gaussian**, **Lorentzian**, or **pseudo-Voigt** (which mixes Gaussian and Lorentzian through the **mu** factor). Enable the **fwhm** (width) and **mu** columns from the panel settings (gear) to inspect the fitted values.
 
-Click **Optimize peaks** in the panel toolbar to fit the peak shapes to the experimental data. Two display toggles then let you inspect the result:
+Three toolbar buttons drive this analysis. Zoom into the region of interest, then click **Optimize peaks** to fit the peak shapes to the experimental data. The fit runs on the peaks in the displayed region and is limited to **at most 4 peaks** at a time, so narrow the view before optimizing. Two display toggles then let you inspect the result:
 
-- **Show peaks sum** — the reconstructed trace (blue) obtained by summing all fitted peaks, overlaid on the experimental spectrum.
-- **Show peaks shapes** — the individual fitted peak shapes.
+- **Peaks sum** — the reconstructed trace (blue) obtained by summing all fitted peaks, overlaid on the experimental spectrum.
+- **Peaks shapes** — the individual fitted peak shapes.
 
 Comparing the reconstructed trace with the experimental spectrum shows how well the chosen shapes and the fitted **fwhm** / **mu** values reproduce the real signals.
 
