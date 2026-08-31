@@ -13,21 +13,21 @@ Visit the [NMRium dataset on Zenodo](https://zenodo.org/search?q=metadata.subjec
 
 :::
 
-Submit NMR spectra to Zenodo with direct integration into NMRium for interactive visualization and analysis. This tool enables the ultimate **FAIR data submission** for NMR datasets, making your research data Findable, Accessible, Interoperable, and Reusable.
+Submit NMR spectra to Zenodo with direct integration into NMRium for interactive visualization and analysis. These tools enable the ultimate **FAIR data submission** for NMR datasets, making your research data Findable, Accessible, Interoperable, and Reusable.
 
 :::success Try it out
 
-You can check the result of this script on the [Zenodo sandbox](https://sandbox.zenodo.org/records/445105). Even though the data is hosted on Zenodo, the spectra can be displayed interactively in NMRium — the visualization loads the data directly from Zenodo.
+You can check the result of such a submission on the [Zenodo sandbox](https://sandbox.zenodo.org/records/445105). Even though the data is hosted on Zenodo, the spectra can be displayed interactively in NMRium — the visualization loads the data directly from Zenodo.
 
 :::
 
 ## About
 
-`zenodo-nmrium` is a command-line tool designed to streamline the submission of NMR spectra datasets to Zenodo while leveraging the power of [NMRium](https://www.nmrium.org) for interactive, web-based visualization.
+Two tools are available to submit NMR spectra datasets to Zenodo while leveraging the power of [NMRium](https://www.nmrium.org) for interactive, web-based visualization: a **web application** at https://zenodo-submit.nmrium.com/ and a **command-line tool** named `zenodo-nmrium`. Both produce exactly the same kind of Zenodo record.
 
 ### Why FAIR Data Matters
 
-This tool ensures your NMR data follows FAIR principles:
+Both tools ensure your NMR data follows FAIR principles:
 
 - **Findable**: Your data is registered and discoverable on Zenodo
 - **Accessible**: Data is freely available on the public internet
@@ -36,7 +36,7 @@ This tool ensures your NMR data follows FAIR principles:
 
 ### The Ultimate Goal
 
-`zenodo-nmrium` enables a complete FAIR data workflow:
+Both tools enable a complete FAIR data workflow:
 
 1. **Organize your data**: Package each NMR sample in a folder or as a `.nmrium.zip` file
 2. **Store in Zenodo**: Upload your data to Zenodo (sandbox for testing, production for publication)
@@ -44,7 +44,84 @@ This tool ensures your NMR data follows FAIR principles:
 4. **Table of contents**: Navigate between multiple samples through a structured table of contents
 5. **Community sharing**: Join the NMRium community on Zenodo to discover and access all community-submitted datasets
 
-## Installation
+## Which tool should I use?
+
+|          | Web application                                                | Command-line tool                                                       |
+| -------- | -------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Address  | https://zenodo-submit.nmrium.com/                              | `zenodo-nmrium`, run in a terminal                                      |
+| For whom | Anybody. Nothing to install, everything happens in the browser | People who are comfortable with a terminal, typically on Linux or macOS |
+| Best for | Occasional submissions of a few samples                        | Large amounts of data, many samples, repeated or scripted submissions   |
+| Metadata | Filled in a form, remembered between sessions                  | Written once in an `index.yml` file next to the data                    |
+| Data     | Folders dropped on the page                                    | A folder on your disk                                                   |
+| Limits   | At most 90 entries, 200 MB per entry                           | Limited only by your machine and by Zenodo                              |
+
+Both need a Zenodo API token, and both can submit either to the sandbox or to the production Zenodo.
+
+## Get a Zenodo API token
+
+- **Sandbox (testing)**: https://sandbox.zenodo.org/account/settings/applications/tokens/new/
+- **Production**: https://zenodo.org/account/settings/applications/tokens/new/
+
+You must enable `deposit:action` and `deposit:write` permissions when creating the token.
+
+![Create zenodo token](zenodo_token.gif)
+
+:::tip Different tokens
+
+Sandbox and production are two independent services, with separate accounts and separate tokens. You will only see a token once, so save it in a secure location.
+
+:::
+
+## Submit with the web application
+
+https://zenodo-submit.nmrium.com/ runs entirely in your browser. There is nothing to install, and your data and your token never transit through any server other than Zenodo itself.
+
+### 1. Configure your token
+
+Open the **Settings** panel at the top of the page. The **Sandbox** switch next to it selects the environment: switched on the record is created on `sandbox.zenodo.org`, switched off on the real `zenodo.org`. Paste the token of the selected environment in the token field; the application immediately checks it against Zenodo and tells you whether it is valid. The token is stored in your browser only, and each environment keeps its own token, so you can switch between sandbox and production without pasting it again.
+
+Two other options are available in the same panel:
+
+- **Data Selection** — which data NMRium displays: `FT only` (default), `FID only`, `Both FT and FID`, `Prefer FT` or `Prefer FID`.
+- **Auto-publish after upload** — publish the record right away instead of leaving it as a draft that you can still review and edit on Zenodo.
+
+### 2. Fill in the metadata
+
+The form asks for the title (required), the authors with their affiliation and ORCID, the description, keywords, publication date, license and publisher. The description is written in a rich text editor supporting bold, italic, subscript, superscript and lists, which is convenient for chemical names and formulas.
+
+The **Access** setting defines who may see the record: `Public`, `Embargoed` until a date you choose, or `Restricted`. A restricted record can still be shared through a secret link given to you after the submission.
+
+Authors, description and settings are saved in the browser and restored the next time you come back.
+
+### 3. Drop your NMR data
+
+Drag and drop your data on the drop zone: **one folder per entry** of the future table of contents, exactly like the folder structure described in [Organize Your Data](#1-organize-your-data). Each dropped folder is converted in the browser to a `.nmrium.zip` archive; you may also drop `.nmrium.zip` files that you saved from NMRium.
+
+| Format     | File types                      |
+| ---------- | ------------------------------- |
+| Bruker     | TopSpin directories (1D and 2D) |
+| JEOL       | `.jdf` files                    |
+| JCAMP-DX   | `.jdx`, `.jcamp` files          |
+| NMReDATA   | `.nmredata` files               |
+| Structures | Molfile, SDF                    |
+
+Every entry appears in a table with its name, number of files, size and status. From there you can download the generated `.nmrium.zip` to check it, or remove the entry.
+
+### 4. Preview
+
+The **Preview** tab shows the table of contents of the future record and displays the spectra in an embedded NMRium. This is the moment to verify that every sample was correctly converted, that the structures are present and that the processing is the one you expect.
+
+### 5. Submit
+
+Click **Submit to Zenodo**. The application creates the deposit, uploads every archive, generates the table of contents and sets the metadata. A link to the record is displayed at the end, and the description of the record contains the link that opens the dataset interactively in NMRium.
+
+Every submission is kept in the **History** tab, from which the metadata of a previous submission can be reloaded in one click to prepare the next one. A **Help** tab explains each field of the form.
+
+## The command-line tool
+
+The `zenodo-nmrium` command-line tool does the same job from a terminal. It is the better choice when you have a large amount of data, many samples to submit at once, or when you want to repeat the submission from a script.
+
+## Command-line installation
 
 ### Option 1: Pre-built Binaries
 
@@ -102,7 +179,7 @@ Then use it:
 zenodo-nmrium <path> [options]
 ```
 
-## Quick Start
+## Command-line quick start
 
 ### 1. Organize Your Data
 
@@ -175,22 +252,9 @@ You can use the interactive editor below to tweak the example metadata and valid
 | `affiliation` | String | No       | Author's institutional affiliation                      |
 | `orcid`       | String | No       | Author's ORCID identifier (format: 0000-0000-0000-0000) |
 
-### 3. Get a Zenodo API Token
+### 3. Provide your Zenodo API Token
 
-- **Sandbox (testing)**: https://sandbox.zenodo.org/account/settings/applications/tokens/new/
-- **Production**: https://zenodo.org/account/settings/applications/tokens/new/
-
-You must enable `deposit:action` and `deposit:write` permissions when creating the token.
-
-![Create zenodo token](zenodo_token.gif)
-
-:::tip Different tokens
-
-Sandbox and production tokens are always different. You will only see this token once, so save it in a secure location.
-
-:::
-
-#### Providing the Token
+Create the token as described in [Get a Zenodo API token](#get-a-zenodo-api-token), then give it to the tool.
 
 You can provide your Zenodo API tokens in two ways:
 
@@ -280,7 +344,7 @@ When using environment variables, you can omit the `-t` option:
 Use your sandbox token for testing and your production token for final submission. These tokens are different and cannot be used interchangeably.
 :::
 
-## Command Options
+## Command-line options
 
 ```
 Usage: zenodo-submit <path> [options]
