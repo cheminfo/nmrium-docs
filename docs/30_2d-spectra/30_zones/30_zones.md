@@ -20,6 +20,8 @@ Click the **Zones Tool** button. Move the mouse to the region of interest, hold 
 
 When you perform peak picking or automatic range picking on a 1D proton spectrum, grey vertical lines appear in the 2D spectrum at the chemical shifts of the 1D proton signals. The same applies to 1D carbon spectra, which display grey horizontal lines.
 
+The transfer also works the other way round: the cross peaks of a 2D experiment tell you how many signals a crowded 1D multiplet really contains, and you can add those signals to the corresponding 1D range without leaving the 2D view — see [Add signals to a range](/help/ranges#from-a-2d-spectrum).
+
 ### Panel Zones
 
 All zones are shown in the **Zones** panel. The zones highlighted in yellow can be observed in the section of the spectrum shown in the workspace. The zones highlighted in white are not visible in the screen section. If you switch off the zoom by double-clicking, the signals of the whole shown spectrum are highlighted in yellow. If you click on the funnel button, only the signals shown on the screen are listed. To see all the signals in the list again, press the Funnel button a second time.

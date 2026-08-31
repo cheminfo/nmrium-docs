@@ -38,6 +38,26 @@ If you would like to see how the multiplicity was determined, hold the `Alt` key
 
 While we continuously improve the multiplicity analysis, there are always some situations in which the multiplicity cannot be accurately determined. In those cases you can edit the multiplicity manually. Editing manually is a little more challenging, but it lets you handle every case.
 
+## Add signals to a range
+
+A range is an integration zone and may contain **several signals** (multiplets). In crowded regions the automatic analysis often reports a single signal for a zone that actually holds two or three overlapping multiplets, and the resulting multiplicity is then meaningless.
+
+You can add the missing signals yourself. With the **Ranges Picking** tool active, move the pointer over the range bar drawn under the spectrum: a vertical line follows the pointer and shows where the new signal would land. Click at the chemical shift of a multiplet to add a signal there, and repeat for every multiplet you can identify. Each signal appears as a marker on the range bar and gets its own row in the **Ranges / Multiplet analysis** panel, with its own chemical shift, multiplicity and coupling constants.
+
+The range keeps its integral: adding signals does not change the integration zone or the number of protons it carries, it only describes how that integral is distributed between the multiplets it contains.
+
+A signal that is not exactly at the right place can be moved: drag its marker along the range bar and drop it at the correct chemical shift. To remove a signal, hover over its marker and press the `Backspace` key; the range itself and its integral are kept, only the signal disappears.
+
+![Adding several signals inside one range](10_add_signals_1d.gif)
+
+### From a 2D spectrum
+
+The number of signals hidden in a crowded multiplet is usually much easier to see on a 2D experiment than on the 1D trace. With a COSY, HSQC or HMBC displayed, the 1D spectrum is shown along the axis of the 2D map, so you can read the exact position of each cross peak and add the corresponding signal to the range without leaving the 2D view.
+
+Move the pointer over a cross peak: the chemical shifts of both dimensions are displayed, and the position is projected onto the 1D trace at the top. Click on the range bar at that position to add the signal. This is the fastest way to resolve a region where the 1D alone does not tell you how many protons are present.
+
+![Adding signals from the cross peaks of a 2D spectrum](11_add_signals_2d.gif)
+
 ## Set the reference
 
 There are several ways to set the reference in NMRium:

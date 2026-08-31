@@ -53,13 +53,13 @@ Every picked peak is listed in the **Peaks** panel with its number, chemical shi
 | Funnel                                    | Toggle between all peaks and only those in the displayed region — the counter `[ visible / total ]` follows  |
 | **Peaks shapes** _(shape analysis)_       | Show or hide the individual fitted peak shapes                                                               |
 | **Peaks sum** _(shape analysis)_          | Show or hide the reconstructed trace obtained by summing all fitted shapes                                   |
-| **Optimize peaks** _(shape analysis)_     | Fit the peak shapes to the experimental data — see [Peak Shapes and Deconvolution](#peak-shapes-and-deconvolution) below |
+| **Optimize peaks** _(shape analysis)_     | Fit every peak of the spectrum to the experimental data — see [Peak Shapes and Deconvolution](#peak-shapes-and-deconvolution) below |
 | Show / hide peaks                         | Show or hide the peak markers on the spectrum                                                                |
 | Top of the spectrum / Top of the peak     | Choose where the chemical-shift labels are drawn — aligned near the top of the plot, or just above each peak |
 | Copy as TSV                               | Copy the peak list to the clipboard as tab-separated values                                                  |
-| Gear                                      | Open the display settings to choose which columns appear (for example the **fwhm** and **mu** factors)       |
+| Gear                                      | Open the display settings to choose which columns appear (for example the **fwhm**, **mu** and **area** columns) |
 
-The three middle buttons — **Peaks shapes**, **Peaks sum** and **Optimize peaks** — drive the peak-shape analysis (deconvolution) covered in the next section. The **fwhm** and **mu** values they produce are shown in the panel once you enable those columns from the gear.
+The three middle buttons — **Peaks shapes**, **Peaks sum** and **Optimize peaks** — drive the peak-shape analysis (deconvolution) covered in the next section. The **fwhm**, **mu** and **area** values they produce are shown in the panel once you enable those columns from the gear.
 
 ![Filtering peaks and moving the labels](filter_and_peak_position.gif)
 
@@ -76,14 +76,27 @@ You can also set the reference from a range or multiplet — see [Set the refere
 
 ## Peak Shapes and Deconvolution
 
-NMRium can deconvolute the spectrum to analyze the shape of each peak. Every peak has a shape **Kind** — **Gaussian**, **Lorentzian**, or **pseudo-Voigt** (which mixes Gaussian and Lorentzian through the **mu** factor). Enable the **fwhm** (width) and **mu** columns from the panel settings (gear) to inspect the fitted values.
+NMRium can deconvolute the spectrum to analyze the shape of each peak. Every peak has a shape **Kind** — **Gaussian**, **Lorentzian**, or **pseudo-Voigt** (which mixes Gaussian and Lorentzian through the **mu** factor). Enable the **fwhm** (width), **mu** and **area** columns from the panel settings (gear) to inspect the fitted values.
 
-Three toolbar buttons drive this analysis. Zoom into the region of interest, then click **Optimize peaks** to fit the peak shapes to the experimental data. The fit runs on the peaks in the displayed region and is limited to **at most 4 peaks** at a time, so narrow the view before optimizing. Two display toggles then let you inspect the result:
+Three toolbar buttons drive this analysis. Click **Optimize peaks** to fit the peak shapes to the experimental data. The fit runs on **every peak of the spectrum** in a single step, so there is no need to zoom in first or to optimize region by region. Two display toggles then let you inspect the result:
 
 - **Peaks sum** — the reconstructed trace (blue) obtained by summing all fitted peaks, overlaid on the experimental spectrum.
 - **Peaks shapes** — the individual fitted peak shapes.
 
-Comparing the reconstructed trace with the experimental spectrum shows how well the chosen shapes and the fitted **fwhm** / **mu** values reproduce the real signals.
+Comparing the reconstructed trace with the experimental spectrum shows how well the chosen shapes and the fitted values reproduce the real signals.
+
+### Fitted values
+
+Once the optimization has run, each row of the **Peaks** panel carries the parameters of its fitted shape:
+
+| Column   | Meaning                                                                                    |
+| -------- | ------------------------------------------------------------------------------------------ |
+| **Kind** | The shape used for the fit — Gaussian, Lorentzian, or pseudo-Voigt                          |
+| **fwhm** | Full width at half maximum, the width of the fitted peak                                    |
+| **mu**   | Gaussian/Lorentzian mixing of the pseudo-Voigt shape: `1` is purely Gaussian, `0` purely Lorentzian |
+| **Area** | The area of the fitted shape                                                                 |
+
+Because the area is computed from the fitted shape rather than from the raw trace, overlapping peaks no longer share their intensity the way a plain integral does — each one is attributed the area of its own contribution. Use **Copy as TSV** to export the whole table.
 
 ![Optimizing peak shapes and displaying the deconvolution](peak_shape.gif)
 
