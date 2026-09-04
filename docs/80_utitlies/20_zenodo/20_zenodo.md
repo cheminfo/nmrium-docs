@@ -5,9 +5,7 @@ slug: /help/zenodo
 
 import NMRiumYamlEditor from './NMRiumYamlEditor';
 
-:::caution Experimental feature
-
-Submitting data to Zenodo is still an experimental feature. Please test it **in the sandbox** and share your feedback on https://www.nmrium.com/contact.
+:::info
 
 Visit the [NMRium dataset on Zenodo](https://zenodo.org/search?q=metadata.subjects.subject%3A%22NMRium%20dataset%22&l=list&p=1&s=10&sort=bestmatch) to browse submitted datasets.
 
